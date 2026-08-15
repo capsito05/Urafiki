@@ -10,11 +10,13 @@ Ordre à exécuter dans le SQL Editor Supabase :
 3. `supabase/migration_v3.sql` (nouvelles tables/RPC/policies : invitations, réponses alternatives, réglages, défi du jour, stats, notifications push)
 4. (optionnel, destructif) `supabase/purge_users_avant_contrainte_age.sql` — si tu as des comptes créés avant la contrainte d'âge, à réinitialiser
 5. `supabase/migration_v3_content.sql` (remplace ENTIÈREMENT le contenu de la banque par la version à jour — 790 items)
+6. (optionnel) Notifications push app fermée : voir `supabase/functions/send-push/README.md` pour déployer la Edge Function, puis exécuter `supabase/migration_v3_push.sql`
 
 **Projet Supabase tout neuf :**
 1. `supabase/schema.sql`
 2. `supabase/migration_v3.sql`
 3. `supabase/migration_v3_content.sql` (à la place de seed_content.sql + migration_v2_content.sql)
+4. (optionnel) `supabase/functions/send-push/` + `migration_v3_push.sql` pour les notifications push app fermée
 
 ## Bugs corrigés en v3
 - La table `stats` n'était jamais alimentée (aucun code n'écrivait dedans) → l'onglet Statistiques était toujours vide. Corrigé via une RPC dédiée appelée à la fin de chaque session.
@@ -31,7 +33,8 @@ Ordre à exécuter dans le SQL Editor Supabase :
 - Tolérance orthographique et phonétique étendue + réponses alternatives validées par les joueurs, appliquées globalement.
 - "Mes groupes" (plusieurs groupes par utilisateur), invitations à jouer en temps réel dès que le groupe a 2+ membres.
 - Page Réglages, bouton Quitter, bouton Rejouer, classement de groupe, chrono cumulé.
-- Défi du jour avec streak, partage de score (image + Web Share), notifications locales.
+- Défi du jour avec streak, partage de score (image + Web Share).
+- Notifications push, y compris app fermée (Edge Function + déclencheurs Postgres, voir `supabase/functions/send-push/README.md`) : nouveau message, c'est ton tour / partenaire a répondu, invitation reçue.
 - Error Boundary global, texte des questions agrandi/en gras.
 
 ## Contenu de ce projet
