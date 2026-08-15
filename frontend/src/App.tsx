@@ -21,6 +21,8 @@ import { DefiDuJour } from './pages/DefiDuJour';
 import { Inviter } from './pages/Inviter';
 import { InvitationBanner } from './components/InvitationBanner';
 import { useGameInvitations } from './hooks/useGameInvitations';
+import { useChatNotifications } from './hooks/useChatNotifications';
+import { usePushNotifications } from './hooks/usePushNotifications';
 import './App.styles.css';
 
 function App() {
@@ -44,6 +46,8 @@ function App() {
 
   const mode = couple?.mode ?? 'solo';
   const { incoming, respond } = useGameInvitations(user.id, couple?.id ?? null);
+  useChatNotifications(user.id, couple?.id ?? null);
+  usePushNotifications(user.id);
 
   return (
     <BrowserRouter>

@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useState } from 'react';
 import { supabase } from '../lib/supabaseClient';
+import { notifyLocal } from '../lib/notify';
 import { useSession, type StartSessionParams } from './useSession';
 
 export interface GameInvitation {
@@ -52,6 +53,7 @@ export function useGameInvitations(userId: string | null, coupleId: string | nul
         { event: 'INSERT', schema: 'public', table: 'game_invitations', filter: `invited_user=eq.${userId}` },
         (payload) => {
           setIncoming((prev) => [payload.new as GameInvitation, ...prev]);
+          notifyLocal('Urafiki', 'Tu as reçu une invitation à jouer !');
         }
       )
       .on(

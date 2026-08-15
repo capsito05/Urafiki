@@ -142,7 +142,27 @@ alter publication supabase_realtime add table public.game_invitations;
 alter table public.users add column if not exists sound_enabled boolean default true;
 alter table public.users add column if not exists notifications_enabled boolean default true;
 alter table public.users add column if not exists default_timer int default 30;
-alter table public.users add column if not exists push_subscription jsonb;
+
+-- ---------------------------------------------------------
+-- 2.11 : notifications push. Table dédiée (plusieurs appareils par
+-- utilisateur possibles), absente d'une tentative précédente
+-- (l'ancien code appelait déjà supabase.from('push_subscriptions')
+-- mais la table n'avait jamais été créée -> ça ne fonctionnait pas).
+-- ---------------------------------------------------------
+create table if not exists public.push_subscriptions (
+  id uuid primary key default uuid_generate_v4(),
+  user_id uuid references public.users(id) on delete cascade not null,
+  endpoint text not null unique,
+  p256dh text not null,
+  auth text not null,
+  created_at timestamptz default now()
+);
+
+alter table public.push_subscriptions enable row level security;
+
+drop policy if exists "push_subscriptions_own" on public.push_subscriptions;
+create policy "push_subscriptions_own" on public.push_subscriptions for all
+  using (user_id = auth.uid()) with check (user_id = auth.uid());
 
 -- ---------------------------------------------------------
 -- 2.13 : défi du jour + streak de jours consécutifs

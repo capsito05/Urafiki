@@ -26,16 +26,23 @@ export function Reglages({ userId, onSignOut }: ReglagesProps) {
           setSoundEnabled(data.sound_enabled ?? true);
           setNotificationsEnabled(data.notifications_enabled ?? true);
           setDefaultTimer(data.default_timer ?? 30);
+          localStorage.setItem('urafiki_notifications_enabled', String(data.notifications_enabled ?? true));
+          localStorage.setItem('urafiki_sound_enabled', String(data.sound_enabled ?? true));
         }
         setLoading(false);
       });
   }, [userId]);
 
   const handleSave = async () => {
+    if (notificationsEnabled && typeof Notification !== 'undefined' && Notification.permission === 'default') {
+      await Notification.requestPermission();
+    }
     await supabase
       .from('users')
       .update({ sound_enabled: soundEnabled, notifications_enabled: notificationsEnabled, default_timer: defaultTimer })
       .eq('id', userId);
+    localStorage.setItem('urafiki_notifications_enabled', String(notificationsEnabled));
+    localStorage.setItem('urafiki_sound_enabled', String(soundEnabled));
     setSaved(true);
     setTimeout(() => setSaved(false), 2000);
   };

@@ -8,6 +8,7 @@ import { QuizCard } from '../components/QuizCard';
 import { RevealAnswer } from '../components/RevealAnswer';
 import { Timer } from '../components/Timer';
 import { checkAnswer, hasAutoCorrection } from '../lib/scoring';
+import { shareScore } from '../lib/shareScore';
 import type { Mode, SessionItem } from '../types';
 
 interface SessionPageProps {
@@ -53,7 +54,7 @@ export function SessionPage({ userId, coupleId, mode }: SessionPageProps) {
   }, [sessionId, getSessionItems]);
 
   const currentItem = items[currentIndex];
-  const { answers, revealed, submitAnswer } = useRealtimeAnswers(currentItem?.id ?? null);
+  const { answers, revealed, submitAnswer } = useRealtimeAnswers(currentItem?.id ?? null, userId);
 
   // Réinitialise l'état "timeout" et le chrono de la question à chaque nouvelle question
   useEffect(() => {
@@ -153,6 +154,19 @@ export function SessionPage({ userId, coupleId, mode }: SessionPageProps) {
               {replaying ? 'Préparation...' : '🔁 Rejouer'}
             </button>
           )}
+          <button
+            onClick={() =>
+              shareScore({
+                correct: score.correct,
+                gradable: score.gradable,
+                percent,
+                categoryLabel: replayParams?.category ?? 'Urafiki',
+                formattedTime,
+              })
+            }
+          >
+            📤 Partager mon score
+          </button>
           <button className="link" onClick={() => navigate('/accueil')}>Retour à l'accueil</button>
         </div>
       </div>

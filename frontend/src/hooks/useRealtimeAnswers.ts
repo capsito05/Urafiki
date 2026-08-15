@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { supabase } from '../lib/supabaseClient';
+import { notifyLocal } from '../lib/notify';
 import type { SessionAnswer, SessionItem } from '../types';
 
 /**
@@ -7,7 +8,7 @@ import type { SessionAnswer, SessionItem } from '../types';
  * Le champ `revealed` de session_items passe à true automatiquement
  * côté base (trigger check_and_reveal) quand tous les joueurs ont répondu.
  */
-export function useRealtimeAnswers(sessionItemId: string | null) {
+export function useRealtimeAnswers(sessionItemId: string | null, currentUserId?: string) {
   const [answers, setAnswers] = useState<SessionAnswer[]>([]);
   const [revealed, setRevealed] = useState(false);
 
@@ -40,7 +41,11 @@ export function useRealtimeAnswers(sessionItemId: string | null) {
         { event: '*', schema: 'public', table: 'session_answers', filter: `session_item_id=eq.${sessionItemId}` },
         (payload) => {
           if (payload.eventType === 'INSERT') {
-            setAnswers((prev) => [...prev, payload.new as SessionAnswer]);
+            const newAnswer = payload.new as SessionAnswer;
+            setAnswers((prev) => [...prev, newAnswer]);
+            if (currentUserId && newAnswer.user_id !== currentUserId) {
+              notifyLocal('Urafiki', 'Ton/ta partenaire a répondu !');
+            }
           }
         }
       )
@@ -57,7 +62,7 @@ export function useRealtimeAnswers(sessionItemId: string | null) {
       active = false;
       supabase.removeChannel(channel);
     };
-  }, [sessionItemId]);
+  }, [sessionItemId, currentUserId]);
 
   const submitAnswer = async (userId: string, answer: string, timeSpent?: number) => {
     if (!sessionItemId) return;
