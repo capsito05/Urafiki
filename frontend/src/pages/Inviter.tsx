@@ -46,7 +46,7 @@ export function Inviter({ userId, coupleId }: InviterProps) {
     }
     setError(null);
     const { error: sendError } = await sendInvitation(
-      { category: category as Category, subcategory: subcategory || undefined, level: level || undefined, count, timePerItem, mode: 'couple' },
+      { category: category as Category, subcategory: subcategory || undefined, level: level || undefined, count, timePerItem },
       invitedUser
     );
     if (sendError) setError(sendError);

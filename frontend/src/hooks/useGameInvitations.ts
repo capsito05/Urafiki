@@ -74,7 +74,7 @@ export function useGameInvitations(userId: string | null, coupleId: string | nul
   }, [userId, coupleId]);
 
   const sendInvitation = useCallback(
-    async (params: Omit<StartSessionParams, 'userId' | 'coupleId' | 'mode'> & { mode: 'couple' | 'amis' }, invitedUser: string) => {
+    async (params: Omit<StartSessionParams, 'userId' | 'coupleId' | 'mode'>, invitedUser: string) => {
       if (!userId || !coupleId) return { error: 'Groupe invalide.' };
       const { error } = await supabase.from('game_invitations').insert({
         couple_id: coupleId,
@@ -101,10 +101,16 @@ export function useGameInvitations(userId: string | null, coupleId: string | nul
         return { session: null, error: null };
       }
 
+      const { data: couple } = await supabase
+        .from('couples')
+        .select('mode')
+        .eq('id', invitation.couple_id)
+        .single();
+
       const session = await startSession({
-        userId: invitation.invited_by,
+        userId,
         coupleId: invitation.couple_id,
-        mode: 'couple',
+        mode: (couple?.mode as 'couple' | 'amis') ?? 'couple',
         category: invitation.category as any,
         subcategory: invitation.subcategory ?? undefined,
         level: (invitation.level ?? undefined) as any,

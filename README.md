@@ -1,34 +1,45 @@
 # App Jeux / Questions — Couple, Ami·e·s, Solo
 
-## ⚠️ IMPORTANT — Mise à jour v2 (corrections de bugs)
+## ⚠️ IMPORTANT — Mise à jour v3
 
-Si tu as déjà une base Supabase existante (créée avant cette version), exécute dans l'ordre, dans le SQL Editor Supabase :
-1. `supabase/migration_v2.sql` (corrige : temps réel, création de groupe, âge, niveau impossible, rotation du contenu)
-2. `supabase/migration_v2_content.sql` (corrections de réponses + nouvelles questions niveau impossible)
+Ordre à exécuter dans le SQL Editor Supabase :
 
-Si tu pars de zéro, `schema.sql` contient déjà toutes ces corrections — pas besoin des fichiers migration_v2.
+**Projet Supabase déjà existant (v2 ou antérieur) :**
+1. `supabase/migration_v2.sql` (si pas déjà fait)
+2. `supabase/migration_v2_content.sql` (si pas déjà fait)
+3. `supabase/migration_v3.sql` (nouvelles tables/RPC/policies : invitations, réponses alternatives, réglages, défi du jour, stats, notifications push)
+4. (optionnel, destructif) `supabase/purge_users_avant_contrainte_age.sql` — si tu as des comptes créés avant la contrainte d'âge, à réinitialiser
+5. `supabase/migration_v3_content.sql` (remplace ENTIÈREMENT le contenu de la banque par la version à jour — 790 items)
 
-## Bugs corrigés dans cette version
-- Le temps réel ne fonctionnait pas (réponses qui n'apparaissaient jamais automatiquement) → tables ajoutées à la publication realtime.
-- Impossible de créer un groupe → policy RLS manquante corrigée.
-- Le timer restait figé entre deux questions → composants correctement réinitialisés (clé React).
-- On revenait à la question précédente en cliquant "suivant" → même cause que ci-dessus.
-- Les questions répétaient parfois → sélection de contenu déplacée côté serveur (évite la limite de longueur d'URL).
-- Impossible de choisir un thème (ex: philosophie) → sélecteur de thème ajouté à l'écran de configuration.
-- Pas de score visible, pas de ✅/❌ → ajoutés (score en direct + écran de résultat final).
-- Réponses ambiguës corrigées dans la banque de contenu.
+**Projet Supabase tout neuf :**
+1. `supabase/schema.sql`
+2. `supabase/migration_v3.sql`
+3. `supabase/migration_v3_content.sql` (à la place de seed_content.sql + migration_v2_content.sql)
 
-## Nouveautés
-- Niveau de difficulté "Impossible" en plus de facile/moyen/difficile.
-- Âge obligatoire à l'inscription (immuable), mode Couple réservé aux 20 ans et plus (y compris si un adulte partage son code).
-- Création de groupe avec nom unique + possibilité de jouer seul en attendant que l'autre rejoigne (pour tester).
-- Page "Installer / Inviter" avec QR code pointant vers l'app.
+## Bugs corrigés en v3
+- La table `stats` n'était jamais alimentée (aucun code n'écrivait dedans) → l'onglet Statistiques était toujours vide. Corrigé via une RPC dédiée appelée à la fin de chaque session.
+- 7 réponses vrai/faux ne pouvaient jamais matcher (texte explicatif mélangé à "Vrai"/"Faux").
+- "Tu préfères" et "Qui de nous deux" étaient mal typés en QCM classique.
+- 10 questions manga sans le nom de la série dans le texte affiché.
+- Timer, compteur de question, sliders de configuration : vérifiés, déjà corrects dans la base de code actuelle.
+- RevealAnswer affichait toujours "Autre joueur" au lieu des vrais pseudos.
+- Un seul groupe géré par utilisateur, malgré la structure de données qui en permettait plusieurs.
+
+## Nouveautés v3
+- Styles de jeu (Quiz / Réponse libre / Énigmes / Tu préfères / Discussion / Défis).
+- Défis et gages en case à cocher Fait/Pas fait (fini le champ texte).
+- Tolérance orthographique et phonétique étendue + réponses alternatives validées par les joueurs, appliquées globalement.
+- "Mes groupes" (plusieurs groupes par utilisateur), invitations à jouer en temps réel dès que le groupe a 2+ membres.
+- Page Réglages, bouton Quitter, bouton Rejouer, classement de groupe, chrono cumulé.
+- Défi du jour avec streak, partage de score (image + Web Share), notifications locales.
+- Error Boundary global, texte des questions agrandi/en gras.
 
 ## Contenu de ce projet
 
 - `supabase/schema.sql` : script complet à exécuter dans l'éditeur SQL de ton projet Supabase (tables, RLS, triggers).
-- `supabase/content_bank.json` : banque de contenu (446 questions/énigmes/défis), lisible/éditable facilement. Répartition : Général 203, Jeux ensemble 111, Mieux se connaître 58, Manga 74. Couvre environ 3 mois sans répétition à un rythme de 3-4 sessions/semaine.
-- `supabase/seed_content.sql` : la même banque, prête à insérer en base.
+- `supabase/content_bank.json` : banque de contenu (790 questions/énigmes/défis), lisible/éditable facilement — fichier source, pas chargé directement par l'app.
+- `supabase/migration_v3_content.sql` : la banque à jour, prête à insérer en base (généré depuis content_bank.json).
+- `supabase/seed_content.sql` / `migration_v2_content.sql` : anciennes versions de la banque, conservées pour l'historique — ne plus utiliser seules, préférer migration_v3_content.sql.
 - `frontend/` : application React + TypeScript + Vite, connectée à Supabase, installable comme une app (PWA).
 - `netlify.toml` : configuration de déploiement Netlify (déjà prête, rien à configurer manuellement côté build).
 
