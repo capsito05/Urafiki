@@ -1,0 +1,4804 @@
+[
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "histoire",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quelle est la capitale de la France ?",
+    "answer": "Paris"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "pop_culture",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "facile",
+    "text": "Quel héros porte un costume rouge et bleu et lance des toiles ?",
+    "answer": "Spider-Man"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "histoire",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "En quelle année a commencé la Première Guerre mondiale ?",
+    "answer": "1914"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "geographie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel est le plus grand océan du monde ?",
+    "answer": "Pacifique"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "histoire",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel traité a mis fin à la Première Guerre mondiale ?",
+    "answer": "Traité de Versailles"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "manga",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "impossible",
+    "text": "Dans Fairy Tail, quel personnage utilise un pistolet magique comme arme principale ?",
+    "answer": "Arzak Connel",
+    "manga_series": "Fairy Tail"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "manga",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "impossible",
+    "text": "Dans Fairy Tail, comment s'appelle l'armure qu'Erza invoque et qui n'a pas été portée depuis 10 ans ?",
+    "answer": "Nakagami no Yoroi",
+    "manga_series": "Fairy Tail"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "sciences",
+    "mode_scope": "tous",
+    "type": "qcm",
+    "level": "facile",
+    "text": "Combien de planètes compte le système solaire ?",
+    "answer": "8",
+    "variants": {
+      "choix": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ]
+    }
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "sciences",
+    "mode_scope": "tous",
+    "type": "vrai_faux",
+    "level": "moyen",
+    "text": "Le corps humain contient plus de bactéries que de cellules humaines.",
+    "answer": "Vrai (à peu près à égalité selon les études récentes)"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "sport",
+    "mode_scope": "tous",
+    "type": "qcm",
+    "level": "facile",
+    "text": "Combien de joueurs sur le terrain dans une équipe de foot (hors gardien) ?",
+    "answer": "10",
+    "variants": {
+      "choix": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ]
+    }
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "musique",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "moyen",
+    "text": "Quel compositeur allemand est devenu sourd à la fin de sa vie ?",
+    "answer": "Beethoven"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "arts",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel peintre néerlandais s'est coupé une partie de l'oreille ?",
+    "answer": "Van Gogh"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "insolite",
+    "mode_scope": "tous",
+    "type": "vrai_faux",
+    "level": "moyen",
+    "text": "Les flamants roses naissent gris.",
+    "answer": "Vrai"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "manga",
+    "mode_scope": "tous",
+    "type": "qcm",
+    "level": "facile",
+    "text": "Quel est le rêve de Monkey D. Luffy dans One Piece ?",
+    "answer": "Devenir le roi des pirates",
+    "variants": {
+      "choix": [
+        "Devenir le roi des pirates",
+        "Devenir le meilleur épéiste",
+        "Trouver un trésor",
+        "Devenir Hokage"
+      ]
+    }
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "geographie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quelle est la capitale du Kazakhstan ?",
+    "answer": "Astana"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "philosophie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quelle est, selon toi, la chose la plus importante dans la vie ?"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "philosophie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Penses-tu qu'il faut toujours dire la vérité, même si ça blesse ?"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "philosophie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Si tu pouvais savoir la date de ta mort, voudrais-tu la connaître ?"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "politique_lois",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Es-tu pour ou contre le vote obligatoire ? Pourquoi ?"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "politique_lois",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Penses-tu que la démocratie est le meilleur système politique ? Pourquoi ?"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "philosophie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "« L'enfer, c'est les autres. » - Sartre. Es-tu d'accord avec cette phrase ? Pourquoi ?"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "philosophie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Si tu devais garder un seul souvenir de ta vie, lequel choisirais-tu ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "souvenirs",
+    "mode_scope": "couple",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quel est ton souvenir préféré de notre rencontre ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "souvenirs",
+    "mode_scope": "amis",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quel est le souvenir le plus drôle qu'on a vécu ensemble ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "tu_preferes",
+    "mode_scope": "tous",
+    "type": "qcm",
+    "level": "facile",
+    "text": "Tu préfères : la montagne ou la mer ?",
+    "variants": {
+      "choix": [
+        "Montagne",
+        "Mer"
+      ]
+    }
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "tu_preferes",
+    "mode_scope": "couple",
+    "type": "qcm",
+    "level": "moyen",
+    "text": "Tu préfères : un dîner romantique ou un week-end aventure ?",
+    "variants": {
+      "choix": [
+        "Dîner romantique",
+        "Week-end aventure"
+      ]
+    }
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_de_nous_deux",
+    "mode_scope": "couple",
+    "type": "qcm",
+    "level": "facile",
+    "text": "Qui de nous deux est le plus jaloux/se ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_de_nous_deux",
+    "mode_scope": "amis",
+    "type": "qcm",
+    "level": "facile",
+    "text": "Qui du groupe est le plus susceptible d'arriver en retard ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "farfelues",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Si tu étais un objet de la maison, lequel serais-tu et pourquoi ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "farfelues",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Si tu devais échanger de corps avec un animal pour une journée, lequel choisirais-tu ?"
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "defis_gages",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "facile",
+    "text": "Fais un compliment sincère à ton/ta partenaire sans utiliser le mot 'beau/belle'.",
+    "temps_suggere": 60
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "defis_gages",
+    "mode_scope": "amis",
+    "type": "action",
+    "level": "moyen",
+    "text": "Imite un membre du groupe pendant 30 secondes, les autres doivent deviner qui.",
+    "temps_suggere": 60
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "defis_gages",
+    "mode_scope": "solo",
+    "type": "action",
+    "level": "facile",
+    "text": "Écris un mot doux que tu pourrais envoyer à quelqu'un qui compte pour toi.",
+    "temps_suggere": 120
+  },
+  {
+    "content_type": "enigme",
+    "category": "jeux_ensemble",
+    "subcategory": "enigmes",
+    "mode_scope": "tous",
+    "type": "logique",
+    "level": "facile",
+    "text": "Je n'ai pas de bouche mais je peux parler, pas de corps mais je peux répondre. Qui suis-je ?",
+    "answer": "Un écho"
+  },
+  {
+    "content_type": "enigme",
+    "category": "jeux_ensemble",
+    "subcategory": "enigmes",
+    "mode_scope": "tous",
+    "type": "logique",
+    "level": "moyen",
+    "text": "Plus j'en enlève, plus je deviens grand. Qu'est-ce que je suis ?",
+    "answer": "Un trou"
+  },
+  {
+    "content_type": "enigme",
+    "category": "jeux_ensemble",
+    "subcategory": "enigmes",
+    "mode_scope": "tous",
+    "type": "code_4_chiffres",
+    "level": "difficile",
+    "text": "Trouvez le code à 4 chiffres : la somme des chiffres fait 12, le premier chiffre est le double du dernier, et le code est pair.",
+    "answer": "4620",
+    "indices": [
+      "Le premier chiffre n'est pas 8",
+      "Il n'y a pas de zéro en 2e position"
+    ]
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "existentiel_jeu",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Si tu devais recommencer ta vie, changerais-tu quelque chose ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "enfance",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quel est ton souvenir d'enfance préféré ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "reves",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel est un rêve que tu n'as jamais réalisé mais que tu aimerais accomplir ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "peurs",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quelle est ta plus grande peur ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "valeurs",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quelle valeur refuserais-tu de sacrifier, même pour de l'argent ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "amour",
+    "mode_scope": "couple",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Qu'est-ce qui t'a fait tomber amoureux/se de moi ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "amitie",
+    "mode_scope": "amis",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Qu'est-ce que tu apprécies le plus dans notre amitié ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "futur",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Où te vois-tu dans 10 ans ?"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "one_piece",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quel est le nom du bateau de l'équipage de Luffy après le Merry ?",
+    "answer": "Thousand Sunny",
+    "manga_series": "One Piece"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "naruto",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Comment s'appelle le démon renard scellé en Naruto ?",
+    "answer": "Kurama",
+    "manga_series": "Naruto"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "attaque_titans",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel est le vrai nom du Titan Colossal ?",
+    "answer": "Bertholdt Hoover",
+    "manga_series": "L'Attaque des Titans"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "demon_slayer",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quelle est la couleur des yeux de Nezuko lorsqu'elle est en démon ?",
+    "answer": "Rose/rouge",
+    "manga_series": "Demon Slayer"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "fairy_tail",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quelle guilde rivale de Fairy Tail apparaît lors du Grand Jeu Magique ?",
+    "answer": "Sabertooth",
+    "manga_series": "Fairy Tail"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "histoire",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Qui était le premier président de la République française ?",
+    "answer": "Louis-Napoléon Bonaparte"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "histoire",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "En quelle année a eu lieu la Révolution française ?",
+    "answer": "1789"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "histoire",
+    "mode_scope": "tous",
+    "type": "vrai_faux",
+    "level": "facile",
+    "text": "Napoléon mesurait environ 1m50.",
+    "answer": "Faux, il mesurait environ 1m68, dans la moyenne de l'époque"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "histoire",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel mur a séparé Berlin de 1961 à 1989 ?",
+    "answer": "Le mur de Berlin"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "histoire",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quelle civilisation a construit Machu Picchu ?",
+    "answer": "Les Incas"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "histoire",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel roi de France est resté sur le trône le plus longtemps ?",
+    "answer": "Louis XIV"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "histoire",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "En quelle année Constantinople est-elle tombée aux mains des Ottomans ?",
+    "answer": "1453"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "geographie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quel est le plus long fleuve de France ?",
+    "answer": "La Loire"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "geographie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quelle est la capitale de l'Italie ?",
+    "answer": "Rome"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "geographie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel pays a le plus grand nombre de fuseaux horaires terrestres ?",
+    "answer": "La France (grâce à ses territoires d'outre-mer)"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "geographie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quelle chaîne de montagnes sépare l'Europe et l'Asie ?",
+    "answer": "L'Oural"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "geographie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quelle est la capitale du Bhoutan ?",
+    "answer": "Thimphou"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "geographie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel est le seul pays traversé par l'équateur et le tropique du Capricorne ?",
+    "answer": "Le Brésil"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "sciences",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quel est le symbole chimique de l'eau ?",
+    "answer": "H2O"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "sciences",
+    "mode_scope": "tous",
+    "type": "vrai_faux",
+    "level": "facile",
+    "text": "Le soleil est une étoile.",
+    "answer": "Vrai"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "sciences",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Combien d'os compte le squelette humain adulte ?",
+    "answer": "206"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "sciences",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quelle planète est surnommée la planète rouge ?",
+    "answer": "Mars"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "sciences",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel scientifique a formulé la théorie de la relativité générale ?",
+    "answer": "Albert Einstein"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "sciences",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel est le seul métal liquide à température ambiante ?",
+    "answer": "Le mercure"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "sport",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Tous les combien d'années ont lieu les Jeux Olympiques d'été ?",
+    "answer": "4 ans"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "sport",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel pays a remporté la Coupe du monde de football en 2018 ?",
+    "answer": "La France"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "sport",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel cycliste français a gagné 5 Tours de France ?",
+    "answer": "Bernard Hinault"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "musique",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quel groupe britannique a chanté 'Hey Jude' ?",
+    "answer": "The Beatles"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "musique",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel instrument Mozart maîtrisait-il dès l'âge de 5 ans ?",
+    "answer": "Le clavecin/piano"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "musique",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel compositeur a écrit 'Les Quatre Saisons' ?",
+    "answer": "Vivaldi"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "arts",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Qui a peint la Joconde ?",
+    "answer": "Léonard de Vinci"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "arts",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Dans quel musée parisien se trouve la Joconde ?",
+    "answer": "Le Louvre"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "arts",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel mouvement artistique Salvador Dalí a-t-il incarné ?",
+    "answer": "Le surréalisme"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "insolite",
+    "mode_scope": "tous",
+    "type": "vrai_faux",
+    "level": "facile",
+    "text": "Les pieuvres ont trois cœurs.",
+    "answer": "Vrai"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "insolite",
+    "mode_scope": "tous",
+    "type": "vrai_faux",
+    "level": "moyen",
+    "text": "Le miel ne périme jamais.",
+    "answer": "Vrai, dans de bonnes conditions de conservation"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "insolite",
+    "mode_scope": "tous",
+    "type": "vrai_faux",
+    "level": "moyen",
+    "text": "Un escargot peut dormir jusqu'à 3 ans.",
+    "answer": "Vrai"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "insolite",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel est l'animal terrestre le plus rapide sur courte distance ?",
+    "answer": "Le guépard"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "pop_culture",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quel est le nom du sorcier créé par J.K. Rowling ?",
+    "answer": "Harry Potter"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "pop_culture",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Dans quel film culte entend-on 'Que la Force soit avec toi' ?",
+    "answer": "Star Wars"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "pop_culture",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel réalisateur a mis en scène 'Pulp Fiction' ?",
+    "answer": "Quentin Tarantino"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "philosophie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Qu'est-ce qui te rend vraiment heureux/se au quotidien ?"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "philosophie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Préfères-tu avoir raison ou être en paix ?"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "philosophie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Penses-tu que l'être humain est fondamentalement bon ou égoïste ?"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "philosophie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Est-ce que la fin justifie toujours les moyens ?"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "philosophie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Le bonheur est-il un choix ou une conséquence des circonstances ?"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "philosophie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Si l'intelligence artificielle devenait consciente, aurait-elle des droits ?"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "philosophie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Peut-on vraiment aimer quelqu'un sans jamais le/la comprendre entièrement ?"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "philosophie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "« Je pense, donc je suis. » - Descartes. Que penses-tu de cette phrase ?"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "politique_lois",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Penses-tu que voter est un devoir ou un droit facultatif ?"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "politique_lois",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Que penses-tu de la limitation du nombre de mandats présidentiels ?"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "politique_lois",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Es-tu pour ou contre la peine de mort ? Pourquoi ?"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "politique_lois",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Penses-tu que les réseaux sociaux devraient être davantage régulés par la loi ?"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "politique_lois",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Que penses-tu du revenu universel comme politique économique ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "souvenirs",
+    "mode_scope": "couple",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quel est notre premier voyage ensemble ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "souvenirs",
+    "mode_scope": "couple",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel a été le moment où tu as su que c'était du sérieux entre nous ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "souvenirs",
+    "mode_scope": "amis",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quelle est la première chose qu'on a faite ensemble ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "souvenirs",
+    "mode_scope": "amis",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel voyage ou sortie avec le groupe t'a le plus marqué ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "tu_preferes",
+    "mode_scope": "tous",
+    "type": "qcm",
+    "level": "facile",
+    "text": "Tu préfères : film ou série ?",
+    "variants": {
+      "choix": [
+        "Film",
+        "Série"
+      ]
+    }
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "tu_preferes",
+    "mode_scope": "tous",
+    "type": "qcm",
+    "level": "facile",
+    "text": "Tu préfères : petit-déjeuner sucré ou salé ?",
+    "variants": {
+      "choix": [
+        "Sucré",
+        "Salé"
+      ]
+    }
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "tu_preferes",
+    "mode_scope": "tous",
+    "type": "qcm",
+    "level": "moyen",
+    "text": "Tu préfères : être riche et seul, ou pauvre et entouré ?",
+    "variants": {
+      "choix": [
+        "Riche et seul",
+        "Pauvre et entouré"
+      ]
+    }
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "tu_preferes",
+    "mode_scope": "couple",
+    "type": "qcm",
+    "level": "moyen",
+    "text": "Tu préfères : recevoir des mots doux ou des câlins ?",
+    "variants": {
+      "choix": [
+        "Mots doux",
+        "Câlins"
+      ]
+    }
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "tu_preferes",
+    "mode_scope": "tous",
+    "type": "qcm",
+    "level": "difficile",
+    "text": "Tu préfères : connaître ton avenir ou ton passé oublié ?",
+    "variants": {
+      "choix": [
+        "Ton avenir",
+        "Ton passé oublié"
+      ]
+    }
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_de_nous_deux",
+    "mode_scope": "couple",
+    "type": "qcm",
+    "level": "facile",
+    "text": "Qui de nous deux est le/la plus romantique ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_de_nous_deux",
+    "mode_scope": "couple",
+    "type": "qcm",
+    "level": "moyen",
+    "text": "Qui de nous deux dépense le plus d'argent en impulsif ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_de_nous_deux",
+    "mode_scope": "amis",
+    "type": "qcm",
+    "level": "facile",
+    "text": "Qui du groupe raconte le mieux les histoires ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_de_nous_deux",
+    "mode_scope": "amis",
+    "type": "qcm",
+    "level": "moyen",
+    "text": "Qui du groupe serait le plus susceptible de survivre à une apocalypse zombie ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "farfelues",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Si tu pouvais avoir un super-pouvoir totalement inutile, lequel choisirais-tu ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "farfelues",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Si tu devais manger un seul plat pour le reste de ta vie, lequel serait-ce ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "farfelues",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Si tu pouvais vivre dans un film ou une série, laquelle choisirais-tu et pourquoi ?"
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "defis_gages",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "moyen",
+    "text": "Raconte à ton/ta partenaire un souvenir gênant que tu ne lui as jamais raconté.",
+    "temps_suggere": 90
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "defis_gages",
+    "mode_scope": "amis",
+    "type": "action",
+    "level": "facile",
+    "text": "Fais 10 pompes ou raconte une blague au groupe.",
+    "temps_suggere": 60
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "defis_gages",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "difficile",
+    "text": "Danse un slow avec ton/ta partenaire sans musique pendant 30 secondes.",
+    "temps_suggere": 30
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "defis_gages",
+    "mode_scope": "solo",
+    "type": "action",
+    "level": "moyen",
+    "text": "Envoie un message à quelqu'un que tu n'as pas contacté depuis longtemps.",
+    "temps_suggere": 180
+  },
+  {
+    "content_type": "enigme",
+    "category": "jeux_ensemble",
+    "subcategory": "enigmes",
+    "mode_scope": "tous",
+    "type": "logique",
+    "level": "facile",
+    "text": "On me lance, je vole sans ailes, je pleure sans yeux. Qui suis-je ?",
+    "answer": "Un nuage"
+  },
+  {
+    "content_type": "enigme",
+    "category": "jeux_ensemble",
+    "subcategory": "enigmes",
+    "mode_scope": "tous",
+    "type": "logique",
+    "level": "moyen",
+    "text": "Un fermier a 17 moutons. Toutes meurent sauf 9. Combien lui en reste-t-il ?",
+    "answer": "9"
+  },
+  {
+    "content_type": "enigme",
+    "category": "jeux_ensemble",
+    "subcategory": "enigmes",
+    "mode_scope": "tous",
+    "type": "logique",
+    "level": "moyen",
+    "text": "Qu'est-ce qui a des clés mais n'ouvre aucune porte ?",
+    "answer": "Un piano"
+  },
+  {
+    "content_type": "enigme",
+    "category": "jeux_ensemble",
+    "subcategory": "enigmes",
+    "mode_scope": "tous",
+    "type": "code_4_chiffres",
+    "level": "difficile",
+    "text": "Code à 4 chiffres : tous différents, en ordre décroissant, la somme fait 18.",
+    "answer": "6543",
+    "indices": [
+      "Le premier chiffre est inférieur à 8",
+      "Aucun chiffre n'est un 0"
+    ]
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "existentiel_jeu",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Si tu pouvais donner un seul conseil à ton toi de 15 ans, lequel serait-ce ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "existentiel_jeu",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Penses-tu que tout arrive pour une raison ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "enfance",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quel était ton jeu préféré quand tu étais enfant ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "enfance",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel adulte a le plus marqué ton enfance et pourquoi ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "reves",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quelle destination de voyage fait le plus rêver ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "reves",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Si l'argent n'était pas un problème, quel métier ferais-tu ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "peurs",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "As-tu une phobie ? Laquelle ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "peurs",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Qu'est-ce qui te fait le plus peur dans le fait de vieillir ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "valeurs",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quelle qualité admires-tu le plus chez les autres ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "valeurs",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Pardonnerais-tu une trahison si la personne changeait vraiment ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "amour",
+    "mode_scope": "couple",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "C'est quoi pour toi une preuve d'amour au quotidien ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "amour",
+    "mode_scope": "couple",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Qu'est-ce que je pourrais faire pour te rendre encore plus heureux/se ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "amitie",
+    "mode_scope": "amis",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quelle est la qualité qui définit le mieux notre amitié ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "amitie",
+    "mode_scope": "amis",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Y a-t-il quelque chose que tu n'as jamais osé me dire ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "futur",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quel est ton projet le plus excitant pour l'année qui vient ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "futur",
+    "mode_scope": "couple",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Comment imagines-tu notre vie dans 10 ans ?"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "one_piece",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quel fruit du démon Luffy a-t-il mangé ?",
+    "answer": "Le fruit du Gomu Gomu (Nika)",
+    "manga_series": "One Piece"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "one_piece",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Qui est le premier second de Luffy à rejoindre l'équipage ?",
+    "answer": "Zoro",
+    "manga_series": "One Piece"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "one_piece",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel est le vrai nom de Portgas D. Ace en lien avec son père ?",
+    "answer": "Fils de Gol D. Roger",
+    "manga_series": "One Piece"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "naruto",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quel est le rêve de Naruto ?",
+    "answer": "Devenir Hokage",
+    "manga_series": "Naruto"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "naruto",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel clan possède le Sharingan ?",
+    "answer": "Le clan Uchiha",
+    "manga_series": "Naruto"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "naruto",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Comment s'appelle la technique interdite qui invoque le dieu de la mort ?",
+    "answer": "Shiki Fūjin",
+    "manga_series": "Naruto"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "attaque_titans",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quel est le nom de famille d'Eren ?",
+    "answer": "Jaeger",
+    "manga_series": "L'Attaque des Titans"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "attaque_titans",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Comment s'appelle le pouvoir qui permet de contrôler la mémoire des Titans ?",
+    "answer": "Le Titan Originel",
+    "manga_series": "L'Attaque des Titans"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "demon_slayer",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quel est le métier du héros Tanjiro avant de devenir pourfendeur ?",
+    "answer": "Marchand de charbon",
+    "manga_series": "Demon Slayer"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "demon_slayer",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel est le nom du style de respiration de Tanjiro ?",
+    "answer": "Respiration de l'eau (puis du feu/Hinokami)",
+    "manga_series": "Demon Slayer"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "fairy_tail",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quel animal magique accompagne Happy ?",
+    "answer": "C'est un chat volant lui-même",
+    "manga_series": "Fairy Tail"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "fairy_tail",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel est le nom du dragon qui a élevé Natsu ?",
+    "answer": "Igneel",
+    "manga_series": "Fairy Tail"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "my_hero_academia",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quel est le nom du pouvoir principal de Deku ?",
+    "answer": "One For All",
+    "manga_series": "My Hero Academia"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "my_hero_academia",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Qui est le premier détenteur connu de One For All ?",
+    "answer": "All For One (avant qu'il ne le vole)",
+    "manga_series": "My Hero Academia"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "jujutsu_kaisen",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quel objet maudit Yuji avale-t-il au début de l'histoire ?",
+    "answer": "Un doigt de Sukuna",
+    "manga_series": "Jujutsu Kaisen"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "jujutsu_kaisen",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel est le nom de la technique innée de Gojo ?",
+    "answer": "Illimité (Muryōkūsho / Infinity)",
+    "manga_series": "Jujutsu Kaisen"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "death_note",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Comment s'appelle le shinigami qui donne le carnet à Light ?",
+    "answer": "Ryuk",
+    "manga_series": "Death Note"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "death_note",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel est le vrai nom de L ?",
+    "answer": "L Lawliet",
+    "manga_series": "Death Note"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "dragon_ball",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Combien de boules de cristal faut-il réunir pour invoquer Shenron ?",
+    "answer": "7",
+    "manga_series": "Dragon Ball"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "dragon_ball",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel est le nom de la planète d'origine de Vegeta ?",
+    "answer": "Végéta (anciennement Plante)",
+    "manga_series": "Dragon Ball"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "histoire",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quel roi de France est surnommé le Roi Soleil ?",
+    "answer": "Louis XIV"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "histoire",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "En quelle année s'est terminée la Seconde Guerre mondiale ?",
+    "answer": "1945"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "histoire",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quel bateau réputé insubmersible a coulé en 1912 ?",
+    "answer": "Le Titanic"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "histoire",
+    "mode_scope": "tous",
+    "type": "vrai_faux",
+    "level": "facile",
+    "text": "Les pyramides d'Égypte ont été construites par des esclaves selon les découvertes archéologiques récentes.",
+    "answer": "Faux, plutôt par des ouvriers payés"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "histoire",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel empereur romain a légalisé le christianisme ?",
+    "answer": "Constantin"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "histoire",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quelle reine d'Égypte est célèbre pour sa relation avec Jules César et Marc Antoine ?",
+    "answer": "Cléopâtre"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "histoire",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel événement a déclenché la Seconde Guerre mondiale en Europe ?",
+    "answer": "L'invasion de la Pologne par l'Allemagne"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "histoire",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quelle bataille a marqué la défaite finale de Napoléon ?",
+    "answer": "Waterloo"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "histoire",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel explorateur portugais a été le premier à atteindre l'Inde par la mer ?",
+    "answer": "Vasco de Gama"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "histoire",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quelle dynastie chinoise a fait construire la majeure partie de la Grande Muraille actuelle ?",
+    "answer": "La dynastie Ming"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "geographie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quel est le plus grand désert chaud du monde ?",
+    "answer": "Le Sahara"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "geographie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quelle est la capitale de l'Espagne ?",
+    "answer": "Madrid"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "geographie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quel pays a la forme d'une botte ?",
+    "answer": "L'Italie"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "geographie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quelle est la plus haute montagne du monde ?",
+    "answer": "L'Everest"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "geographie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel est le pays le plus peuplé du monde en 2024 ?",
+    "answer": "L'Inde"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "geographie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel détroit sépare l'Europe de l'Afrique ?",
+    "answer": "Le détroit de Gibraltar"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "geographie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quelle est la capitale de la Mongolie ?",
+    "answer": "Oulan-Bator"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "geographie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel est le plus petit pays du monde ?",
+    "answer": "Le Vatican"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "geographie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel fleuve traverse à la fois l'Égypte et le Soudan ?",
+    "answer": "Le Nil"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "sciences",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quelle planète est la plus proche du soleil ?",
+    "answer": "Mercure"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "sciences",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quel gaz les plantes absorbent-elles pour la photosynthèse ?",
+    "answer": "Le CO2"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "sciences",
+    "mode_scope": "tous",
+    "type": "vrai_faux",
+    "level": "facile",
+    "text": "Les chauves-souris sont aveugles.",
+    "answer": "Faux, elles voient mais utilisent aussi l'écholocation"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "sciences",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel organe humain produit l'insuline ?",
+    "answer": "Le pancréas"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "sciences",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Combien de temps la lumière du soleil met-elle à atteindre la Terre ?",
+    "answer": "Environ 8 minutes"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "sciences",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel savant a découvert la pénicilline ?",
+    "answer": "Alexander Fleming"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "sciences",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quelle particule est responsable de la masse des autres particules selon le modèle standard ?",
+    "answer": "Le boson de Higgs"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "sciences",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel est le nom du processus par lequel les étoiles produisent de l'énergie ?",
+    "answer": "La fusion nucléaire"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "cinema",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quel film raconte l'histoire d'un lion nommé Simba ?",
+    "answer": "Le Roi Lion"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "cinema",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel réalisateur a créé la saga 'Le Seigneur des Anneaux' au cinéma ?",
+    "answer": "Peter Jackson"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "cinema",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel film a remporté l'Oscar du meilleur film en 2020, une première pour un film non anglophone ?",
+    "answer": "Parasite"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "litterature",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Qui a écrit 'Les Misérables' ?",
+    "answer": "Victor Hugo"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "litterature",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel auteur russe a écrit 'Crime et Châtiment' ?",
+    "answer": "Dostoïevski"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "litterature",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel écrivain a inventé le personnage de Sherlock Holmes ?",
+    "answer": "Arthur Conan Doyle"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "gastronomie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "De quel pays vient la pizza margherita ?",
+    "answer": "L'Italie"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "gastronomie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel ingrédient donne sa couleur verte au pesto ?",
+    "answer": "Le basilic"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "gastronomie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel fromage français porte le même nom qu'une ville de Normandie ?",
+    "answer": "Le camembert"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "sport",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Dans quel sport utilise-t-on une raquette et un volant ?",
+    "answer": "Le badminton"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "sport",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Combien de temps dure un match de basket NBA (temps réglementaire) ?",
+    "answer": "48 minutes"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "sport",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel pays a inventé le sport du rugby ?",
+    "answer": "L'Angleterre"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "musique",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quel chanteur est surnommé le 'roi de la pop' ?",
+    "answer": "Michael Jackson"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "musique",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel groupe suédois a chanté 'Dancing Queen' ?",
+    "answer": "ABBA"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "musique",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel compositeur allemand est l'auteur de la 'Marche Nuptiale' la plus connue ?",
+    "answer": "Mendelssohn (ou Wagner selon la version)"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "arts",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quel artiste a peint 'La Nuit étoilée' ?",
+    "answer": "Van Gogh"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "arts",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel sculpteur a créé la statue du 'Penseur' ?",
+    "answer": "Auguste Rodin"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "arts",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel architecte a conçu la Sagrada Familia à Barcelone ?",
+    "answer": "Antoni Gaudí"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "insolite",
+    "mode_scope": "tous",
+    "type": "vrai_faux",
+    "level": "facile",
+    "text": "Les bananes sont classées comme des baies.",
+    "answer": "Vrai"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "insolite",
+    "mode_scope": "tous",
+    "type": "vrai_faux",
+    "level": "moyen",
+    "text": "Un jour sur Vénus est plus long qu'une année sur Vénus.",
+    "answer": "Vrai"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "insolite",
+    "mode_scope": "tous",
+    "type": "vrai_faux",
+    "level": "difficile",
+    "text": "Le cœur d'une crevette se trouve dans sa tête.",
+    "answer": "Vrai"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "pop_culture",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quel est le nom du jouet cow-boy dans 'Toy Story' ?",
+    "answer": "Woody"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "pop_culture",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quelle console de jeu a popularisé le personnage Mario ?",
+    "answer": "La Nintendo (NES)"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "pop_culture",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel jeu vidéo est considéré comme le premier jeu vidéo de l'histoire (années 1950-60) ?",
+    "answer": "Tennis for Two ou Spacewar! selon la définition"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "philosophie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Qu'est-ce qui te fait te sentir vraiment toi-même ?"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "philosophie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Préfères-tu vivre 100 ans sans amour ou 50 ans avec ?"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "philosophie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Penses-tu que le destin existe ou que tout est le fruit du hasard ?"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "philosophie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Est-ce qu'un mensonge par omission est aussi grave qu'un mensonge direct ?"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "philosophie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Peut-on être heureux seul, sans lien social ?"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "philosophie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Si tu pouvais effacer un souvenir douloureux, le ferais-tu, même s'il t'a construit ?"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "philosophie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "« On ne se baigne jamais deux fois dans le même fleuve. » - Héraclite. Qu'en penses-tu ?"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "philosophie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "La liberté totale rend-elle vraiment heureux ?"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "politique_lois",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Penses-tu que l'école devrait être obligatoire jusqu'à un âge plus tardif ?"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "politique_lois",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Que penses-tu de l'idée d'une taxe carbone plus élevée pour les entreprises polluantes ?"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "politique_lois",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Es-tu pour ou contre la légalisation de l'euthanasie ?"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "politique_lois",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Penses-tu que les grandes entreprises technologiques ont trop de pouvoir aujourd'hui ?"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "politique_lois",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Que penses-tu de l'idée de réduire la semaine de travail à 4 jours par la loi ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "souvenirs",
+    "mode_scope": "couple",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quel est le cadeau qui t'a le plus touché de ma part ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "souvenirs",
+    "mode_scope": "couple",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quelle dispute nous a le plus rapprochés au final ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "souvenirs",
+    "mode_scope": "couple",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel moment difficile qu'on a traversé ensemble t'a le plus fait grandir ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "souvenirs",
+    "mode_scope": "amis",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quelle bêtise qu'on a faite ensemble te fait encore rire aujourd'hui ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "souvenirs",
+    "mode_scope": "amis",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Y a-t-il eu un moment où notre amitié aurait pu se briser ? Comment on l'a dépassé ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "tu_preferes",
+    "mode_scope": "tous",
+    "type": "qcm",
+    "level": "facile",
+    "text": "Tu préfères : plage ou piscine ?",
+    "variants": {
+      "choix": [
+        "Plage",
+        "Piscine"
+      ]
+    }
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "tu_preferes",
+    "mode_scope": "tous",
+    "type": "qcm",
+    "level": "facile",
+    "text": "Tu préfères : chien ou chat ?",
+    "variants": {
+      "choix": [
+        "Chien",
+        "Chat"
+      ]
+    }
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "tu_preferes",
+    "mode_scope": "tous",
+    "type": "qcm",
+    "level": "facile",
+    "text": "Tu préfères : soirée cocooning ou soirée festive ?",
+    "variants": {
+      "choix": [
+        "Cocooning",
+        "Festive"
+      ]
+    }
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "tu_preferes",
+    "mode_scope": "tous",
+    "type": "qcm",
+    "level": "moyen",
+    "text": "Tu préfères : perdre l'odorat ou le goût ?",
+    "variants": {
+      "choix": [
+        "L'odorat",
+        "Le goût"
+      ]
+    }
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "tu_preferes",
+    "mode_scope": "couple",
+    "type": "qcm",
+    "level": "moyen",
+    "text": "Tu préfères : qu'on économise pour un gros projet ou qu'on profite plus au quotidien ?",
+    "variants": {
+      "choix": [
+        "Économiser",
+        "Profiter au quotidien"
+      ]
+    }
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "tu_preferes",
+    "mode_scope": "tous",
+    "type": "qcm",
+    "level": "difficile",
+    "text": "Tu préfères : vivre 1000 ans seul ou 80 ans entouré ?",
+    "variants": {
+      "choix": [
+        "1000 ans seul",
+        "80 ans entouré"
+      ]
+    }
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "tu_preferes",
+    "mode_scope": "tous",
+    "type": "qcm",
+    "level": "difficile",
+    "text": "Tu préfères : ne plus jamais mentir ou toujours savoir quand on te ment ?",
+    "variants": {
+      "choix": [
+        "Ne plus jamais mentir",
+        "Toujours savoir"
+      ]
+    }
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_de_nous_deux",
+    "mode_scope": "couple",
+    "type": "qcm",
+    "level": "facile",
+    "text": "Qui de nous deux met le plus de temps à se préparer ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_de_nous_deux",
+    "mode_scope": "couple",
+    "type": "qcm",
+    "level": "moyen",
+    "text": "Qui de nous deux pardonne le plus facilement ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_de_nous_deux",
+    "mode_scope": "couple",
+    "type": "qcm",
+    "level": "difficile",
+    "text": "Qui de nous deux ferait le plus de sacrifices pour l'autre ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_de_nous_deux",
+    "mode_scope": "amis",
+    "type": "qcm",
+    "level": "moyen",
+    "text": "Qui du groupe garde le mieux les secrets ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_de_nous_deux",
+    "mode_scope": "amis",
+    "type": "qcm",
+    "level": "difficile",
+    "text": "Qui du groupe changerait le plus si il/elle devenait riche du jour au lendemain ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "farfelues",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Si tu étais une saison, laquelle serais-tu ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "farfelues",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quel super-héros ferait le pire coloc ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "farfelues",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Si les animaux pouvaient parler, lequel serait le plus impoli ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "farfelues",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Si tu devais fonder une religion absurde, quel serait son unique commandement ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "farfelues",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Si l'humanité devait tout recommencer avec 10 objets seulement, lesquels garderais-tu ?"
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "defis_gages",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "facile",
+    "text": "Fais un massage des épaules de 2 minutes à ton/ta partenaire.",
+    "temps_suggere": 120
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "defis_gages",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "moyen",
+    "text": "Écris 3 choses que tu admires chez ton/ta partenaire et lis-les à voix haute.",
+    "temps_suggere": 90
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "defis_gages",
+    "mode_scope": "amis",
+    "type": "action",
+    "level": "moyen",
+    "text": "Chante le refrain de ta chanson préférée devant le groupe.",
+    "temps_suggere": 30
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "defis_gages",
+    "mode_scope": "amis",
+    "type": "action",
+    "level": "difficile",
+    "text": "Improvise une histoire drôle avec 3 mots donnés par le groupe.",
+    "temps_suggere": 60
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "defis_gages",
+    "mode_scope": "solo",
+    "type": "action",
+    "level": "facile",
+    "text": "Note 3 choses pour lesquelles tu es reconnaissant aujourd'hui.",
+    "temps_suggere": 90
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "defis_gages",
+    "mode_scope": "solo",
+    "type": "action",
+    "level": "difficile",
+    "text": "Fais quelque chose de gentil pour un inconnu aujourd'hui.",
+    "temps_suggere": 600
+  },
+  {
+    "content_type": "enigme",
+    "category": "jeux_ensemble",
+    "subcategory": "enigmes",
+    "mode_scope": "tous",
+    "type": "logique",
+    "level": "facile",
+    "text": "Je grandis quand tu me nourris, mais je meurs si tu me donnes de l'eau. Que suis-je ?",
+    "answer": "Le feu"
+  },
+  {
+    "content_type": "enigme",
+    "category": "jeux_ensemble",
+    "subcategory": "enigmes",
+    "mode_scope": "tous",
+    "type": "logique",
+    "level": "facile",
+    "text": "J'ai des dents mais je ne mords pas. Qui suis-je ?",
+    "answer": "Un peigne"
+  },
+  {
+    "content_type": "enigme",
+    "category": "jeux_ensemble",
+    "subcategory": "enigmes",
+    "mode_scope": "tous",
+    "type": "logique",
+    "level": "moyen",
+    "text": "Deux pères et deux fils partagent 3 pommes, chacun en a une entière. Comment est-ce possible ?",
+    "answer": "Ce sont un grand-père, un père et un fils (3 personnes)"
+  },
+  {
+    "content_type": "enigme",
+    "category": "jeux_ensemble",
+    "subcategory": "enigmes",
+    "mode_scope": "tous",
+    "type": "logique",
+    "level": "moyen",
+    "text": "Plus je suis grand, moins je pèse lourd. Que suis-je ?",
+    "answer": "Un trou (encore) ou une ombre selon la variante"
+  },
+  {
+    "content_type": "enigme",
+    "category": "jeux_ensemble",
+    "subcategory": "enigmes",
+    "mode_scope": "tous",
+    "type": "logique",
+    "level": "difficile",
+    "text": "Trois interrupteurs commandent une ampoule dans une autre pièce, tu ne peux entrer qu'une fois. Comment trouver le bon interrupteur ?",
+    "answer": "Allumer le 1er, attendre, l'éteindre et allumer le 2e, puis entrer : chaude+éteinte=1er, allumée=2e, froide+éteinte=3e"
+  },
+  {
+    "content_type": "enigme",
+    "category": "jeux_ensemble",
+    "subcategory": "enigmes",
+    "mode_scope": "tous",
+    "type": "code_4_chiffres",
+    "level": "difficile",
+    "text": "Code à 4 chiffres : c'est une année entre 1900 et 2000, divisible par 8, se terminant par 6.",
+    "answer": "1936",
+    "indices": [
+      "La somme des chiffres est 19",
+      "Le deuxième chiffre est un 9"
+    ]
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "existentiel_jeu",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Si demain était ton dernier jour, que ferais-tu ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "existentiel_jeu",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Penses-tu qu'on choisit vraiment qui on aime ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "existentiel_jeu",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Est-ce que le temps guérit vraiment toutes les blessures ?"
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_cooperatifs",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "moyen",
+    "text": "Ensemble, écrivez une courte histoire en alternant une phrase chacun, sans vous concerter.",
+    "temps_suggere": 180
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_cooperatifs",
+    "mode_scope": "amis",
+    "type": "action",
+    "level": "moyen",
+    "text": "En équipe, trouvez 10 mots qui commencent par la même lettre en 60 secondes.",
+    "temps_suggere": 60
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_competitifs",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "facile",
+    "text": "Duel de pierre-feuille-ciseaux en 3 manches gagnantes.",
+    "temps_suggere": 60
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_competitifs",
+    "mode_scope": "amis",
+    "type": "action",
+    "level": "moyen",
+    "text": "Chacun écrit 3 films sur papier, le groupe doit deviner qui a écrit quoi.",
+    "temps_suggere": 180
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "questions_souvenir",
+    "mode_scope": "couple",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quelle chanson te fait immédiatement penser à nous ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "questions_souvenir",
+    "mode_scope": "amis",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel lieu est associé à un super souvenir avec le groupe ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "enfance",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel était ton rêve de métier quand tu étais petit·e ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "enfance",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Y a-t-il un souvenir d'enfance que tu n'as jamais raconté à personne ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "reves",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel talent aimerais-tu développer si tu avais plus de temps ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "reves",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel rêve as-tu abandonné et regrettes-tu de l'avoir fait ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "peurs",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Qu'est-ce qui te met le plus mal à l'aise socialement ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "peurs",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quelle est la chose que tu redoutes le plus de perdre ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "valeurs",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quelle est la qualité que tu détestes le plus chez les gens ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "valeurs",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Est-ce que tu penses que l'honnêteté doit toujours passer avant la gentillesse ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "valeurs",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Y a-t-il une règle que tu enfreindrais pour protéger quelqu'un que tu aimes ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "amour",
+    "mode_scope": "couple",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quel geste tout simple te fait fondre à chaque fois ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "amour",
+    "mode_scope": "couple",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Qu'est-ce qui a changé dans notre relation depuis le début, en bien ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "amour",
+    "mode_scope": "couple",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Y a-t-il un besoin que tu n'exprimes pas assez dans notre couple ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "amitie",
+    "mode_scope": "amis",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Qu'est-ce que tu changerais dans notre façon de communiquer ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "amitie",
+    "mode_scope": "amis",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "T'arrive-t-il de te comparer à moi ? Sur quoi ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "futur",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel est ton plus grand objectif pour les 5 prochaines années ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "futur",
+    "mode_scope": "amis",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Comment imagines-tu notre amitié dans 20 ans ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "quotidien",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quel est ton petit plaisir du quotidien préféré ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "quotidien",
+    "mode_scope": "couple",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quelle habitude de la maison aimerais-tu qu'on change ensemble ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "famille",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quelle tradition familiale aimerais-tu garder pour plus tard ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "famille",
+    "mode_scope": "couple",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel type de parent penses-tu être, ou aimerais-tu être ?"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "one_piece",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Comment s'appelle le sabre de Zoro le plus précieux, offert par Kuina ?",
+    "answer": "Wado Ichimonji",
+    "manga_series": "One Piece"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "one_piece",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel est le surnom de Nico Robin dans le monde entier ?",
+    "answer": "L'enfant démon (puis Miss All Sunday)",
+    "manga_series": "One Piece"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "one_piece",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel est le nom complet de l'organisation secrète que Robin a fuie ?",
+    "answer": "Le Gouvernement Mondial (après la destruction d'Ohara)",
+    "manga_series": "One Piece"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "naruto",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quel est le nom du meilleur ami rival de Naruto ?",
+    "answer": "Sasuke Uchiha",
+    "manga_series": "Naruto"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "naruto",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel village Naruto représente-t-il ?",
+    "answer": "Konoha",
+    "manga_series": "Naruto"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "naruto",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Comment s'appelle le sceau utilisé pour enfermer Kurama en Naruto ?",
+    "answer": "Le sceau à huit trigrammes"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "attaque_titans",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel est le nom de la meilleure amie d'enfance d'Eren ?",
+    "answer": "Mikasa Ackerman",
+    "manga_series": "L'Attaque des Titans"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "attaque_titans",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel est le nom du peuple opprimé auquel appartient Eren ?",
+    "answer": "Les Eldiens",
+    "manga_series": "L'Attaque des Titans"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "demon_slayer",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Combien de piliers (Hashira) protègent le corps des pourfendeurs ?",
+    "answer": "9",
+    "manga_series": "Demon Slayer"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "demon_slayer",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel démon suprême est l'antagoniste principal de la série ?",
+    "answer": "Muzan Kibutsuji",
+    "manga_series": "Demon Slayer"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "fairy_tail",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quelle magie utilise Grey Fullbuster ?",
+    "answer": "La magie de glace",
+    "manga_series": "Fairy Tail"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "fairy_tail",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel est le symbole de la guilde Fairy Tail ?",
+    "answer": "Une fée avec une queue"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "my_hero_academia",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Comment s'appelle l'école pour héros que fréquente Deku ?",
+    "answer": "Yuei (U.A. High School)",
+    "manga_series": "My Hero Academia"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "my_hero_academia",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel est le nom de code du héros numéro 1 avant Deku, mentor de Deku ?",
+    "answer": "All Might",
+    "manga_series": "My Hero Academia"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "jujutsu_kaisen",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel est le nom de l'école où étudie Yuji ?",
+    "answer": "L'école supérieure de sorcellerie de Tokyo",
+    "manga_series": "Jujutsu Kaisen"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "chainsaw_man",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quel démon Denji fusionne-t-il pour devenir Chainsaw Man ?",
+    "answer": "Pochita, le démon-tronçonneuse",
+    "manga_series": "Chainsaw Man"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "chainsaw_man",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel est le métier de Denji avant de devenir chasseur de démons officiel ?",
+    "answer": "Chasseur de démons indépendant pour rembourser des dettes",
+    "manga_series": "Chainsaw Man"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "spy_x_family",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quel est le nom de code de l'espion principal dans Spy x Family ?",
+    "answer": "Twilight",
+    "manga_series": "Spy x Family"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "spy_x_family",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel pouvoir spécial possède la fille adoptive Anya ?",
+    "answer": "Elle peut lire dans les pensées",
+    "manga_series": "Spy x Family"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "tokyo_revengers",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Comment le héros Takemichi voyage-t-il dans le temps ?",
+    "answer": "En serrant quelqu'un dans ses bras (leap corporel)",
+    "manga_series": "Tokyo Revengers"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "hunter_x_hunter",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quel examen le héros Gon souhaite-t-il réussir au début de la série ?",
+    "answer": "L'examen de Hunter",
+    "manga_series": "Hunter x Hunter"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "hunter_x_hunter",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Comment s'appelle le système de pouvoirs unique à Hunter x Hunter ?",
+    "answer": "Le Nen",
+    "manga_series": "Hunter x Hunter"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "bleach",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quel est le nom du sabre-esprit d'Ichigo ?",
+    "answer": "Zangetsu",
+    "manga_series": "Bleach"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "bleach",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Comment appelle-t-on les âmes maléfiques que combattent les Shinigami ?",
+    "answer": "Les Hollows",
+    "manga_series": "Bleach"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "dragon_ball",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel est le nom du maître d'arts martiaux de Goku enfant ?",
+    "answer": "Maître Roshi",
+    "manga_series": "Dragon Ball"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "dragon_ball",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel est le nom de la transformation ultime au-delà du Super Saiyan classique révélée contre Freezer ?",
+    "answer": "Le Super Saiyan",
+    "manga_series": "Dragon Ball"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "death_note",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quelle règle du Death Note limite la cause de mort si rien n'est précisé ?",
+    "answer": "La personne meurt d'une crise cardiaque"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "code_geass",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel pouvoir possède Lelouch grâce au Geass ?",
+    "answer": "Le pouvoir d'ordonner absolument (contrôle mental à usage unique par personne)",
+    "manga_series": "Code Geass"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "tokyo_ghoul",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Que devient le héros Kaneki après sa transplantation d'organe ?",
+    "answer": "Un semi-goule",
+    "manga_series": "Tokyo Ghoul"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "histoire",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quel monument parisien a été construit pour l'Exposition universelle de 1889 ?",
+    "answer": "La Tour Eiffel"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "histoire",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quelle reine de France est surnommée 'l'Autrichienne' ?",
+    "answer": "Marie-Antoinette"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "histoire",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel traité a mis fin à la guerre de Trente Ans en 1648 ?",
+    "answer": "Le traité de Westphalie"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "histoire",
+    "mode_scope": "tous",
+    "type": "vrai_faux",
+    "level": "moyen",
+    "text": "La Statue de la Liberté a été offerte par la France aux États-Unis.",
+    "answer": "Vrai"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "geographie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quel continent abrite le plus de pays au monde ?",
+    "answer": "L'Afrique"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "geographie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quelle mer sépare la Grèce de la Turquie ?",
+    "answer": "La mer Égée"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "geographie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel pays possède le plus de fuseaux horaires en comptant seulement son territoire continu ?",
+    "answer": "La Russie"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "sciences",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quel est l'organe qui pompe le sang dans le corps ?",
+    "answer": "Le cœur"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "sciences",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quelle est la vitesse de la lumière dans le vide (arrondie) ?",
+    "answer": "300 000 km/s"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "sciences",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel chimiste a créé le tableau périodique des éléments ?",
+    "answer": "Dmitri Mendeleïev"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "sport",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Combien de joueurs composent une équipe de volley-ball sur le terrain ?",
+    "answer": "6"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "sport",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Dans quel pays sont nés les Jeux Olympiques antiques ?",
+    "answer": "La Grèce"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "sport",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel nageur a remporté 23 médailles d'or olympiques, record absolu ?",
+    "answer": "Michael Phelps"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "musique",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Combien de cordes possède une guitare classique ?",
+    "answer": "6"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "musique",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel festival de musique électronique a lieu chaque année à Belgique et s'appelle 'Tomorrowland' ?",
+    "answer": "Tomorrowland"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "musique",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel opéra de Mozart met en scène Don Juan ?",
+    "answer": "Don Giovanni"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "arts",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel peintre est associé au mouvement impressionniste et au tableau 'Impression, soleil levant' ?",
+    "answer": "Claude Monet"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "arts",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel artiste a créé la fontaine 'Fountain' (un urinoir signé) en 1917 ?",
+    "answer": "Marcel Duchamp"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "insolite",
+    "mode_scope": "tous",
+    "type": "vrai_faux",
+    "level": "facile",
+    "text": "Les girafes n'ont que 7 vertèbres cervicales, comme les humains.",
+    "answer": "Vrai"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "insolite",
+    "mode_scope": "tous",
+    "type": "vrai_faux",
+    "level": "moyen",
+    "text": "On peut entendre la couleur du ciel changer selon les saisons (illusion connue).",
+    "answer": "Faux, c'est une fausse affirmation"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "insolite",
+    "mode_scope": "tous",
+    "type": "vrai_faux",
+    "level": "difficile",
+    "text": "Le mont Everest grandit chaque année de quelques millimètres.",
+    "answer": "Vrai"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "cinema",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quel studio a créé Mickey Mouse ?",
+    "answer": "Disney"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "cinema",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel acteur incarne Iron Man dans l'univers Marvel (MCU) ?",
+    "answer": "Robert Downey Jr."
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "cinema",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel film d'animation japonais de Miyazaki a remporté l'Oscar du meilleur film d'animation en 2003 ?",
+    "answer": "Le Voyage de Chihiro"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "litterature",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Qui a écrit la saga 'Harry Potter' ?",
+    "answer": "J.K. Rowling"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "litterature",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel auteur français a écrit 'Le Petit Prince' ?",
+    "answer": "Antoine de Saint-Exupéry"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "litterature",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel roman de Camus commence par 'Aujourd'hui, maman est morte' ?",
+    "answer": "L'Étranger"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "gastronomie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quel pays est réputé pour les sushis ?",
+    "answer": "Le Japon"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "gastronomie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quelle épice est extraite du pistil d'une fleur et coûte très cher ?",
+    "answer": "Le safran"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "gastronomie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel plat français traditionnel utilise des escargots ?",
+    "answer": "Les escargots de Bourgogne"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "pop_culture",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quelle série met en scène des dragons et le royaume de Westeros ?",
+    "answer": "Game of Thrones"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "pop_culture",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel réseau social a été fondé par Mark Zuckerberg ?",
+    "answer": "Facebook"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "pop_culture",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel jeu vidéo de construction en blocs a été créé par Markus Persson (Notch) ?",
+    "answer": "Minecraft"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "philosophie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Qu'est-ce que la réussite signifie vraiment pour toi ?"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "philosophie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Penses-tu qu'on peut changer profondément de personnalité, ou reste-t-on toujours le/la même ?"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "philosophie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Est-ce que la jalousie est toujours un signe d'amour, ou un défaut à combattre ?"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "philosophie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Si on pouvait vivre éternellement en bonne santé, est-ce que ce serait souhaitable ?"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "philosophie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "« La vie est ce qui arrive pendant qu'on fait d'autres projets. » Qu'en penses-tu ?"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "politique_lois",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Penses-tu que les jeunes s'intéressent assez à la politique aujourd'hui ?"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "politique_lois",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Que penses-tu de l'idée d'abaisser l'âge du droit de vote à 16 ans ?"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "politique_lois",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Penses-tu que la mondialisation a fait plus de bien que de mal ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "souvenirs",
+    "mode_scope": "couple",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quelle est notre chanson préférée en tant que couple ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "souvenirs",
+    "mode_scope": "amis",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quel surnom ridicule quelqu'un du groupe a-t-il déjà eu ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "tu_preferes",
+    "mode_scope": "tous",
+    "type": "qcm",
+    "level": "facile",
+    "text": "Tu préfères : lire un livre ou regarder un film ?",
+    "variants": {
+      "choix": [
+        "Lire un livre",
+        "Regarder un film"
+      ]
+    }
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "tu_preferes",
+    "mode_scope": "tous",
+    "type": "qcm",
+    "level": "moyen",
+    "text": "Tu préfères : être toujours en retard ou toujours trop en avance ?",
+    "variants": {
+      "choix": [
+        "Toujours en retard",
+        "Toujours en avance"
+      ]
+    }
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "tu_preferes",
+    "mode_scope": "couple",
+    "type": "qcm",
+    "level": "difficile",
+    "text": "Tu préfères : qu'on ait moins d'argent mais plus de temps ensemble, ou l'inverse ?",
+    "variants": {
+      "choix": [
+        "Moins d'argent, plus de temps",
+        "Plus d'argent, moins de temps"
+      ]
+    }
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_de_nous_deux",
+    "mode_scope": "couple",
+    "type": "qcm",
+    "level": "moyen",
+    "text": "Qui de nous deux a le plus tendance à bouder ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_de_nous_deux",
+    "mode_scope": "amis",
+    "type": "qcm",
+    "level": "difficile",
+    "text": "Qui du groupe serait élu leader si on formait une équipe pour une mission ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "farfelues",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Si tu étais un plat, lequel serais-tu ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "farfelues",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Si tu pouvais parler à ton animal de compagnie, que te dirait-il en premier ?"
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "defis_gages",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "facile",
+    "text": "Prenez une photo rigolote ensemble tout de suite.",
+    "temps_suggere": 60
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "defis_gages",
+    "mode_scope": "amis",
+    "type": "action",
+    "level": "facile",
+    "text": "Fais deviner un film au groupe en mimant sans parler.",
+    "temps_suggere": 60
+  },
+  {
+    "content_type": "enigme",
+    "category": "jeux_ensemble",
+    "subcategory": "enigmes",
+    "mode_scope": "tous",
+    "type": "logique",
+    "level": "facile",
+    "text": "Je suis toujours devant toi mais tu ne peux jamais m'atteindre. Que suis-je ?",
+    "answer": "L'avenir/le futur"
+  },
+  {
+    "content_type": "enigme",
+    "category": "jeux_ensemble",
+    "subcategory": "enigmes",
+    "mode_scope": "tous",
+    "type": "logique",
+    "level": "moyen",
+    "text": "Une horloge sonne 6 coups en 5 secondes. Combien de temps mettra-t-elle pour sonner 12 coups ?",
+    "answer": "11 secondes (l'intervalle compte, pas les coups)"
+  },
+  {
+    "content_type": "enigme",
+    "category": "jeux_ensemble",
+    "subcategory": "enigmes",
+    "mode_scope": "tous",
+    "type": "code_4_chiffres",
+    "level": "difficile",
+    "text": "Code à 4 chiffres : impair, croissant, la somme fait 16.",
+    "answer": "1357",
+    "indices": [
+      "Chaque chiffre est impair",
+      "Ils se suivent de 2 en 2"
+    ]
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "existentiel_jeu",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Crois-tu qu'on garde toujours une part d'enfant en nous ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "enfance",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quel dessin animé regardais-tu en boucle enfant ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "reves",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Si tu pouvais apprendre une langue instantanément, laquelle choisirais-tu ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "peurs",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quelle situation sociale te donne le plus d'anxiété ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "valeurs",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quelle est la leçon de vie la plus importante qu'on t'ait apprise ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "amour",
+    "mode_scope": "couple",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Comment aimes-tu recevoir de l'affection au quotidien ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "amitie",
+    "mode_scope": "amis",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quel est le meilleur conseil que je t'ai donné ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "futur",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quelle nouvelle expérience aimerais-tu tenter cette année ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "quotidien",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel moment de la journée préfères-tu et pourquoi ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "famille",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Qui est la personne de ta famille qui t'inspire le plus ?"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "one_piece",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel titre porte le futur roi des pirates selon la légende du One Piece ?",
+    "answer": "Celui qui trouvera le trésor One Piece",
+    "manga_series": "One Piece"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "naruto",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Comment s'appelle le sensei de l'équipe 7 (Naruto, Sasuke, Sakura) ?",
+    "answer": "Kakashi Hatake",
+    "manga_series": "Naruto"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "attaque_titans",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel est le nom du régiment d'exploration dirigé par Erwin Smith ?",
+    "answer": "Le Bataillon d'exploration",
+    "manga_series": "L'Attaque des Titans"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "demon_slayer",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel pilier utilise la respiration du son ?",
+    "answer": "Tengen Uzui",
+    "manga_series": "Demon Slayer"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "my_hero_academia",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel est le nom du rival principal de Deku dans sa classe ?",
+    "answer": "Bakugo Katsuki",
+    "manga_series": "My Hero Academia"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "jujutsu_kaisen",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel est le nom du meilleur ami de Yuji qui meurt au début de la série ?",
+    "answer": "Fushiguro Megumi (son camarade, pas un ami mort)",
+    "manga_series": "Jujutsu Kaisen"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "dragon_ball",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel est le nom du fils aîné de Goku ?",
+    "answer": "Gohan",
+    "manga_series": "Dragon Ball"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "fairy_tail",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel est le vrai nom de famille de Lucy, l'une des héroïnes ?",
+    "answer": "Heartfilia",
+    "manga_series": "Fairy Tail"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "hunter_x_hunter",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel est le nom du meilleur ami de Gon rencontré pendant l'examen ?",
+    "answer": "Killua Zoldyck",
+    "manga_series": "Hunter x Hunter"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "bleach",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Comment appelle-t-on le monde des Shinigami dans Bleach ?",
+    "answer": "La Soul Society",
+    "manga_series": "Bleach"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "histoire",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quel pays a offert la Statue de la Liberté aux États-Unis ?",
+    "answer": "La France"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "histoire",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel philosophe grec a été le maître d'Alexandre le Grand ?",
+    "answer": "Aristote"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "histoire",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quelle bataille de 1815 a définitivement écarté Napoléon du pouvoir ?",
+    "answer": "Waterloo"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "geographie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quel pays a pour capitale Tokyo ?",
+    "answer": "Le Japon"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "geographie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quelle ville italienne est célèbre pour ses canaux ?",
+    "answer": "Venise"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "geographie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel pays possède le plus de fjords au monde ?",
+    "answer": "La Norvège"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "sciences",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quel est le plus grand mammifère du monde ?",
+    "answer": "La baleine bleue"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "sciences",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Combien de chambres possède le cœur humain ?",
+    "answer": "4"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "sciences",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quelle est l'unité de mesure de la force en physique ?",
+    "answer": "Le Newton"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "sport",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Dans quel sport peut-on marquer un 'ace' ?",
+    "answer": "Le tennis"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "sport",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Combien de temps dure un round de boxe professionnelle ?",
+    "answer": "3 minutes"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "sport",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel pays a remporté le plus de Coupes du monde de football ?",
+    "answer": "Le Brésil (5 titres)"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "musique",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quel chanteur français est connu pour 'La Vie en rose' ?",
+    "answer": "Édith Piaf (c'est une chanteuse)"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "musique",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel style musical est né à la Jamaïque dans les années 1960 ?",
+    "answer": "Le reggae"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "musique",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel compositeur est devenu totalement sourd avant d'écrire sa 9e symphonie ?",
+    "answer": "Beethoven"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "arts",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Dans quelle ville se trouve la tour de Pise ?",
+    "answer": "Pise, en Italie"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "arts",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel street-artiste britannique reste anonyme et est connu pour ses pochoirs engagés ?",
+    "answer": "Banksy"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "insolite",
+    "mode_scope": "tous",
+    "type": "vrai_faux",
+    "level": "facile",
+    "text": "Les koalas dorment environ 20 heures par jour.",
+    "answer": "Vrai"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "insolite",
+    "mode_scope": "tous",
+    "type": "vrai_faux",
+    "level": "moyen",
+    "text": "Il pleut des diamants sur Neptune et Uranus selon certaines théories scientifiques.",
+    "answer": "Vrai, c'est une hypothèse sérieuse"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "cinema",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quel robot est le héros du film Pixar 'Wall-E' ?",
+    "answer": "Wall-E"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "cinema",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel acteur a incarné Jack Sparrow dans 'Pirates des Caraïbes' ?",
+    "answer": "Johnny Depp"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "litterature",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel auteur britannique a créé la Terre du Milieu dans 'Le Seigneur des Anneaux' ?",
+    "answer": "J.R.R. Tolkien"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "gastronomie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quel pays est réputé pour le chocolat praliné et les gaufres ?",
+    "answer": "La Belgique"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "pop_culture",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel plombier moustachu est la mascotte de Nintendo ?",
+    "answer": "Mario"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "philosophie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quelle est la plus belle qualité humaine selon toi ?"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "philosophie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Penses-tu que l'argent peut vraiment acheter le bonheur, même partiellement ?"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "philosophie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Est-ce que l'art a besoin d'un message pour avoir de la valeur ?"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "politique_lois",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Que penses-tu du droit de grève et de ses limites ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "souvenirs",
+    "mode_scope": "couple",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel est le voyage qu'on n'a pas encore fait mais que tu rêves de faire avec moi ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "souvenirs",
+    "mode_scope": "amis",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel souvenir avec le groupe garderais-tu si tu ne devais en garder qu'un seul ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "tu_preferes",
+    "mode_scope": "tous",
+    "type": "qcm",
+    "level": "facile",
+    "text": "Tu préfères : été ou hiver ?",
+    "variants": {
+      "choix": [
+        "Été",
+        "Hiver"
+      ]
+    }
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "tu_preferes",
+    "mode_scope": "tous",
+    "type": "qcm",
+    "level": "moyen",
+    "text": "Tu préfères : perdre tous tes souvenirs ou ne plus pouvoir en créer de nouveaux ?",
+    "variants": {
+      "choix": [
+        "Perdre les anciens",
+        "Ne plus en créer"
+      ]
+    }
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_de_nous_deux",
+    "mode_scope": "couple",
+    "type": "qcm",
+    "level": "facile",
+    "text": "Qui de nous deux est le/la plus câlin·e ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_de_nous_deux",
+    "mode_scope": "amis",
+    "type": "qcm",
+    "level": "moyen",
+    "text": "Qui du groupe organise le mieux les sorties ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "farfelues",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Si tu devais donner un nom de scène à ton double rockstar, ce serait quoi ?"
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "defis_gages",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "moyen",
+    "text": "Recréez votre première rencontre en 1 minute, façon théâtre.",
+    "temps_suggere": 60
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "defis_gages",
+    "mode_scope": "amis",
+    "type": "action",
+    "level": "facile",
+    "text": "Fais deviner un animal en le mimant, sans bruit.",
+    "temps_suggere": 45
+  },
+  {
+    "content_type": "enigme",
+    "category": "jeux_ensemble",
+    "subcategory": "enigmes",
+    "mode_scope": "tous",
+    "type": "logique",
+    "level": "moyen",
+    "text": "Je voyage dans le monde entier mais reste toujours dans un coin. Qui suis-je ?",
+    "answer": "Un timbre"
+  },
+  {
+    "content_type": "enigme",
+    "category": "jeux_ensemble",
+    "subcategory": "enigmes",
+    "mode_scope": "tous",
+    "type": "code_4_chiffres",
+    "level": "difficile",
+    "text": "Code à 4 chiffres : c'est un multiple de 25, entre 7000 et 7500, avec un 5 en dernière position.",
+    "answer": "7225",
+    "indices": [
+      "Divisible par 25",
+      "Contient deux 2"
+    ]
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "existentiel_jeu",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Qu'est-ce qui te fait dire que la vie est belle malgré tout ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "enfance",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quelle punition d'enfance te semble aujourd'hui complètement injuste ou drôle ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "reves",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Si tu pouvais rencontrer une personne, vivante ou morte, qui choisirais-tu ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "peurs",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Préfères-tu affronter tes peurs ou les éviter ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "valeurs",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quelle cause te tient le plus à cœur ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "amour",
+    "mode_scope": "couple",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quel est ton souvenir préféré de notre dernière semaine ensemble ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "amitie",
+    "mode_scope": "amis",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Sur quoi comptes-tu le plus sur moi ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "futur",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quelle peur liée au futur essaies-tu de dépasser en ce moment ?"
+  },
+  {
+    "content_type": "question",
+    "category": "mieux_connaitre",
+    "subcategory": "quotidien",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quel petit rituel du matin ne pourrais-tu pas sauter ?"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "one_piece",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Comment s'appelle le grand méchant final que Luffy vise à devenir plus fort que ?",
+    "answer": "Le Gouvernement Mondial et les Empereurs (Yonko) selon l'arc",
+    "manga_series": "One Piece"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "naruto",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quel village Sasuke fuit-il pour rejoindre Orochimaru ?",
+    "answer": "Konoha",
+    "manga_series": "Naruto"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "attaque_titans",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Derrière quels murs vivent les personnages au début de la série ?",
+    "answer": "Mur Maria, Rose et Sina",
+    "manga_series": "L'Attaque des Titans"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "demon_slayer",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quelle est la couleur de la lame du sabre de Tanjiro ?",
+    "answer": "Noire (nichirin noir)",
+    "manga_series": "Demon Slayer"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "my_hero_academia",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Comment appelle-t-on les pouvoirs spéciaux dans My Hero Academia ?",
+    "answer": "Les Quirks (Alters en VF)",
+    "manga_series": "My Hero Academia"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "fairy_tail",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quel est le nom de la guilde principale de la série ?",
+    "answer": "Fairy Tail",
+    "manga_series": "Fairy Tail"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "dragon_ball",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Quel est le nom de la technique de destruction ultime de Goku, boule d'énergie bleue ?",
+    "answer": "Le Kaméhaméha",
+    "manga_series": "Dragon Ball"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "hunter_x_hunter",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel est le nom de la famille d'assassins de Killua ?",
+    "answer": "Les Zoldyck",
+    "manga_series": "Hunter x Hunter"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "spy_x_family",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "difficile",
+    "text": "Quel est le nom de code de l'épouse assassin dans Spy x Family ?",
+    "answer": "Thorn Princess (Yor Forger)",
+    "manga_series": "Spy x Family"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "tokyo_ghoul",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "De quoi se nourrissent les goules dans Tokyo Ghoul ?",
+    "answer": "De chair humaine",
+    "manga_series": "Tokyo Ghoul"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "histoire",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "impossible",
+    "text": "Quel est le nom du dernier empereur byzantin, mort lors de la chute de Constantinople en 1453 ?",
+    "answer": "Constantin XI Paléologue"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "histoire",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "impossible",
+    "text": "En quelle année exacte a été signé le traité de Tordesillas partageant le Nouveau Monde entre l'Espagne et le Portugal ?",
+    "answer": "1494"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "geographie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "impossible",
+    "text": "Quelle est la capitale administrative des Pays-Bas (différente de la capitale constitutionnelle) ?",
+    "answer": "La Haye"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "geographie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "impossible",
+    "text": "Quel est le point culminant de l'Afrique ?",
+    "answer": "Le Kilimandjaro"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "sciences",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "impossible",
+    "text": "Quel est le nom du physicien qui a formulé le principe d'incertitude en mécanique quantique ?",
+    "answer": "Werner Heisenberg"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "sciences",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "impossible",
+    "text": "Quelle est la demi-vie du carbone 14, utilisée pour la datation ?",
+    "answer": "Environ 5 730 ans"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "arts",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "impossible",
+    "text": "Quel peintre flamand a réalisé le triptyque 'Le Jardin des délices' ?",
+    "answer": "Jérôme Bosch"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "litterature",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "impossible",
+    "text": "Quel auteur japonais a écrit 'La Ballade de Narayama' ?",
+    "answer": "Shichirō Fukazawa"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "musique",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "impossible",
+    "text": "Quelle symphonie de Beethoven est restée inachevée à sa mort ?",
+    "answer": "La 10e symphonie"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "sport",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "impossible",
+    "text": "Quel joueur d'échecs a été champion du monde le plus jeune de l'histoire ?",
+    "answer": "Garry Kasparov (à 22 ans, en 1985)"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "insolite",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "impossible",
+    "text": "Quel est le nom du seul mammifère capable de vol soutenu ?",
+    "answer": "La chauve-souris"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "histoire",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "impossible",
+    "text": "Quel pharaon égyptien a régné le plus longtemps (environ 66 ans) ?",
+    "answer": "Ramsès II"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "geographie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "impossible",
+    "text": "Quel est le seul pays au monde à avoir un drapeau non rectangulaire ?",
+    "answer": "Le Népal"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "sciences",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "impossible",
+    "text": "Quel est le nom de l'unité de mesure de la radioactivité dans le système international ?",
+    "answer": "Le Becquerel"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "cinema",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "impossible",
+    "text": "Quel film a été le premier long-métrage d'animation de l'histoire du cinéma (1917, aujourd'hui perdu) ?",
+    "answer": "El Apóstol (Argentine)"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "litterature",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "impossible",
+    "text": "Quel est le vrai nom de l'auteur George Orwell ?",
+    "answer": "Eric Arthur Blair"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "musique",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "impossible",
+    "text": "Dans quelle tonalité est écrite la 5e symphonie de Beethoven ?",
+    "answer": "Do mineur"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "histoire",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "impossible",
+    "text": "Quel était le nom de code de l'opération de débarquement allié en Normandie en 1944 ?",
+    "answer": "Overlord"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "sciences",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "impossible",
+    "text": "Quel chimiste français a formulé la loi de conservation de la masse ?",
+    "answer": "Antoine Lavoisier"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "geographie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "impossible",
+    "text": "Quelle est la fosse océanique la plus profonde du monde ?",
+    "answer": "La fosse des Mariannes"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "one_piece",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "impossible",
+    "text": "Quel est le nom du village natal de Nico Robin, entièrement rayé de la carte ?",
+    "answer": "Ohara",
+    "manga_series": "One Piece"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "naruto",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "impossible",
+    "text": "Quel est le nom complet de la technique interdite qui invoque le dieu de la mort dans Naruto ?",
+    "answer": "Shiki Fūjin",
+    "manga_series": "Naruto"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "attaque_titans",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "impossible",
+    "text": "Quel est le nom du premier roi muré, fondateur de la lignée royale d'Eldia ?",
+    "answer": "Ymir Fritz",
+    "manga_series": "L'Attaque des Titans"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "hunter_x_hunter",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "impossible",
+    "text": "Quel est le nom de la catégorie de Nen que possède Gon (renforcement) ?",
+    "answer": "Kyōka (renforcement)",
+    "manga_series": "Hunter x Hunter"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "bleach",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "impossible",
+    "text": "Quel est le nom du roi spirituel gouvernant la Soul Society dans Bleach ?",
+    "answer": "Le Roi des Âmes (Soul King)",
+    "manga_series": "Bleach"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "jujutsu_kaisen",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "impossible",
+    "text": "Quel est le nom complet de la technique de Sukuna qui divise l'espace ?",
+    "answer": "Domaine Malléable : Cuisine Mahoraga / Dismantle-Cleave selon les techniques",
+    "manga_series": "Jujutsu Kaisen"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "philosophie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "impossible",
+    "text": "Quel philosophe est l'auteur du concept de 'volonté de puissance' ?",
+    "answer": "Friedrich Nietzsche"
+  },
+  {
+    "content_type": "question",
+    "category": "general",
+    "subcategory": "philosophie",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "impossible",
+    "text": "Dans quel ouvrage Emmanuel Kant développe-t-il l'impératif catégorique ?",
+    "answer": "Fondements de la métaphysique des mœurs"
+  }
+]
