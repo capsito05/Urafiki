@@ -103,7 +103,7 @@ export function SessionPage({ userId, coupleId, mode }: SessionPageProps) {
     if (currentIndex + 1 < items.length) {
       setCurrentIndex((i) => i + 1);
     } else if (sessionId) {
-      await endSession(sessionId);
+      await endSession(sessionId, userId, coupleId);
       setFinished(true);
     }
   };

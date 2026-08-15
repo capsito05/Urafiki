@@ -1,5 +1,6 @@
 import { useState, useCallback } from 'react';
 import { supabase } from '../lib/supabaseClient';
+import { checkAnswer, hasAutoCorrection } from '../lib/scoring';
 import type { Category, ContentItem, GameSession, Mode, SessionItem } from '../types';
 
 export interface StartSessionParams {
@@ -86,8 +87,63 @@ export function useSession() {
     return (data ?? []) as SessionItem[];
   }, []);
 
-  const endSession = useCallback(async (sessionId: string) => {
+  /**
+   * Termine la session ET enregistre les statistiques (victoire/défaite/nul
+   * pour l'utilisateur courant). Avant ce correctif, rien n'écrivait jamais
+   * dans la table "stats", donc l'onglet Statistiques restait vide.
+   */
+  const endSession = useCallback(async (sessionId: string, userId: string, coupleId: string | null) => {
     await supabase.from('sessions').update({ status: 'terminee', ended_at: new Date().toISOString() }).eq('id', sessionId);
+
+    const { data: session } = await supabase.from('sessions').select('category').eq('id', sessionId).single();
+    const category = session?.category as string | undefined;
+    if (!category) return;
+
+    const { data: items } = await supabase
+      .from('session_items')
+      .select('id, content:content_items(answer, type)')
+      .eq('session_id', sessionId);
+
+    const itemIds = (items ?? []).map((i: any) => i.id);
+    const gradableItemIds = new Set(
+      (items ?? []).filter((i: any) => hasAutoCorrection(i.content?.answer)).map((i: any) => i.id)
+    );
+
+    let result: 'victoire' | 'defaite' | 'nul' | null = null;
+
+    if (gradableItemIds.size > 0 && itemIds.length > 0) {
+      const { data: allAnswers } = await supabase
+        .from('session_answers')
+        .select('session_item_id, user_id, answer')
+        .in('session_item_id', itemIds);
+
+      const contentById = new Map((items ?? []).map((i: any) => [i.id, i.content]));
+      const scoreByUser = new Map<string, number>();
+      for (const a of allAnswers ?? []) {
+        if (!gradableItemIds.has(a.session_item_id)) continue;
+        const content = contentById.get(a.session_item_id);
+        const correct = content && checkAnswer(a.answer, content.answer, content.type);
+        scoreByUser.set(a.user_id, (scoreByUser.get(a.user_id) ?? 0) + (correct ? 1 : 0));
+      }
+
+      const myScore = scoreByUser.get(userId) ?? 0;
+      if (coupleId) {
+        const otherScores = Array.from(scoreByUser.entries())
+          .filter(([uid]) => uid !== userId)
+          .map(([, s]) => s);
+        if (otherScores.length > 0) {
+          const bestOther = Math.max(...otherScores);
+          result = myScore > bestOther ? 'victoire' : myScore < bestOther ? 'defaite' : 'nul';
+        }
+      }
+    }
+
+    await supabase.rpc('record_session_stats', {
+      p_user_id: userId,
+      p_couple_id: coupleId,
+      p_category: category,
+      p_result: result,
+    });
   }, []);
 
   const getSubcategories = useCallback(async (category: Category): Promise<string[]> => {

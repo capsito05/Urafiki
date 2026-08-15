@@ -1,9 +1,12 @@
-import { useEffect, useState, useCallback } from 'react';
+import { useEffect, useState, useCallback, useMemo } from 'react';
 import { supabase } from '../lib/supabaseClient';
 import type { Couple, Mode } from '../types';
 
+const ACTIVE_GROUP_KEY = 'urafiki_active_group_id';
+
 export function useCouple(userId: string | null) {
-  const [couple, setCouple] = useState<Couple | null>(null);
+  const [groups, setGroups] = useState<Couple[]>([]);
+  const [activeId, setActiveId] = useState<string | null>(() => localStorage.getItem(ACTIVE_GROUP_KEY));
   const [loading, setLoading] = useState(true);
 
   const fetchCouple = useCallback(async () => {
@@ -12,16 +15,27 @@ export function useCouple(userId: string | null) {
     const { data } = await supabase
       .from('couple_members')
       .select('couple_id, couples(*)')
-      .eq('user_id', userId)
-      .limit(1)
-      .maybeSingle();
-    setCouple((data?.couples as unknown as Couple) ?? null);
+      .eq('user_id', userId);
+    const all = (data ?? []).map((d) => d.couples as unknown as Couple).filter(Boolean);
+    setGroups(all);
     setLoading(false);
   }, [userId]);
 
   useEffect(() => {
     fetchCouple();
   }, [fetchCouple]);
+
+  // Le groupe actif : celui choisi manuellement (sauvegardé en local) s'il existe
+  // toujours parmi les groupes de l'utilisateur, sinon le premier disponible.
+  const couple = useMemo<Couple | null>(() => {
+    if (groups.length === 0) return null;
+    return groups.find((g) => g.id === activeId) ?? groups[0];
+  }, [groups, activeId]);
+
+  const setActiveGroup = useCallback((coupleId: string) => {
+    localStorage.setItem(ACTIVE_GROUP_KEY, coupleId);
+    setActiveId(coupleId);
+  }, []);
 
   /**
    * Crée un groupe. Le nom doit être unique (l'app affiche une erreur
@@ -63,6 +77,7 @@ export function useCouple(userId: string | null) {
     }
 
     await fetchCouple();
+    setActiveGroup(newCouple.id);
     return { couple: newCouple as Couple, error: null };
   };
 
@@ -90,8 +105,9 @@ export function useCouple(userId: string | null) {
     }
 
     await fetchCouple();
+    setActiveGroup(targetCouple.id);
     return { couple: targetCouple as Couple, error: null };
   };
 
-  return { couple, loading, createCouple, joinCouple, refetch: fetchCouple };
+  return { couple, groups, loading, createCouple, joinCouple, setActiveGroup, refetch: fetchCouple };
 }

@@ -354,6 +354,149 @@ input, textarea, select {
   padding: 2rem 1.5rem;
 }
 
+.results-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  margin-top: 1.5rem;
+  align-items: center;
+}
+
+.streak-badge {
+  display: inline-block;
+  background: var(--surface);
+  border-radius: 999px;
+  padding: 0.4em 1em;
+  font-weight: 700;
+  color: var(--accent-gold);
+  margin-bottom: 1rem;
+}
+
+.invitation-banner {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: var(--accent-gold);
+  color: #1a1408;
+  padding: 0.9rem 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.invitation-banner p {
+  margin: 0;
+}
+
+.invitation-banner-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.invitation-banner-actions button {
+  background: #1a1408;
+  color: var(--accent-gold);
+}
+
+.invitation-banner-actions button.link {
+  background: transparent;
+  color: #1a1408;
+  text-decoration: underline;
+}
+
+.groups-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.group-card {
+  background: var(--surface);
+  border-radius: var(--radius);
+  padding: 1rem 1.25rem;
+}
+
+.group-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.group-card-actions {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.group-members-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 0.75rem;
+  border-top: 1px solid var(--surface-light);
+  padding-top: 0.75rem;
+}
+
+.group-members-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.35rem 0;
+}
+
+button.link {
+  background: transparent;
+  color: var(--accent-gold);
+  padding: 0.4em 0;
+}
+
+button.danger-btn {
+  background: var(--error);
+  color: #2b0505;
+  margin-top: 1.5rem;
+}
+
+.reglages-page hr {
+  border: none;
+  border-top: 1px solid var(--surface-light);
+  margin: 1.5rem 0;
+}
+
+.inviter-page, .mes-groupes-page, .defi-du-jour-page {
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.ranking-block, .defi-stats-block {
+  background: var(--surface);
+  border-radius: var(--radius);
+  padding: 1.25rem;
+  margin-top: 1.25rem;
+}
+
+.ranking-list {
+  list-style: decimal;
+  padding-left: 1.25rem;
+  margin: 0.75rem 0 0;
+}
+
+.ranking-list li {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.3rem 0;
+}
+
+.ranking-list li.is-self {
+  color: var(--accent-gold);
+  font-weight: 700;
+}
+
 .quiz-card-choices {
   display: grid;
   gap: 0.6rem;
