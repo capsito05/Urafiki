@@ -9,6 +9,13 @@ interface CategorieProps {
   mode: Mode;
 }
 
+const CATEGORY_LABELS: Record<string, string> = {
+  general: 'Général',
+  jeux_ensemble: 'Jeux ensemble',
+  mieux_connaitre: 'Pour mieux se connaître',
+  manga: 'Manga / Anime',
+};
+
 const SUBCATEGORY_LABELS: Record<string, string> = {
   histoire: 'Histoire',
   geographie: 'Géographie',
@@ -44,6 +51,16 @@ const SUBCATEGORY_LABELS: Record<string, string> = {
   famille: 'Famille',
 };
 
+const STYLE_OPTIONS: { value: string; label: string }[] = [
+  { value: '', label: 'Tous les styles' },
+  { value: 'quiz', label: 'Quiz (QCM / vrai-faux)' },
+  { value: 'reponse_libre', label: 'Réponse libre' },
+  { value: 'enigme', label: 'Énigmes' },
+  { value: 'tu_preferes', label: 'Tu préfères' },
+  { value: 'discussion', label: 'Échange oral / discussion' },
+  { value: 'defi', label: 'Défis / gages' },
+];
+
 export function Categorie({ userId, coupleId, mode }: CategorieProps) {
   const { category } = useParams<{ category: Category }>();
   const navigate = useNavigate();
@@ -52,6 +69,7 @@ export function Categorie({ userId, coupleId, mode }: CategorieProps) {
   const [subcategories, setSubcategories] = useState<string[]>([]);
   const [subcategory, setSubcategory] = useState<string>('');
   const [level, setLevel] = useState<Level | ''>('');
+  const [style, setStyle] = useState<string>('');
   const [count, setCount] = useState(10);
   const [useTimer, setUseTimer] = useState(true);
   const [timePerItem, setTimePerItem] = useState(30);
@@ -72,6 +90,7 @@ export function Categorie({ userId, coupleId, mode }: CategorieProps) {
       category: category as Category,
       subcategory: subcategory || undefined,
       level: level || undefined,
+      style: style || undefined,
       count,
       timePerItem: useTimer ? timePerItem : undefined,
     });
@@ -82,19 +101,20 @@ export function Categorie({ userId, coupleId, mode }: CategorieProps) {
             category: category as Category,
             subcategory: subcategory || undefined,
             level: level || undefined,
+            style: style || undefined,
             count,
             timePerItem: useTimer ? timePerItem : undefined,
           },
         },
       });
     } else {
-      setError("Aucun contenu disponible pour cette sélection. Essaie d'élargir les filtres (thème ou niveau).");
+      setError("Aucun contenu disponible pour cette sélection. Essaie d'élargir les filtres (thème, niveau ou style).");
     }
   };
 
   return (
     <div className="categorie-config">
-      <h1>{category}</h1>
+      <h1>{category ? (CATEGORY_LABELS[category] ?? category) : ''}</h1>
 
       <label>
         Thème
@@ -104,6 +124,15 @@ export function Categorie({ userId, coupleId, mode }: CategorieProps) {
             <option key={s} value={s}>
               {SUBCATEGORY_LABELS[s] ?? s}
             </option>
+          ))}
+        </select>
+      </label>
+
+      <label>
+        Style de jeu
+        <select value={style} onChange={(e) => setStyle(e.target.value)}>
+          {STYLE_OPTIONS.map((s) => (
+            <option key={s.value} value={s.value}>{s.label}</option>
           ))}
         </select>
       </label>

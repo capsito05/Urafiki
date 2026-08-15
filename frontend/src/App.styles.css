@@ -497,6 +497,19 @@ button.danger-btn {
   font-weight: 700;
 }
 
+.variant-checkbox {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-top: 0.2rem;
+  font-weight: 400;
+}
+
+.variant-checkbox input {
+  width: auto;
+  margin: 0 0.4em 0 0;
+}
+
 .quiz-card-choices {
   display: grid;
   gap: 0.6rem;

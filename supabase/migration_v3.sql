@@ -211,6 +211,90 @@ end;
 $$ language plpgsql security definer;
 
 -- ---------------------------------------------------------
+-- 2.1 : filtre par "style de jeu" (quiz / réponse libre / énigmes /
+-- tu préfères / discussion), en plus du thème et du niveau déjà
+-- gérés par get_content_with_fallback. Nouvelles fonctions _v2 (au
+-- lieu de modifier les signatures existantes, ce qui créerait une
+-- ambiguïté de surcharge côté PostgREST) acceptant un p_style
+-- optionnel.
+-- ---------------------------------------------------------
+create or replace function public.get_unseen_content_v2(
+  p_category text,
+  p_subcategory text,
+  p_level text,
+  p_mode text,
+  p_couple_id uuid,
+  p_user_id uuid,
+  p_limit int,
+  p_style text default null
+)
+returns setof public.content_items as $$
+  select ci.* from public.content_items ci
+  where ci.category = p_category
+    and (p_subcategory is null or ci.subcategory = p_subcategory)
+    and (p_level is null or ci.level = p_level)
+    and ci.mode_scope in (p_mode, 'tous')
+    and (
+      p_style is null
+      or (p_style = 'quiz' and ci.type in ('qcm', 'vrai_faux', 'devinette'))
+      or (p_style = 'reponse_libre' and ci.type = 'reponse_libre')
+      or (p_style = 'enigme' and ci.content_type = 'enigme')
+      or (p_style = 'tu_preferes' and ci.type = 'tu_preferes')
+      or (p_style = 'discussion' and ci.type = 'discussion')
+      or (p_style = 'defi' and ci.content_type = 'defi')
+    )
+    and not exists (
+      select 1 from public.content_seen cs
+      where cs.content_id = ci.id
+        and (
+          (p_couple_id is not null and cs.couple_id = p_couple_id)
+          or (p_couple_id is null and cs.user_id = p_user_id)
+        )
+    )
+  order by random()
+  limit p_limit;
+$$ language sql security definer;
+
+create or replace function public.get_content_with_fallback_v2(
+  p_category text,
+  p_subcategory text,
+  p_level text,
+  p_mode text,
+  p_couple_id uuid,
+  p_user_id uuid,
+  p_limit int,
+  p_style text default null
+)
+returns setof public.content_items as $$
+declare
+  v_count int;
+begin
+  select count(*) into v_count from public.get_unseen_content_v2(p_category, p_subcategory, p_level, p_mode, p_couple_id, p_user_id, p_limit, p_style);
+  if v_count >= p_limit then
+    return query select * from public.get_unseen_content_v2(p_category, p_subcategory, p_level, p_mode, p_couple_id, p_user_id, p_limit, p_style);
+  else
+    return query
+    select ci.* from public.content_items ci
+    where ci.category = p_category
+      and (p_subcategory is null or ci.subcategory = p_subcategory)
+      and (p_level is null or ci.level = p_level)
+      and ci.mode_scope in (p_mode, 'tous')
+      and (
+        p_style is null
+        or (p_style = 'quiz' and ci.type in ('qcm', 'vrai_faux', 'devinette'))
+        or (p_style = 'reponse_libre' and ci.type = 'reponse_libre')
+        or (p_style = 'enigme' and ci.content_type = 'enigme')
+        or (p_style = 'tu_preferes' and ci.type = 'tu_preferes')
+        or (p_style = 'discussion' and ci.type = 'discussion')
+        or (p_style = 'defi' and ci.content_type = 'defi')
+      )
+    order by random()
+    limit p_limit;
+  end if;
+end;
+$$ language plpgsql security definer;
+
+-- ---------------------------------------------------------
 -- 2.5 : "Mes groupes" — un utilisateur peut appartenir à plusieurs
 -- groupes (couple_members le permettait déjà). Vue pratique pour
 -- lister tous les groupes d'un utilisateur avec le nombre de membres.

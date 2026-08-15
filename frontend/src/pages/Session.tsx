@@ -3,6 +3,7 @@ import { useLocation, useNavigate, useParams } from 'react-router-dom';
 import { useSession, type StartSessionParams } from '../hooks/useSession';
 import { useRealtimeAnswers } from '../hooks/useRealtimeAnswers';
 import { useCoupleMembers } from '../hooks/useCoupleMembers';
+import { useAnswerVariants } from '../hooks/useAnswerVariants';
 import { QuizCard } from '../components/QuizCard';
 import { RevealAnswer } from '../components/RevealAnswer';
 import { Timer } from '../components/Timer';
@@ -24,6 +25,7 @@ export function SessionPage({ userId, coupleId, mode }: SessionPageProps) {
   const replayParams = (location.state as { replayParams?: ReplayParams })?.replayParams;
   const { getSessionItems, endSession, startSession } = useSession();
   const { pseudos } = useCoupleMembers(coupleId);
+  const { getVariants, addVariant } = useAnswerVariants();
   const [replaying, setReplaying] = useState(false);
 
   const [items, setItems] = useState<SessionItem[]>([]);
@@ -72,13 +74,13 @@ export function SessionPage({ userId, coupleId, mode }: SessionPageProps) {
       const next = { ...s, total: s.total + 1 };
       if (hasAutoCorrection(content.answer)) {
         next.gradable += 1;
-        if (myAnswer && checkAnswer(myAnswer.answer, content.answer, content.type)) {
+        if (myAnswer && checkAnswer(myAnswer.answer, content.answer, content.type, getVariants(content.answer))) {
           next.correct += 1;
         }
       }
       return next;
     });
-  }, [revealed, currentItem, answers, userId]);
+  }, [revealed, currentItem, answers, userId, getVariants]);
 
   const handleSubmit = (answer: string) => {
     if (currentItem?.content?.type === 'discussion') {
@@ -162,7 +164,12 @@ export function SessionPage({ userId, coupleId, mode }: SessionPageProps) {
   const myAnswer = answers.find((a) => a.user_id === userId);
   const isCorrect =
     revealed && currentItem.content && hasAutoCorrection(currentItem.content.answer) && myAnswer
-      ? checkAnswer(myAnswer.answer, currentItem.content.answer, currentItem.content.type)
+      ? checkAnswer(
+          myAnswer.answer,
+          currentItem.content.answer,
+          currentItem.content.type,
+          getVariants(currentItem.content.answer)
+        )
       : null;
 
   return (
@@ -205,6 +212,10 @@ export function SessionPage({ userId, coupleId, mode }: SessionPageProps) {
             correctAnswer={currentItem.content?.answer}
             answerType={currentItem.content?.type}
             pseudos={pseudos}
+            knownVariants={getVariants(currentItem.content?.answer)}
+            onValidateVariant={(variant) =>
+              currentItem.content?.answer && addVariant(currentItem.content.answer, variant, userId)
+            }
           />
           <button onClick={handleNext}>
             {currentIndex + 1 < items.length ? 'Question suivante' : 'Voir le résultat'}

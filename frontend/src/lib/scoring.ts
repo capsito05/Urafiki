@@ -46,12 +46,23 @@ function normalize(s: string): string {
  * - Réponse libre / devinette : tolérance aux fautes de frappe ET aux variantes
  *   phonétiques plausibles (voir phoneticFold), avec une tolérance qui grandit
  *   légèrement avec la longueur du mot pour rester juste.
+ *
+ * `knownVariants` (optionnel) : réponses alternatives déjà validées par des
+ * joueurs pour cette réponse canonique (table answer_variants, 2.4) —
+ * acceptées telles quelles, en plus de la tolérance automatique.
  */
-export function checkAnswer(userAnswer: string, correctAnswer: string | null | undefined, type: string): boolean {
+export function checkAnswer(
+  userAnswer: string,
+  correctAnswer: string | null | undefined,
+  type: string,
+  knownVariants: string[] = []
+): boolean {
   if (!correctAnswer) return false; // Question ouverte sans réponse "juste" (philosophie, discussion, etc.)
 
   const a = normalize(userAnswer);
   const b = normalize(correctAnswer);
+
+  if (knownVariants.some((v) => normalize(v) === a)) return true;
 
   if (type === 'qcm' || type === 'vrai_faux' || type === 'tu_preferes') {
     return a === b;

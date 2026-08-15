@@ -10,6 +10,7 @@ export interface StartSessionParams {
   category: Category;
   subcategory?: string;
   level?: string;
+  style?: string; // 'quiz' | 'reponse_libre' | 'enigme' | 'tu_preferes' | 'discussion' | 'defi'
   count: number; // 1 à 30
   timePerItem?: number; // secondes, optionnel
 }
@@ -25,7 +26,7 @@ export function useSession() {
   const startSession = useCallback(async (params: StartSessionParams): Promise<GameSession | null> => {
     setCreating(true);
     try {
-      const { data: rpcData, error: rpcError } = await supabase.rpc('get_content_with_fallback', {
+      const { data: rpcData, error: rpcError } = await supabase.rpc('get_content_with_fallback_v2', {
         p_category: params.category,
         p_subcategory: params.subcategory ?? null,
         p_level: params.level ?? null,
@@ -33,6 +34,7 @@ export function useSession() {
         p_couple_id: params.coupleId,
         p_user_id: params.coupleId ? null : params.userId,
         p_limit: params.count,
+        p_style: params.style ?? null,
       });
       const candidates = rpcData as unknown as ContentItem[] | null;
 
@@ -117,12 +119,20 @@ export function useSession() {
         .select('session_item_id, user_id, answer')
         .in('session_item_id', itemIds);
 
+      const { data: variantRows } = await supabase.from('answer_variants').select('canonical_answer, variant');
+      const variantsByCanonical = new Map<string, string[]>();
+      for (const v of variantRows ?? []) {
+        const key = (v.canonical_answer as string).toLowerCase().trim();
+        variantsByCanonical.set(key, [...(variantsByCanonical.get(key) ?? []), v.variant as string]);
+      }
+
       const contentById = new Map((items ?? []).map((i: any) => [i.id, i.content]));
       const scoreByUser = new Map<string, number>();
       for (const a of allAnswers ?? []) {
         if (!gradableItemIds.has(a.session_item_id)) continue;
         const content = contentById.get(a.session_item_id);
-        const correct = content && checkAnswer(a.answer, content.answer, content.type);
+        const variants = content ? variantsByCanonical.get((content.answer as string).toLowerCase().trim()) ?? [] : [];
+        const correct = content && checkAnswer(a.answer, content.answer, content.type, variants);
         scoreByUser.set(a.user_id, (scoreByUser.get(a.user_id) ?? 0) + (correct ? 1 : 0));
       }
 
