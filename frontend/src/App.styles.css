@@ -302,9 +302,56 @@ input, textarea, select {
 }
 
 .quiz-card-text {
-  font-size: 1.15rem;
-  line-height: 1.5;
+  font-size: 1.45rem;
+  font-weight: 700;
+  line-height: 1.4;
   margin-bottom: 1.25rem;
+}
+
+@media (max-width: 480px) {
+  .quiz-card-text {
+    font-size: 1.25rem;
+  }
+}
+
+.quiz-card-defi-actions {
+  display: flex;
+  gap: 0.6rem;
+  margin-top: 0.5rem;
+}
+
+.quiz-card-defi-actions button.is-fait {
+  background: var(--success);
+  color: #06231a;
+}
+
+.quiz-card-defi-actions button.is-pas-fait {
+  background: var(--surface-light);
+  color: var(--text);
+}
+
+.quiz-card-discussion {
+  text-align: center;
+}
+
+.session-quit-btn {
+  background: transparent;
+  color: var(--text-muted);
+  border: 1px solid var(--surface-light);
+}
+
+.session-total-time {
+  color: var(--text-muted);
+  margin-top: 0.25rem;
+}
+
+.error-boundary {
+  max-width: 480px;
+  margin: 3rem auto;
+  text-align: center;
+  background: var(--surface);
+  border-radius: var(--radius);
+  padding: 2rem 1.5rem;
 }
 
 .quiz-card-choices {

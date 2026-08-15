@@ -16,19 +16,32 @@ export function QuizCard({ content, onSubmit, disabled }: QuizCardProps) {
     onSubmit(value);
   };
 
+  const isChoiceType = content.type === 'qcm' || content.type === 'tu_preferes';
+
   return (
     <div className="quiz-card">
       <div className="quiz-card-level">{content.level}</div>
       <p className="quiz-card-text">{content.text}</p>
 
-      {content.type === 'qcm' && content.variants?.choix ? (
+      {content.content_type === 'defi' ? (
+        <div className="quiz-card-defi-actions">
+          <button className="is-fait" disabled={disabled || submitted} onClick={() => handleSubmit('Fait')}>
+            ✅ Fait
+          </button>
+          <button className="is-pas-fait" disabled={disabled || submitted} onClick={() => handleSubmit('Pas fait')}>
+            ❌ Pas fait
+          </button>
+        </div>
+      ) : content.type === 'discussion' ? (
+        <div className="quiz-card-discussion">
+          <button disabled={disabled || submitted} onClick={() => handleSubmit('discute')}>
+            Discuté, suivant →
+          </button>
+        </div>
+      ) : isChoiceType && content.variants?.choix ? (
         <div className="quiz-card-choices">
           {content.variants.choix.map((choix) => (
-            <button
-              key={choix}
-              disabled={disabled || submitted}
-              onClick={() => handleSubmit(choix)}
-            >
+            <button key={choix} disabled={disabled || submitted} onClick={() => handleSubmit(choix)}>
               {choix}
             </button>
           ))}
@@ -52,7 +65,9 @@ export function QuizCard({ content, onSubmit, disabled }: QuizCardProps) {
         </div>
       )}
 
-      {submitted && <p className="quiz-card-waiting">Réponse envoyée, en attente de l'autre joueur...</p>}
+      {submitted && content.type !== 'discussion' && (
+        <p className="quiz-card-waiting">Réponse envoyée, en attente de l'autre joueur...</p>
+      )}
     </div>
   );
 }

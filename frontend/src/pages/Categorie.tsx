@@ -76,7 +76,17 @@ export function Categorie({ userId, coupleId, mode }: CategorieProps) {
       timePerItem: useTimer ? timePerItem : undefined,
     });
     if (session) {
-      navigate(`/session/${session.id}`);
+      navigate(`/session/${session.id}`, {
+        state: {
+          replayParams: {
+            category: category as Category,
+            subcategory: subcategory || undefined,
+            level: level || undefined,
+            count,
+            timePerItem: useTimer ? timePerItem : undefined,
+          },
+        },
+      });
     } else {
       setError("Aucun contenu disponible pour cette sélection. Essaie d'élargir les filtres (thème ou niveau).");
     }

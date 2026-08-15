@@ -4,6 +4,7 @@ import { useCouple } from './hooks/useCouple';
 import { useTheme } from './hooks/useTheme';
 import { Bubbles } from './components/Bubbles';
 import { ThemeSwitcher } from './components/ThemeSwitcher';
+import { ErrorBoundary } from './components/ErrorBoundary';
 import { AuthPage } from './pages/Auth';
 import { ChoixMode } from './pages/ChoixMode';
 import { RejoindreGroupe } from './pages/RejoindreGroupe';
@@ -42,18 +43,23 @@ function App() {
       <Bubbles />
       <ThemeSwitcher />
       <div className="app-content">
+        <ErrorBoundary>
         <Routes>
           <Route path="/" element={<Navigate to="/choix-mode" />} />
           <Route path="/choix-mode" element={<ChoixMode userId={user.id} />} />
           <Route path="/rejoindre-groupe" element={<RejoindreGroupe userId={user.id} />} />
           <Route path="/accueil" element={<Accueil mode={mode} />} />
           <Route path="/categorie/:category" element={<Categorie userId={user.id} coupleId={couple?.id ?? null} mode={mode} />} />
-          <Route path="/session/:sessionId" element={<SessionPage userId={user.id} pseudos={{}} />} />
+          <Route
+            path="/session/:sessionId"
+            element={<SessionPage userId={user.id} coupleId={couple?.id ?? null} mode={mode} />}
+          />
           <Route path="/chat" element={<ChatPage userId={user.id} coupleId={couple?.id ?? null} />} />
           <Route path="/statistiques" element={<Statistiques userId={user.id} coupleId={couple?.id ?? null} />} />
           <Route path="/defi-discret" element={<DefiDiscret userId={user.id} coupleId={couple?.id ?? null} />} />
           <Route path="/installer" element={<InstallPage />} />
         </Routes>
+        </ErrorBoundary>
       </div>
     </BrowserRouter>
   );

@@ -1,22 +1,30 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
-import { useNavigate, useParams } from 'react-router-dom';
-import { useSession } from '../hooks/useSession';
+import { useLocation, useNavigate, useParams } from 'react-router-dom';
+import { useSession, type StartSessionParams } from '../hooks/useSession';
 import { useRealtimeAnswers } from '../hooks/useRealtimeAnswers';
+import { useCoupleMembers } from '../hooks/useCoupleMembers';
 import { QuizCard } from '../components/QuizCard';
 import { RevealAnswer } from '../components/RevealAnswer';
 import { Timer } from '../components/Timer';
 import { checkAnswer, hasAutoCorrection } from '../lib/scoring';
-import type { SessionItem } from '../types';
+import type { Mode, SessionItem } from '../types';
 
 interface SessionPageProps {
   userId: string;
-  pseudos: Record<string, string>; // { userId: pseudo } des membres du couple
+  coupleId: string | null;
+  mode: Mode;
 }
 
-export function SessionPage({ userId, pseudos }: SessionPageProps) {
+type ReplayParams = Omit<StartSessionParams, 'userId' | 'coupleId' | 'mode'>;
+
+export function SessionPage({ userId, coupleId, mode }: SessionPageProps) {
   const { sessionId } = useParams<{ sessionId: string }>();
   const navigate = useNavigate();
-  const { getSessionItems, endSession } = useSession();
+  const location = useLocation();
+  const replayParams = (location.state as { replayParams?: ReplayParams })?.replayParams;
+  const { getSessionItems, endSession, startSession } = useSession();
+  const { pseudos } = useCoupleMembers(coupleId);
+  const [replaying, setReplaying] = useState(false);
 
   const [items, setItems] = useState<SessionItem[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -24,10 +32,18 @@ export function SessionPage({ userId, pseudos }: SessionPageProps) {
   const [timedOut, setTimedOut] = useState(false);
   const [finished, setFinished] = useState(false);
   const [score, setScore] = useState({ correct: 0, gradable: 0, total: 0 });
+  const [totalSeconds, setTotalSeconds] = useState(0);
   const scoredItemIds = useRef<Set<string>>(new Set());
+  const questionStartRef = useRef(Date.now());
 
   useEffect(() => {
     if (!sessionId) return;
+    setLoading(true);
+    setCurrentIndex(0);
+    setFinished(false);
+    setScore({ correct: 0, gradable: 0, total: 0 });
+    setTotalSeconds(0);
+    scoredItemIds.current = new Set();
     getSessionItems(sessionId).then((data) => {
       setItems(data);
       setLoading(false);
@@ -37,9 +53,10 @@ export function SessionPage({ userId, pseudos }: SessionPageProps) {
   const currentItem = items[currentIndex];
   const { answers, revealed, submitAnswer } = useRealtimeAnswers(currentItem?.id ?? null);
 
-  // Réinitialise l'état "timeout" à chaque nouvelle question
+  // Réinitialise l'état "timeout" et le chrono de la question à chaque nouvelle question
   useEffect(() => {
     setTimedOut(false);
+    questionStartRef.current = Date.now();
   }, [currentItem?.id]);
 
   // Calcule le score une seule fois par question, dès que les réponses sont révélées
@@ -64,6 +81,11 @@ export function SessionPage({ userId, pseudos }: SessionPageProps) {
   }, [revealed, currentItem, answers, userId]);
 
   const handleSubmit = (answer: string) => {
+    if (currentItem?.content?.type === 'discussion') {
+      // Pas de correction ni d'attente pour les échanges oraux : on avance directement.
+      handleNext();
+      return;
+    }
     submitAnswer(userId, answer);
   };
 
@@ -76,6 +98,8 @@ export function SessionPage({ userId, pseudos }: SessionPageProps) {
   }, [answers, userId, submitAnswer]);
 
   const handleNext = async () => {
+    const elapsed = Math.round((Date.now() - questionStartRef.current) / 1000);
+    setTotalSeconds((t) => t + elapsed);
     if (currentIndex + 1 < items.length) {
       setCurrentIndex((i) => i + 1);
     } else if (sessionId) {
@@ -84,10 +108,28 @@ export function SessionPage({ userId, pseudos }: SessionPageProps) {
     }
   };
 
+  const handleQuit = () => navigate('/choix-mode');
+
+  const handleReplay = async () => {
+    if (!replayParams) {
+      navigate('/accueil');
+      return;
+    }
+    setReplaying(true);
+    const session = await startSession({ userId, coupleId, mode, ...replayParams });
+    setReplaying(false);
+    if (session) {
+      navigate(`/session/${session.id}`, { state: { replayParams }, replace: true });
+    }
+  };
+
   if (loading) return <p>Chargement...</p>;
 
   if (finished) {
     const percent = score.gradable > 0 ? Math.round((score.correct / score.gradable) * 100) : null;
+    const minutes = Math.floor(totalSeconds / 60);
+    const secs = totalSeconds % 60;
+    const formattedTime = minutes > 0 ? `${minutes} min ${secs.toString().padStart(2, '0')} s` : `${secs} s`;
     return (
       <div className="session-page results-screen">
         <h1>Terminé ! 🎉</h1>
@@ -102,7 +144,15 @@ export function SessionPage({ userId, pseudos }: SessionPageProps) {
           <p>Session terminée — ce thème n'a pas de "bonnes réponses" à noter, c'était pour discuter et se découvrir !</p>
         )}
         <p className="hint">{items.length} question(s) au total.</p>
-        <button onClick={() => navigate('/accueil')}>Retour à l'accueil</button>
+        <p className="session-total-time">⏱ Temps total : {formattedTime}</p>
+        <div className="results-actions">
+          {replayParams && (
+            <button disabled={replaying} onClick={handleReplay}>
+              {replaying ? 'Préparation...' : '🔁 Rejouer'}
+            </button>
+          )}
+          <button className="link" onClick={() => navigate('/accueil')}>Retour à l'accueil</button>
+        </div>
       </div>
     );
   }
@@ -126,9 +176,10 @@ export function SessionPage({ userId, pseudos }: SessionPageProps) {
             {score.correct} / {score.gradable} pts
           </div>
         )}
+        <button className="session-quit-btn" onClick={handleQuit}>Quitter</button>
       </div>
 
-      {currentItem.time_limit ? (
+      {currentItem.time_limit && currentItem.content?.type !== 'discussion' ? (
         <Timer key={currentItem.id} seconds={currentItem.time_limit} onExpire={handleTimeout} />
       ) : null}
 

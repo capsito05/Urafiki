@@ -2,7 +2,7 @@ import { useState, useCallback } from 'react';
 import { supabase } from '../lib/supabaseClient';
 import type { Category, ContentItem, GameSession, Mode, SessionItem } from '../types';
 
-interface StartSessionParams {
+export interface StartSessionParams {
   userId: string;
   coupleId: string | null;
   mode: Mode;

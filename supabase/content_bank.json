@@ -97,7 +97,8 @@
     "type": "vrai_faux",
     "level": "moyen",
     "text": "Le corps humain contient plus de bactéries que de cellules humaines.",
-    "answer": "Vrai (à peu près à égalité selon les études récentes)"
+    "answer": "Vrai",
+    "explanation": "à peu près à égalité selon les études récentes"
   },
   {
     "content_type": "question",
@@ -180,7 +181,7 @@
     "category": "general",
     "subcategory": "philosophie",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "moyen",
     "text": "Quelle est, selon toi, la chose la plus importante dans la vie ?"
   },
@@ -189,7 +190,7 @@
     "category": "general",
     "subcategory": "philosophie",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "moyen",
     "text": "Penses-tu qu'il faut toujours dire la vérité, même si ça blesse ?"
   },
@@ -198,7 +199,7 @@
     "category": "general",
     "subcategory": "philosophie",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "difficile",
     "text": "Si tu pouvais savoir la date de ta mort, voudrais-tu la connaître ?"
   },
@@ -225,7 +226,7 @@
     "category": "general",
     "subcategory": "philosophie",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "difficile",
     "text": "« L'enfer, c'est les autres. » - Sartre. Es-tu d'accord avec cette phrase ? Pourquoi ?"
   },
@@ -234,7 +235,7 @@
     "category": "general",
     "subcategory": "philosophie",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "facile",
     "text": "Si tu devais garder un seul souvenir de ta vie, lequel choisirais-tu ?"
   },
@@ -261,7 +262,7 @@
     "category": "jeux_ensemble",
     "subcategory": "tu_preferes",
     "mode_scope": "tous",
-    "type": "qcm",
+    "type": "tu_preferes",
     "level": "facile",
     "text": "Tu préfères : la montagne ou la mer ?",
     "variants": {
@@ -276,7 +277,7 @@
     "category": "jeux_ensemble",
     "subcategory": "tu_preferes",
     "mode_scope": "couple",
-    "type": "qcm",
+    "type": "tu_preferes",
     "level": "moyen",
     "text": "Tu préfères : un dîner romantique ou un week-end aventure ?",
     "variants": {
@@ -291,18 +292,20 @@
     "category": "jeux_ensemble",
     "subcategory": "qui_de_nous_deux",
     "mode_scope": "couple",
-    "type": "qcm",
+    "type": "discussion",
     "level": "facile",
-    "text": "Qui de nous deux est le plus jaloux/se ?"
+    "text": "Qui de nous deux est le plus jaloux/se ?",
+    "answer": null
   },
   {
     "content_type": "question",
     "category": "jeux_ensemble",
     "subcategory": "qui_de_nous_deux",
     "mode_scope": "amis",
-    "type": "qcm",
+    "type": "discussion",
     "level": "facile",
-    "text": "Qui du groupe est le plus susceptible d'arriver en retard ?"
+    "text": "Qui du groupe est le plus susceptible d'arriver en retard ?",
+    "answer": null
   },
   {
     "content_type": "question",
@@ -391,7 +394,7 @@
     "category": "jeux_ensemble",
     "subcategory": "existentiel_jeu",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "moyen",
     "text": "Si tu devais recommencer ta vie, changerais-tu quelque chose ?"
   },
@@ -400,7 +403,7 @@
     "category": "mieux_connaitre",
     "subcategory": "enfance",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "facile",
     "text": "Quel est ton souvenir d'enfance préféré ?"
   },
@@ -409,7 +412,7 @@
     "category": "mieux_connaitre",
     "subcategory": "reves",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "moyen",
     "text": "Quel est un rêve que tu n'as jamais réalisé mais que tu aimerais accomplir ?"
   },
@@ -418,7 +421,7 @@
     "category": "mieux_connaitre",
     "subcategory": "peurs",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "moyen",
     "text": "Quelle est ta plus grande peur ?"
   },
@@ -427,7 +430,7 @@
     "category": "mieux_connaitre",
     "subcategory": "valeurs",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "difficile",
     "text": "Quelle valeur refuserais-tu de sacrifier, même pour de l'argent ?"
   },
@@ -436,7 +439,7 @@
     "category": "mieux_connaitre",
     "subcategory": "amour",
     "mode_scope": "couple",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "moyen",
     "text": "Qu'est-ce qui t'a fait tomber amoureux/se de moi ?"
   },
@@ -445,7 +448,7 @@
     "category": "mieux_connaitre",
     "subcategory": "amitie",
     "mode_scope": "amis",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "moyen",
     "text": "Qu'est-ce que tu apprécies le plus dans notre amitié ?"
   },
@@ -454,7 +457,7 @@
     "category": "mieux_connaitre",
     "subcategory": "futur",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "moyen",
     "text": "Où te vois-tu dans 10 ans ?"
   },
@@ -541,7 +544,8 @@
     "type": "vrai_faux",
     "level": "facile",
     "text": "Napoléon mesurait environ 1m50.",
-    "answer": "Faux, il mesurait environ 1m68, dans la moyenne de l'époque"
+    "answer": "Faux",
+    "explanation": "il mesurait environ 1m68, dans la moyenne de l'époque"
   },
   {
     "content_type": "question",
@@ -811,7 +815,8 @@
     "type": "vrai_faux",
     "level": "moyen",
     "text": "Le miel ne périme jamais.",
-    "answer": "Vrai, dans de bonnes conditions de conservation"
+    "answer": "Vrai",
+    "explanation": "dans de bonnes conditions de conservation"
   },
   {
     "content_type": "question",
@@ -868,7 +873,7 @@
     "category": "general",
     "subcategory": "philosophie",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "facile",
     "text": "Qu'est-ce qui te rend vraiment heureux/se au quotidien ?"
   },
@@ -877,7 +882,7 @@
     "category": "general",
     "subcategory": "philosophie",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "facile",
     "text": "Préfères-tu avoir raison ou être en paix ?"
   },
@@ -886,7 +891,7 @@
     "category": "general",
     "subcategory": "philosophie",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "moyen",
     "text": "Penses-tu que l'être humain est fondamentalement bon ou égoïste ?"
   },
@@ -895,7 +900,7 @@
     "category": "general",
     "subcategory": "philosophie",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "moyen",
     "text": "Est-ce que la fin justifie toujours les moyens ?"
   },
@@ -904,7 +909,7 @@
     "category": "general",
     "subcategory": "philosophie",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "moyen",
     "text": "Le bonheur est-il un choix ou une conséquence des circonstances ?"
   },
@@ -913,7 +918,7 @@
     "category": "general",
     "subcategory": "philosophie",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "difficile",
     "text": "Si l'intelligence artificielle devenait consciente, aurait-elle des droits ?"
   },
@@ -922,7 +927,7 @@
     "category": "general",
     "subcategory": "philosophie",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "difficile",
     "text": "Peut-on vraiment aimer quelqu'un sans jamais le/la comprendre entièrement ?"
   },
@@ -931,7 +936,7 @@
     "category": "general",
     "subcategory": "philosophie",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "difficile",
     "text": "« Je pense, donc je suis. » - Descartes. Que penses-tu de cette phrase ?"
   },
@@ -1021,7 +1026,7 @@
     "category": "jeux_ensemble",
     "subcategory": "tu_preferes",
     "mode_scope": "tous",
-    "type": "qcm",
+    "type": "tu_preferes",
     "level": "facile",
     "text": "Tu préfères : film ou série ?",
     "variants": {
@@ -1036,7 +1041,7 @@
     "category": "jeux_ensemble",
     "subcategory": "tu_preferes",
     "mode_scope": "tous",
-    "type": "qcm",
+    "type": "tu_preferes",
     "level": "facile",
     "text": "Tu préfères : petit-déjeuner sucré ou salé ?",
     "variants": {
@@ -1051,7 +1056,7 @@
     "category": "jeux_ensemble",
     "subcategory": "tu_preferes",
     "mode_scope": "tous",
-    "type": "qcm",
+    "type": "tu_preferes",
     "level": "moyen",
     "text": "Tu préfères : être riche et seul, ou pauvre et entouré ?",
     "variants": {
@@ -1066,7 +1071,7 @@
     "category": "jeux_ensemble",
     "subcategory": "tu_preferes",
     "mode_scope": "couple",
-    "type": "qcm",
+    "type": "tu_preferes",
     "level": "moyen",
     "text": "Tu préfères : recevoir des mots doux ou des câlins ?",
     "variants": {
@@ -1081,7 +1086,7 @@
     "category": "jeux_ensemble",
     "subcategory": "tu_preferes",
     "mode_scope": "tous",
-    "type": "qcm",
+    "type": "tu_preferes",
     "level": "difficile",
     "text": "Tu préfères : connaître ton avenir ou ton passé oublié ?",
     "variants": {
@@ -1096,36 +1101,40 @@
     "category": "jeux_ensemble",
     "subcategory": "qui_de_nous_deux",
     "mode_scope": "couple",
-    "type": "qcm",
+    "type": "discussion",
     "level": "facile",
-    "text": "Qui de nous deux est le/la plus romantique ?"
+    "text": "Qui de nous deux est le/la plus romantique ?",
+    "answer": null
   },
   {
     "content_type": "question",
     "category": "jeux_ensemble",
     "subcategory": "qui_de_nous_deux",
     "mode_scope": "couple",
-    "type": "qcm",
+    "type": "discussion",
     "level": "moyen",
-    "text": "Qui de nous deux dépense le plus d'argent en impulsif ?"
+    "text": "Qui de nous deux dépense le plus d'argent en impulsif ?",
+    "answer": null
   },
   {
     "content_type": "question",
     "category": "jeux_ensemble",
     "subcategory": "qui_de_nous_deux",
     "mode_scope": "amis",
-    "type": "qcm",
+    "type": "discussion",
     "level": "facile",
-    "text": "Qui du groupe raconte le mieux les histoires ?"
+    "text": "Qui du groupe raconte le mieux les histoires ?",
+    "answer": null
   },
   {
     "content_type": "question",
     "category": "jeux_ensemble",
     "subcategory": "qui_de_nous_deux",
     "mode_scope": "amis",
-    "type": "qcm",
+    "type": "discussion",
     "level": "moyen",
-    "text": "Qui du groupe serait le plus susceptible de survivre à une apocalypse zombie ?"
+    "text": "Qui du groupe serait le plus susceptible de survivre à une apocalypse zombie ?",
+    "answer": null
   },
   {
     "content_type": "question",
@@ -1243,7 +1252,7 @@
     "category": "jeux_ensemble",
     "subcategory": "existentiel_jeu",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "moyen",
     "text": "Si tu pouvais donner un seul conseil à ton toi de 15 ans, lequel serait-ce ?"
   },
@@ -1252,7 +1261,7 @@
     "category": "jeux_ensemble",
     "subcategory": "existentiel_jeu",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "difficile",
     "text": "Penses-tu que tout arrive pour une raison ?"
   },
@@ -1261,7 +1270,7 @@
     "category": "mieux_connaitre",
     "subcategory": "enfance",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "facile",
     "text": "Quel était ton jeu préféré quand tu étais enfant ?"
   },
@@ -1270,7 +1279,7 @@
     "category": "mieux_connaitre",
     "subcategory": "enfance",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "moyen",
     "text": "Quel adulte a le plus marqué ton enfance et pourquoi ?"
   },
@@ -1279,7 +1288,7 @@
     "category": "mieux_connaitre",
     "subcategory": "reves",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "facile",
     "text": "Quelle destination de voyage fait le plus rêver ?"
   },
@@ -1288,7 +1297,7 @@
     "category": "mieux_connaitre",
     "subcategory": "reves",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "difficile",
     "text": "Si l'argent n'était pas un problème, quel métier ferais-tu ?"
   },
@@ -1297,7 +1306,7 @@
     "category": "mieux_connaitre",
     "subcategory": "peurs",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "facile",
     "text": "As-tu une phobie ? Laquelle ?"
   },
@@ -1306,7 +1315,7 @@
     "category": "mieux_connaitre",
     "subcategory": "peurs",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "difficile",
     "text": "Qu'est-ce qui te fait le plus peur dans le fait de vieillir ?"
   },
@@ -1315,7 +1324,7 @@
     "category": "mieux_connaitre",
     "subcategory": "valeurs",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "moyen",
     "text": "Quelle qualité admires-tu le plus chez les autres ?"
   },
@@ -1324,7 +1333,7 @@
     "category": "mieux_connaitre",
     "subcategory": "valeurs",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "difficile",
     "text": "Pardonnerais-tu une trahison si la personne changeait vraiment ?"
   },
@@ -1333,7 +1342,7 @@
     "category": "mieux_connaitre",
     "subcategory": "amour",
     "mode_scope": "couple",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "facile",
     "text": "C'est quoi pour toi une preuve d'amour au quotidien ?"
   },
@@ -1342,7 +1351,7 @@
     "category": "mieux_connaitre",
     "subcategory": "amour",
     "mode_scope": "couple",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "difficile",
     "text": "Qu'est-ce que je pourrais faire pour te rendre encore plus heureux/se ?"
   },
@@ -1351,7 +1360,7 @@
     "category": "mieux_connaitre",
     "subcategory": "amitie",
     "mode_scope": "amis",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "facile",
     "text": "Quelle est la qualité qui définit le mieux notre amitié ?"
   },
@@ -1360,7 +1369,7 @@
     "category": "mieux_connaitre",
     "subcategory": "amitie",
     "mode_scope": "amis",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "difficile",
     "text": "Y a-t-il quelque chose que tu n'as jamais osé me dire ?"
   },
@@ -1369,7 +1378,7 @@
     "category": "mieux_connaitre",
     "subcategory": "futur",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "facile",
     "text": "Quel est ton projet le plus excitant pour l'année qui vient ?"
   },
@@ -1378,7 +1387,7 @@
     "category": "mieux_connaitre",
     "subcategory": "futur",
     "mode_scope": "couple",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "difficile",
     "text": "Comment imagines-tu notre vie dans 10 ans ?"
   },
@@ -1477,7 +1486,7 @@
     "mode_scope": "tous",
     "type": "reponse_libre",
     "level": "facile",
-    "text": "Quel est le métier du héros Tanjiro avant de devenir pourfendeur ?",
+    "text": "Dans Demon Slayer, quel est le métier du héros Tanjiro avant de devenir pourfendeur ?",
     "answer": "Marchand de charbon",
     "manga_series": "Demon Slayer"
   },
@@ -1640,7 +1649,8 @@
     "type": "vrai_faux",
     "level": "facile",
     "text": "Les pyramides d'Égypte ont été construites par des esclaves selon les découvertes archéologiques récentes.",
-    "answer": "Faux, plutôt par des ouvriers payés"
+    "answer": "Faux",
+    "explanation": "plutôt par des ouvriers payés"
   },
   {
     "content_type": "question",
@@ -1820,7 +1830,8 @@
     "type": "vrai_faux",
     "level": "facile",
     "text": "Les chauves-souris sont aveugles.",
-    "answer": "Faux, elles voient mais utilisent aussi l'écholocation"
+    "answer": "Faux",
+    "explanation": "elles voient mais utilisent aussi l'écholocation"
   },
   {
     "content_type": "question",
@@ -2117,7 +2128,7 @@
     "category": "general",
     "subcategory": "philosophie",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "facile",
     "text": "Qu'est-ce qui te fait te sentir vraiment toi-même ?"
   },
@@ -2126,7 +2137,7 @@
     "category": "general",
     "subcategory": "philosophie",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "facile",
     "text": "Préfères-tu vivre 100 ans sans amour ou 50 ans avec ?"
   },
@@ -2135,7 +2146,7 @@
     "category": "general",
     "subcategory": "philosophie",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "moyen",
     "text": "Penses-tu que le destin existe ou que tout est le fruit du hasard ?"
   },
@@ -2144,7 +2155,7 @@
     "category": "general",
     "subcategory": "philosophie",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "moyen",
     "text": "Est-ce qu'un mensonge par omission est aussi grave qu'un mensonge direct ?"
   },
@@ -2153,7 +2164,7 @@
     "category": "general",
     "subcategory": "philosophie",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "moyen",
     "text": "Peut-on être heureux seul, sans lien social ?"
   },
@@ -2162,7 +2173,7 @@
     "category": "general",
     "subcategory": "philosophie",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "difficile",
     "text": "Si tu pouvais effacer un souvenir douloureux, le ferais-tu, même s'il t'a construit ?"
   },
@@ -2171,7 +2182,7 @@
     "category": "general",
     "subcategory": "philosophie",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "difficile",
     "text": "« On ne se baigne jamais deux fois dans le même fleuve. » - Héraclite. Qu'en penses-tu ?"
   },
@@ -2180,7 +2191,7 @@
     "category": "general",
     "subcategory": "philosophie",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "difficile",
     "text": "La liberté totale rend-elle vraiment heureux ?"
   },
@@ -2279,7 +2290,7 @@
     "category": "jeux_ensemble",
     "subcategory": "tu_preferes",
     "mode_scope": "tous",
-    "type": "qcm",
+    "type": "tu_preferes",
     "level": "facile",
     "text": "Tu préfères : plage ou piscine ?",
     "variants": {
@@ -2294,7 +2305,7 @@
     "category": "jeux_ensemble",
     "subcategory": "tu_preferes",
     "mode_scope": "tous",
-    "type": "qcm",
+    "type": "tu_preferes",
     "level": "facile",
     "text": "Tu préfères : chien ou chat ?",
     "variants": {
@@ -2309,7 +2320,7 @@
     "category": "jeux_ensemble",
     "subcategory": "tu_preferes",
     "mode_scope": "tous",
-    "type": "qcm",
+    "type": "tu_preferes",
     "level": "facile",
     "text": "Tu préfères : soirée cocooning ou soirée festive ?",
     "variants": {
@@ -2324,7 +2335,7 @@
     "category": "jeux_ensemble",
     "subcategory": "tu_preferes",
     "mode_scope": "tous",
-    "type": "qcm",
+    "type": "tu_preferes",
     "level": "moyen",
     "text": "Tu préfères : perdre l'odorat ou le goût ?",
     "variants": {
@@ -2339,7 +2350,7 @@
     "category": "jeux_ensemble",
     "subcategory": "tu_preferes",
     "mode_scope": "couple",
-    "type": "qcm",
+    "type": "tu_preferes",
     "level": "moyen",
     "text": "Tu préfères : qu'on économise pour un gros projet ou qu'on profite plus au quotidien ?",
     "variants": {
@@ -2354,7 +2365,7 @@
     "category": "jeux_ensemble",
     "subcategory": "tu_preferes",
     "mode_scope": "tous",
-    "type": "qcm",
+    "type": "tu_preferes",
     "level": "difficile",
     "text": "Tu préfères : vivre 1000 ans seul ou 80 ans entouré ?",
     "variants": {
@@ -2369,7 +2380,7 @@
     "category": "jeux_ensemble",
     "subcategory": "tu_preferes",
     "mode_scope": "tous",
-    "type": "qcm",
+    "type": "tu_preferes",
     "level": "difficile",
     "text": "Tu préfères : ne plus jamais mentir ou toujours savoir quand on te ment ?",
     "variants": {
@@ -2384,45 +2395,50 @@
     "category": "jeux_ensemble",
     "subcategory": "qui_de_nous_deux",
     "mode_scope": "couple",
-    "type": "qcm",
+    "type": "discussion",
     "level": "facile",
-    "text": "Qui de nous deux met le plus de temps à se préparer ?"
+    "text": "Qui de nous deux met le plus de temps à se préparer ?",
+    "answer": null
   },
   {
     "content_type": "question",
     "category": "jeux_ensemble",
     "subcategory": "qui_de_nous_deux",
     "mode_scope": "couple",
-    "type": "qcm",
+    "type": "discussion",
     "level": "moyen",
-    "text": "Qui de nous deux pardonne le plus facilement ?"
+    "text": "Qui de nous deux pardonne le plus facilement ?",
+    "answer": null
   },
   {
     "content_type": "question",
     "category": "jeux_ensemble",
     "subcategory": "qui_de_nous_deux",
     "mode_scope": "couple",
-    "type": "qcm",
+    "type": "discussion",
     "level": "difficile",
-    "text": "Qui de nous deux ferait le plus de sacrifices pour l'autre ?"
+    "text": "Qui de nous deux ferait le plus de sacrifices pour l'autre ?",
+    "answer": null
   },
   {
     "content_type": "question",
     "category": "jeux_ensemble",
     "subcategory": "qui_de_nous_deux",
     "mode_scope": "amis",
-    "type": "qcm",
+    "type": "discussion",
     "level": "moyen",
-    "text": "Qui du groupe garde le mieux les secrets ?"
+    "text": "Qui du groupe garde le mieux les secrets ?",
+    "answer": null
   },
   {
     "content_type": "question",
     "category": "jeux_ensemble",
     "subcategory": "qui_de_nous_deux",
     "mode_scope": "amis",
-    "type": "qcm",
+    "type": "discussion",
     "level": "difficile",
-    "text": "Qui du groupe changerait le plus si il/elle devenait riche du jour au lendemain ?"
+    "text": "Qui du groupe changerait le plus si il/elle devenait riche du jour au lendemain ?",
+    "answer": null
   },
   {
     "content_type": "question",
@@ -2598,7 +2614,7 @@
     "category": "jeux_ensemble",
     "subcategory": "existentiel_jeu",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "facile",
     "text": "Si demain était ton dernier jour, que ferais-tu ?"
   },
@@ -2607,7 +2623,7 @@
     "category": "jeux_ensemble",
     "subcategory": "existentiel_jeu",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "moyen",
     "text": "Penses-tu qu'on choisit vraiment qui on aime ?"
   },
@@ -2616,7 +2632,7 @@
     "category": "jeux_ensemble",
     "subcategory": "existentiel_jeu",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "difficile",
     "text": "Est-ce que le temps guérit vraiment toutes les blessures ?"
   },
@@ -2683,7 +2699,7 @@
     "category": "mieux_connaitre",
     "subcategory": "enfance",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "moyen",
     "text": "Quel était ton rêve de métier quand tu étais petit·e ?"
   },
@@ -2692,7 +2708,7 @@
     "category": "mieux_connaitre",
     "subcategory": "enfance",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "difficile",
     "text": "Y a-t-il un souvenir d'enfance que tu n'as jamais raconté à personne ?"
   },
@@ -2701,7 +2717,7 @@
     "category": "mieux_connaitre",
     "subcategory": "reves",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "moyen",
     "text": "Quel talent aimerais-tu développer si tu avais plus de temps ?"
   },
@@ -2710,7 +2726,7 @@
     "category": "mieux_connaitre",
     "subcategory": "reves",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "difficile",
     "text": "Quel rêve as-tu abandonné et regrettes-tu de l'avoir fait ?"
   },
@@ -2719,7 +2735,7 @@
     "category": "mieux_connaitre",
     "subcategory": "peurs",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "moyen",
     "text": "Qu'est-ce qui te met le plus mal à l'aise socialement ?"
   },
@@ -2728,7 +2744,7 @@
     "category": "mieux_connaitre",
     "subcategory": "peurs",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "difficile",
     "text": "Quelle est la chose que tu redoutes le plus de perdre ?"
   },
@@ -2737,7 +2753,7 @@
     "category": "mieux_connaitre",
     "subcategory": "valeurs",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "facile",
     "text": "Quelle est la qualité que tu détestes le plus chez les gens ?"
   },
@@ -2746,7 +2762,7 @@
     "category": "mieux_connaitre",
     "subcategory": "valeurs",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "moyen",
     "text": "Est-ce que tu penses que l'honnêteté doit toujours passer avant la gentillesse ?"
   },
@@ -2755,7 +2771,7 @@
     "category": "mieux_connaitre",
     "subcategory": "valeurs",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "difficile",
     "text": "Y a-t-il une règle que tu enfreindrais pour protéger quelqu'un que tu aimes ?"
   },
@@ -2764,7 +2780,7 @@
     "category": "mieux_connaitre",
     "subcategory": "amour",
     "mode_scope": "couple",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "facile",
     "text": "Quel geste tout simple te fait fondre à chaque fois ?"
   },
@@ -2773,7 +2789,7 @@
     "category": "mieux_connaitre",
     "subcategory": "amour",
     "mode_scope": "couple",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "moyen",
     "text": "Qu'est-ce qui a changé dans notre relation depuis le début, en bien ?"
   },
@@ -2782,7 +2798,7 @@
     "category": "mieux_connaitre",
     "subcategory": "amour",
     "mode_scope": "couple",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "difficile",
     "text": "Y a-t-il un besoin que tu n'exprimes pas assez dans notre couple ?"
   },
@@ -2791,7 +2807,7 @@
     "category": "mieux_connaitre",
     "subcategory": "amitie",
     "mode_scope": "amis",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "moyen",
     "text": "Qu'est-ce que tu changerais dans notre façon de communiquer ?"
   },
@@ -2800,7 +2816,7 @@
     "category": "mieux_connaitre",
     "subcategory": "amitie",
     "mode_scope": "amis",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "difficile",
     "text": "T'arrive-t-il de te comparer à moi ? Sur quoi ?"
   },
@@ -2809,7 +2825,7 @@
     "category": "mieux_connaitre",
     "subcategory": "futur",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "moyen",
     "text": "Quel est ton plus grand objectif pour les 5 prochaines années ?"
   },
@@ -2818,7 +2834,7 @@
     "category": "mieux_connaitre",
     "subcategory": "futur",
     "mode_scope": "amis",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "difficile",
     "text": "Comment imagines-tu notre amitié dans 20 ans ?"
   },
@@ -2827,7 +2843,7 @@
     "category": "mieux_connaitre",
     "subcategory": "quotidien",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "facile",
     "text": "Quel est ton petit plaisir du quotidien préféré ?"
   },
@@ -2836,7 +2852,7 @@
     "category": "mieux_connaitre",
     "subcategory": "quotidien",
     "mode_scope": "couple",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "moyen",
     "text": "Quelle habitude de la maison aimerais-tu qu'on change ensemble ?"
   },
@@ -2845,7 +2861,7 @@
     "category": "mieux_connaitre",
     "subcategory": "famille",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "moyen",
     "text": "Quelle tradition familiale aimerais-tu garder pour plus tard ?"
   },
@@ -2854,7 +2870,7 @@
     "category": "mieux_connaitre",
     "subcategory": "famille",
     "mode_scope": "couple",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "difficile",
     "text": "Quel type de parent penses-tu être, ou aimerais-tu être ?"
   },
@@ -2963,7 +2979,7 @@
     "mode_scope": "tous",
     "type": "reponse_libre",
     "level": "difficile",
-    "text": "Quel démon suprême est l'antagoniste principal de la série ?",
+    "text": "Dans Demon Slayer, quel démon suprême est l'antagoniste principal de la série ?",
     "answer": "Muzan Kibutsuji",
     "manga_series": "Demon Slayer"
   },
@@ -2995,7 +3011,7 @@
     "mode_scope": "tous",
     "type": "reponse_libre",
     "level": "moyen",
-    "text": "Comment s'appelle l'école pour héros que fréquente Deku ?",
+    "text": "Dans My Hero Academia, comment s'appelle l'école pour héros que fréquente Deku ?",
     "answer": "Yuei (U.A. High School)",
     "manga_series": "My Hero Academia"
   },
@@ -3006,7 +3022,7 @@
     "mode_scope": "tous",
     "type": "reponse_libre",
     "level": "difficile",
-    "text": "Quel est le nom de code du héros numéro 1 avant Deku, mentor de Deku ?",
+    "text": "Dans My Hero Academia, quel est le nom de code du héros numéro 1 avant Deku, mentor de Deku ?",
     "answer": "All Might",
     "manga_series": "My Hero Academia"
   },
@@ -3072,7 +3088,7 @@
     "mode_scope": "tous",
     "type": "reponse_libre",
     "level": "moyen",
-    "text": "Comment le héros Takemichi voyage-t-il dans le temps ?",
+    "text": "Dans Tokyo Revengers, comment le héros Takemichi voyage-t-il dans le temps ?",
     "answer": "En serrant quelqu'un dans ses bras (leap corporel)",
     "manga_series": "Tokyo Revengers"
   },
@@ -3083,7 +3099,7 @@
     "mode_scope": "tous",
     "type": "reponse_libre",
     "level": "facile",
-    "text": "Quel examen le héros Gon souhaite-t-il réussir au début de la série ?",
+    "text": "Dans Hunter x Hunter, quel examen le héros Gon souhaite-t-il réussir au début de la série ?",
     "answer": "L'examen de Hunter",
     "manga_series": "Hunter x Hunter"
   },
@@ -3170,7 +3186,7 @@
     "mode_scope": "tous",
     "type": "reponse_libre",
     "level": "moyen",
-    "text": "Que devient le héros Kaneki après sa transplantation d'organe ?",
+    "text": "Dans Tokyo Ghoul, que devient le héros Kaneki après sa transplantation d'organe ?",
     "answer": "Un semi-goule",
     "manga_series": "Tokyo Ghoul"
   },
@@ -3372,7 +3388,8 @@
     "type": "vrai_faux",
     "level": "moyen",
     "text": "On peut entendre la couleur du ciel changer selon les saisons (illusion connue).",
-    "answer": "Faux, c'est une fausse affirmation"
+    "answer": "Faux",
+    "explanation": "c'est une fausse affirmation"
   },
   {
     "content_type": "question",
@@ -3509,7 +3526,7 @@
     "category": "general",
     "subcategory": "philosophie",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "facile",
     "text": "Qu'est-ce que la réussite signifie vraiment pour toi ?"
   },
@@ -3518,7 +3535,7 @@
     "category": "general",
     "subcategory": "philosophie",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "moyen",
     "text": "Penses-tu qu'on peut changer profondément de personnalité, ou reste-t-on toujours le/la même ?"
   },
@@ -3527,7 +3544,7 @@
     "category": "general",
     "subcategory": "philosophie",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "moyen",
     "text": "Est-ce que la jalousie est toujours un signe d'amour, ou un défaut à combattre ?"
   },
@@ -3536,7 +3553,7 @@
     "category": "general",
     "subcategory": "philosophie",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "difficile",
     "text": "Si on pouvait vivre éternellement en bonne santé, est-ce que ce serait souhaitable ?"
   },
@@ -3545,7 +3562,7 @@
     "category": "general",
     "subcategory": "philosophie",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "difficile",
     "text": "« La vie est ce qui arrive pendant qu'on fait d'autres projets. » Qu'en penses-tu ?"
   },
@@ -3599,7 +3616,7 @@
     "category": "jeux_ensemble",
     "subcategory": "tu_preferes",
     "mode_scope": "tous",
-    "type": "qcm",
+    "type": "tu_preferes",
     "level": "facile",
     "text": "Tu préfères : lire un livre ou regarder un film ?",
     "variants": {
@@ -3614,7 +3631,7 @@
     "category": "jeux_ensemble",
     "subcategory": "tu_preferes",
     "mode_scope": "tous",
-    "type": "qcm",
+    "type": "tu_preferes",
     "level": "moyen",
     "text": "Tu préfères : être toujours en retard ou toujours trop en avance ?",
     "variants": {
@@ -3629,7 +3646,7 @@
     "category": "jeux_ensemble",
     "subcategory": "tu_preferes",
     "mode_scope": "couple",
-    "type": "qcm",
+    "type": "tu_preferes",
     "level": "difficile",
     "text": "Tu préfères : qu'on ait moins d'argent mais plus de temps ensemble, ou l'inverse ?",
     "variants": {
@@ -3644,18 +3661,20 @@
     "category": "jeux_ensemble",
     "subcategory": "qui_de_nous_deux",
     "mode_scope": "couple",
-    "type": "qcm",
+    "type": "discussion",
     "level": "moyen",
-    "text": "Qui de nous deux a le plus tendance à bouder ?"
+    "text": "Qui de nous deux a le plus tendance à bouder ?",
+    "answer": null
   },
   {
     "content_type": "question",
     "category": "jeux_ensemble",
     "subcategory": "qui_de_nous_deux",
     "mode_scope": "amis",
-    "type": "qcm",
+    "type": "discussion",
     "level": "difficile",
-    "text": "Qui du groupe serait élu leader si on formait une équipe pour une mission ?"
+    "text": "Qui du groupe serait élu leader si on formait une équipe pour une mission ?",
+    "answer": null
   },
   {
     "content_type": "question",
@@ -3734,7 +3753,7 @@
     "category": "jeux_ensemble",
     "subcategory": "existentiel_jeu",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "moyen",
     "text": "Crois-tu qu'on garde toujours une part d'enfant en nous ?"
   },
@@ -3743,7 +3762,7 @@
     "category": "mieux_connaitre",
     "subcategory": "enfance",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "facile",
     "text": "Quel dessin animé regardais-tu en boucle enfant ?"
   },
@@ -3752,7 +3771,7 @@
     "category": "mieux_connaitre",
     "subcategory": "reves",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "facile",
     "text": "Si tu pouvais apprendre une langue instantanément, laquelle choisirais-tu ?"
   },
@@ -3761,7 +3780,7 @@
     "category": "mieux_connaitre",
     "subcategory": "peurs",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "moyen",
     "text": "Quelle situation sociale te donne le plus d'anxiété ?"
   },
@@ -3770,7 +3789,7 @@
     "category": "mieux_connaitre",
     "subcategory": "valeurs",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "moyen",
     "text": "Quelle est la leçon de vie la plus importante qu'on t'ait apprise ?"
   },
@@ -3779,7 +3798,7 @@
     "category": "mieux_connaitre",
     "subcategory": "amour",
     "mode_scope": "couple",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "moyen",
     "text": "Comment aimes-tu recevoir de l'affection au quotidien ?"
   },
@@ -3788,7 +3807,7 @@
     "category": "mieux_connaitre",
     "subcategory": "amitie",
     "mode_scope": "amis",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "facile",
     "text": "Quel est le meilleur conseil que je t'ai donné ?"
   },
@@ -3797,7 +3816,7 @@
     "category": "mieux_connaitre",
     "subcategory": "futur",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "facile",
     "text": "Quelle nouvelle expérience aimerais-tu tenter cette année ?"
   },
@@ -3806,7 +3825,7 @@
     "category": "mieux_connaitre",
     "subcategory": "quotidien",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "moyen",
     "text": "Quel moment de la journée préfères-tu et pourquoi ?"
   },
@@ -3815,7 +3834,7 @@
     "category": "mieux_connaitre",
     "subcategory": "famille",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "facile",
     "text": "Qui est la personne de ta famille qui t'inspire le plus ?"
   },
@@ -3881,7 +3900,7 @@
     "mode_scope": "tous",
     "type": "reponse_libre",
     "level": "difficile",
-    "text": "Quel est le nom du meilleur ami de Yuji qui meurt au début de la série ?",
+    "text": "Dans Jujutsu Kaisen, quel est le nom du meilleur ami de Yuji qui meurt au début de la série ?",
     "answer": "Fushiguro Megumi (son camarade, pas un ami mort)",
     "manga_series": "Jujutsu Kaisen"
   },
@@ -4117,7 +4136,8 @@
     "type": "vrai_faux",
     "level": "moyen",
     "text": "Il pleut des diamants sur Neptune et Uranus selon certaines théories scientifiques.",
-    "answer": "Vrai, c'est une hypothèse sérieuse"
+    "answer": "Vrai",
+    "explanation": "c'est une hypothèse sérieuse"
   },
   {
     "content_type": "question",
@@ -4174,7 +4194,7 @@
     "category": "general",
     "subcategory": "philosophie",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "facile",
     "text": "Quelle est la plus belle qualité humaine selon toi ?"
   },
@@ -4183,7 +4203,7 @@
     "category": "general",
     "subcategory": "philosophie",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "moyen",
     "text": "Penses-tu que l'argent peut vraiment acheter le bonheur, même partiellement ?"
   },
@@ -4192,7 +4212,7 @@
     "category": "general",
     "subcategory": "philosophie",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "difficile",
     "text": "Est-ce que l'art a besoin d'un message pour avoir de la valeur ?"
   },
@@ -4228,7 +4248,7 @@
     "category": "jeux_ensemble",
     "subcategory": "tu_preferes",
     "mode_scope": "tous",
-    "type": "qcm",
+    "type": "tu_preferes",
     "level": "facile",
     "text": "Tu préfères : été ou hiver ?",
     "variants": {
@@ -4243,7 +4263,7 @@
     "category": "jeux_ensemble",
     "subcategory": "tu_preferes",
     "mode_scope": "tous",
-    "type": "qcm",
+    "type": "tu_preferes",
     "level": "moyen",
     "text": "Tu préfères : perdre tous tes souvenirs ou ne plus pouvoir en créer de nouveaux ?",
     "variants": {
@@ -4258,18 +4278,20 @@
     "category": "jeux_ensemble",
     "subcategory": "qui_de_nous_deux",
     "mode_scope": "couple",
-    "type": "qcm",
+    "type": "discussion",
     "level": "facile",
-    "text": "Qui de nous deux est le/la plus câlin·e ?"
+    "text": "Qui de nous deux est le/la plus câlin·e ?",
+    "answer": null
   },
   {
     "content_type": "question",
     "category": "jeux_ensemble",
     "subcategory": "qui_de_nous_deux",
     "mode_scope": "amis",
-    "type": "qcm",
+    "type": "discussion",
     "level": "moyen",
-    "text": "Qui du groupe organise le mieux les sorties ?"
+    "text": "Qui du groupe organise le mieux les sorties ?",
+    "answer": null
   },
   {
     "content_type": "question",
@@ -4329,7 +4351,7 @@
     "category": "jeux_ensemble",
     "subcategory": "existentiel_jeu",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "facile",
     "text": "Qu'est-ce qui te fait dire que la vie est belle malgré tout ?"
   },
@@ -4338,7 +4360,7 @@
     "category": "mieux_connaitre",
     "subcategory": "enfance",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "moyen",
     "text": "Quelle punition d'enfance te semble aujourd'hui complètement injuste ou drôle ?"
   },
@@ -4347,7 +4369,7 @@
     "category": "mieux_connaitre",
     "subcategory": "reves",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "difficile",
     "text": "Si tu pouvais rencontrer une personne, vivante ou morte, qui choisirais-tu ?"
   },
@@ -4356,7 +4378,7 @@
     "category": "mieux_connaitre",
     "subcategory": "peurs",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "facile",
     "text": "Préfères-tu affronter tes peurs ou les éviter ?"
   },
@@ -4365,7 +4387,7 @@
     "category": "mieux_connaitre",
     "subcategory": "valeurs",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "facile",
     "text": "Quelle cause te tient le plus à cœur ?"
   },
@@ -4374,7 +4396,7 @@
     "category": "mieux_connaitre",
     "subcategory": "amour",
     "mode_scope": "couple",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "facile",
     "text": "Quel est ton souvenir préféré de notre dernière semaine ensemble ?"
   },
@@ -4383,7 +4405,7 @@
     "category": "mieux_connaitre",
     "subcategory": "amitie",
     "mode_scope": "amis",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "moyen",
     "text": "Sur quoi comptes-tu le plus sur moi ?"
   },
@@ -4392,7 +4414,7 @@
     "category": "mieux_connaitre",
     "subcategory": "futur",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "difficile",
     "text": "Quelle peur liée au futur essaies-tu de dépasser en ce moment ?"
   },
@@ -4401,7 +4423,7 @@
     "category": "mieux_connaitre",
     "subcategory": "quotidien",
     "mode_scope": "tous",
-    "type": "reponse_libre",
+    "type": "discussion",
     "level": "facile",
     "text": "Quel petit rituel du matin ne pourrais-tu pas sauter ?"
   },
@@ -4434,7 +4456,7 @@
     "mode_scope": "tous",
     "type": "reponse_libre",
     "level": "facile",
-    "text": "Derrière quels murs vivent les personnages au début de la série ?",
+    "text": "Dans L'Attaque des Titans, derrière quels murs vivent les personnages au début de la série ?",
     "answer": "Mur Maria, Rose et Sina",
     "manga_series": "L'Attaque des Titans"
   },
@@ -4467,7 +4489,7 @@
     "mode_scope": "tous",
     "type": "reponse_libre",
     "level": "facile",
-    "text": "Quel est le nom de la guilde principale de la série ?",
+    "text": "Dans Fairy Tail, quel est le nom de la guilde principale de la série ?",
     "answer": "Fairy Tail",
     "manga_series": "Fairy Tail"
   },
