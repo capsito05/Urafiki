@@ -21,22 +21,39 @@
 -- Ordre : des tables dépendantes vers les tables de base, pour ne
 -- pas se heurter aux contraintes de clé étrangère (même si beaucoup
 -- ont déjà ON DELETE CASCADE depuis public.users).
-truncate table
-  public.session_answers,
-  public.session_items,
-  public.sessions,
-  public.content_seen,
-  public.defis_discrets,
-  public.messages,
-  public.favoris,
-  public.stats,
-  public.game_invitations,
-  public.daily_challenge_completions,
-  public.push_subscriptions,
-  public.answer_variants,
-  public.couple_members,
-  public.couples
-cascade;
+--
+-- Certaines de ces tables (game_invitations, daily_challenge_completions,
+-- push_subscriptions, answer_variants) n'existent que si migration_v3.sql
+-- a déjà été exécuté. Ce script est prévu pour tourner APRÈS
+-- migration_v3.sql (voir README.md), mais la boucle ci-dessous ignore
+-- silencieusement toute table absente, pour rester sûr quel que soit
+-- l'ordre réel d'exécution.
+do $$
+declare
+  tbl text;
+begin
+  foreach tbl in array array[
+    'public.session_answers',
+    'public.session_items',
+    'public.sessions',
+    'public.content_seen',
+    'public.defis_discrets',
+    'public.messages',
+    'public.favoris',
+    'public.stats',
+    'public.game_invitations',
+    'public.daily_challenge_completions',
+    'public.push_subscriptions',
+    'public.answer_variants',
+    'public.couple_members',
+    'public.couples'
+  ]
+  loop
+    if to_regclass(tbl) is not null then
+      execute format('truncate table %s cascade', tbl);
+    end if;
+  end loop;
+end $$;
 
 truncate table public.users cascade;
 

@@ -123,6 +123,9 @@ create trigger trg_notify_new_answer
 
 -- ---------------------------------------------------------
 -- "Tu as reçu une invitation à jouer"
+-- (public.game_invitations vient de migration_v3.sql ; ce bloc ne fait
+-- rien si ce fichier a été exécuté avant migration_v3.sql, plutôt que
+-- d'échouer avec "relation does not exist".)
 -- ---------------------------------------------------------
 create or replace function public.notify_new_invitation()
 returns trigger as $$
@@ -132,10 +135,13 @@ begin
 end;
 $$ language plpgsql security definer set search_path = public;
 
-drop trigger if exists trg_notify_new_invitation on public.game_invitations;
-create trigger trg_notify_new_invitation
-  after insert on public.game_invitations
-  for each row execute procedure public.notify_new_invitation();
+do $$
+begin
+  if to_regclass('public.game_invitations') is not null then
+    execute 'drop trigger if exists trg_notify_new_invitation on public.game_invitations';
+    execute 'create trigger trg_notify_new_invitation after insert on public.game_invitations for each row execute procedure public.notify_new_invitation()';
+  end if;
+end $$;
 
 -- =========================================================
 -- FIN — pour tester manuellement une fois configuré :
