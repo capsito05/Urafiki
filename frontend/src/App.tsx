@@ -29,6 +29,9 @@ function App() {
   const { user, loading, signOut } = useAuth();
   const { couple } = useCouple(user?.id ?? null);
   useTheme();
+  const { incoming, respond } = useGameInvitations(user?.id ?? null, couple?.id ?? null);
+  useChatNotifications(user?.id ?? null, couple?.id ?? null);
+  usePushNotifications(user?.id ?? null);
 
   if (loading) return <div className="app-loading">Chargement...</div>;
 
@@ -45,9 +48,6 @@ function App() {
   }
 
   const mode = couple?.mode ?? 'solo';
-  const { incoming, respond } = useGameInvitations(user.id, couple?.id ?? null);
-  useChatNotifications(user.id, couple?.id ?? null);
-  usePushNotifications(user.id);
 
   return (
     <BrowserRouter>
