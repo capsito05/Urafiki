@@ -63,7 +63,7 @@ function App() {
           <Route path="/accueil" element={<Accueil mode={mode} userId={user.id} coupleId={couple?.id ?? null} />} />
           <Route path="/categorie/:category" element={<Categorie userId={user.id} coupleId={couple?.id ?? null} mode={mode} />} />
           {couple?.id && (
-            <Route path="/inviter/:category" element={<Inviter userId={user.id} coupleId={couple.id} />} />
+            <Route path="/inviter/:category" element={<Inviter userId={user.id} coupleId={couple.id} mode={mode} />} />
           )}
           <Route
             path="/session/:sessionId"

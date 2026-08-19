@@ -13,6 +13,7 @@ export interface StartSessionParams {
   style?: string; // 'quiz' | 'reponse_libre' | 'enigme' | 'tu_preferes' | 'discussion' | 'defi'
   count: number; // 1 à 30
   timePerItem?: number; // secondes, optionnel
+  hot?: boolean; // contenu "hot" réservé au mode Couple
 }
 
 /**
@@ -26,7 +27,7 @@ export function useSession() {
   const startSession = useCallback(async (params: StartSessionParams): Promise<GameSession | null> => {
     setCreating(true);
     try {
-      const { data: rpcData, error: rpcError } = await supabase.rpc('get_content_with_fallback_v2', {
+      const { data: rpcData, error: rpcError } = await supabase.rpc('get_content_with_fallback_v3', {
         p_category: params.category,
         p_subcategory: params.subcategory ?? null,
         p_level: params.level ?? null,
@@ -35,6 +36,7 @@ export function useSession() {
         p_user_id: params.coupleId ? null : params.userId,
         p_limit: params.count,
         p_style: params.style ?? null,
+        p_hot: params.hot ?? false,
       });
       const candidates = rpcData as unknown as ContentItem[] | null;
 

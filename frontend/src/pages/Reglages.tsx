@@ -101,6 +101,10 @@ export function Reglages({ userId, onSignOut }: ReglagesProps) {
 
       <hr />
 
+      <button className="link" onClick={() => navigate('/mes-groupes')}>👥 Mes groupes</button>
+
+      <hr />
+
       <button className="link" onClick={handleSignOut}>Se déconnecter</button>
       <button className="danger-btn" onClick={handleDeleteAccount}>Supprimer mon compte</button>
     </div>

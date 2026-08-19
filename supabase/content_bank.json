@@ -8274,5 +8274,5058 @@
     "answer": "La Ligue des Vilains",
     "manga_series": "My Hero Academia",
     "temps_suggere": 30
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "dragon_ball",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "facile",
+    "text": "Qui est-ce ? Ce guerrier Saiyan élevé sur Terre est le héros principal de la série, capable de se transformer en Super Saiyan et de lancer un Kaméhaméha.",
+    "answer": "Goku",
+    "manga_series": "Dragon Ball"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "dragon_ball",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "facile",
+    "text": "Qui est-ce ? Prince déchu des Saiyans, fier et orgueilleux, il devient un rival puis un allié fidèle du héros principal.",
+    "answer": "Vegeta",
+    "manga_series": "Dragon Ball"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "dragon_ball",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "moyen",
+    "text": "Qui est-ce ? Ce guerrier vert à la peau alien peut se régénérer et allonger ses bras ; il devient le mentor du fils du héros.",
+    "answer": "Piccolo",
+    "manga_series": "Dragon Ball"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "dragon_ball",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "moyen",
+    "text": "Qui est-ce ? Génie inventrice aux cheveux bleus, elle crée le radar qui permet de localiser les boules de cristal.",
+    "answer": "Bulma",
+    "manga_series": "Dragon Ball"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "dragon_ball",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "moyen",
+    "text": "Qui est-ce ? Meilleur ami humain du héros depuis l'enfance, chauve, il finit par épouser une androïde.",
+    "answer": "Krillin",
+    "manga_series": "Dragon Ball"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "dragon_ball",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "moyen",
+    "text": "Qui est-ce ? Tyran extraterrestre tout-puissant à la peau blanche et violette, responsable de la destruction de la planète natale des Saiyans.",
+    "answer": "Freezer",
+    "manga_series": "Dragon Ball"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "dragon_ball",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "moyen",
+    "text": "Qui est-ce ? Créature bio-mécanique créée à partir des cellules des plus grands guerriers, il organise un tournoi pour prouver sa puissance.",
+    "answer": "Cell",
+    "manga_series": "Dragon Ball"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "dragon_ball",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "moyen",
+    "text": "Qui est-ce ? Créature rose et gélatineuse à l'apparence enfantine mais d'une puissance destructrice presque infinie.",
+    "answer": "Majin Buu",
+    "manga_series": "Dragon Ball"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "dragon_ball",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "facile",
+    "text": "Qui est-ce ? Fils aîné du héros principal, studieux mais capable de libérer une puissance cachée immense quand il se met en colère.",
+    "answer": "Gohan",
+    "manga_series": "Dragon Ball"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "dragon_ball",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "moyen",
+    "text": "Qui est-ce ? Fils du prince des Saiyans, il vient du futur pour prévenir les héros d'une menace à venir.",
+    "answer": "Trunks",
+    "manga_series": "Dragon Ball"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "dragon_ball",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "difficile",
+    "text": "Qui est-ce ? Épouse stricte du héros principal et mère exigeante, elle insiste pour que son fils étudie plutôt que de se battre.",
+    "answer": "Chi-Chi",
+    "manga_series": "Dragon Ball"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "dragon_ball",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "moyen",
+    "text": "Qui est-ce ? Vieux maître pervers aux lunettes de soleil, il a formé les héros aux arts martiaux dans leur jeunesse.",
+    "answer": "Maître Roshi",
+    "manga_series": "Dragon Ball"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "dragon_ball",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "difficile",
+    "text": "Qui est-ce ? Androïde blonde créée par un savant fou, initialement ennemie puis alliée des héros, elle épouse un guerrier chauve.",
+    "answer": "C-18",
+    "manga_series": "Dragon Ball"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "dragon_ball",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "difficile",
+    "text": "Qui est-ce ? Dieu de la destruction félin qui menace de détruire la Terre s'il ne trouve pas le meilleur plat de sa vie.",
+    "answer": "Beerus",
+    "manga_series": "Dragon Ball"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "dragon_ball",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "difficile",
+    "text": "Qui est-ce ? Ancien bandit du désert devenu joueur de baseball, souvent moqué pour être facilement vaincu au combat.",
+    "answer": "Yamcha",
+    "manga_series": "Dragon Ball"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "dragon_ball",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "moyen",
+    "text": "Qui est-ce ? Fille du champion du monde des arts martiaux, elle devient plus tard la femme du fils aîné du héros.",
+    "answer": "Videl",
+    "manga_series": "Dragon Ball"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "one_piece",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "facile",
+    "text": "Qui est-ce ? Capitaine pirate au chapeau de paille dont le corps peut s'étirer comme du caoutchouc, il rêve de devenir le roi des pirates.",
+    "answer": "Luffy",
+    "manga_series": "One Piece"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "one_piece",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "facile",
+    "text": "Qui est-ce ? Épéiste redoutable maniant trois sabres à la fois, toujours en train de se perdre malgré son excellent sens de l'orientation supposé.",
+    "answer": "Zoro",
+    "manga_series": "One Piece"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "one_piece",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "facile",
+    "text": "Qui est-ce ? Navigatrice de l'équipage au chapeau de paille, passionnée par l'argent et experte en cartographie.",
+    "answer": "Nami",
+    "manga_series": "One Piece"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "one_piece",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "moyen",
+    "text": "Qui est-ce ? Tireur d'élite fanfaron de l'équipage, fils d'un pirate légendaire, souvent lâche mais courageux quand il le faut.",
+    "answer": "Usopp",
+    "manga_series": "One Piece"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "one_piece",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "facile",
+    "text": "Qui est-ce ? Cuisinier de l'équipage au chapeau de paille, il ne se bat qu'avec ses jambes pour ne jamais abîmer ses mains.",
+    "answer": "Sanji",
+    "manga_series": "One Piece"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "one_piece",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "moyen",
+    "text": "Qui est-ce ? Renne ayant mangé un fruit du démon qui lui donne une apparence humanoïde, médecin de l'équipage.",
+    "answer": "Chopper",
+    "manga_series": "One Piece"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "one_piece",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "moyen",
+    "text": "Qui est-ce ? Archéologue capable de faire pousser des membres partout sur son corps, longtemps recherchée par le gouvernement mondial.",
+    "answer": "Robin",
+    "manga_series": "One Piece"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "one_piece",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "moyen",
+    "text": "Qui est-ce ? Charpentier cyborg de l'équipage au chapeau de paille, mi-homme mi-machine, toujours en pose 'super'.",
+    "answer": "Franky",
+    "manga_series": "One Piece"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "one_piece",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "moyen",
+    "text": "Qui est-ce ? Musicien squelette de l'équipage, revenu à la vie grâce à son fruit du démon après être mort seul en mer.",
+    "answer": "Brook",
+    "manga_series": "One Piece"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "one_piece",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "difficile",
+    "text": "Qui est-ce ? Homme-poisson karatéka, ancien capitaine des pirates du soleil, il rejoint plus tard l'équipage au chapeau de paille.",
+    "answer": "Jinbe",
+    "manga_series": "One Piece"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "one_piece",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "moyen",
+    "text": "Qui est-ce ? Frère adoptif du héros principal, commandant de flotte aux pouvoirs de feu, exécuté publiquement à Marineford.",
+    "answer": "Ace",
+    "manga_series": "One Piece"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "one_piece",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "moyen",
+    "text": "Qui est-ce ? Pirate roux légendaire qui a inspiré la vocation du héros principal en lui offrant son chapeau de paille.",
+    "answer": "Shanks",
+    "manga_series": "One Piece"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "one_piece",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "difficile",
+    "text": "Qui est-ce ? Pirate chirurgien capable de manipuler l'espace grâce à son fruit du démon, allié ponctuel du héros au chapeau de paille.",
+    "answer": "Trafalgar Law",
+    "manga_series": "One Piece"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "one_piece",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "difficile",
+    "text": "Qui est-ce ? Impératrice pirate d'une beauté redoutable, capable de pétrifier quiconque tombe amoureux d'elle.",
+    "answer": "Boa Hancock",
+    "manga_series": "One Piece"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "one_piece",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "difficile",
+    "text": "Qui est-ce ? Considéré comme l'homme le plus fort du monde, capitaine légendaire qui considère tout son équipage comme sa famille.",
+    "answer": "Barbe Blanche",
+    "manga_series": "One Piece"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "naruto",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "facile",
+    "text": "Qui est-ce ? Ninja turbulent au renard à neuf queues scellé en lui, il rêve de devenir le chef de son village.",
+    "answer": "Naruto",
+    "manga_series": "Naruto"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "naruto",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "facile",
+    "text": "Qui est-ce ? Rival et meilleur ami du héros principal, dernier survivant d'un puissant clan, obsédé par la vengeance.",
+    "answer": "Sasuke",
+    "manga_series": "Naruto"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "naruto",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "facile",
+    "text": "Qui est-ce ? Ninja médecin surpuissante, coéquipière des deux rivaux principaux, amoureuse de l'un d'eux.",
+    "answer": "Sakura",
+    "manga_series": "Naruto"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "naruto",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "moyen",
+    "text": "Qui est-ce ? Maître d'une équipe de jeunes ninjas, toujours en retard, il cache la moitié de son visage sous un masque et possède un œil copieur.",
+    "answer": "Kakashi",
+    "manga_series": "Naruto"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "naruto",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "moyen",
+    "text": "Qui est-ce ? Génie ninja qui a massacré tout son clan, frère aîné d'un des rivaux principaux, ses véritables motivations restent longtemps un mystère.",
+    "answer": "Itachi",
+    "manga_series": "Naruto"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "naruto",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "moyen",
+    "text": "Qui est-ce ? Ninja du désert portant un démon en lui, ancien ennemi devenu allié, entouré d'un sable protecteur.",
+    "answer": "Gaara",
+    "manga_series": "Naruto"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "naruto",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "moyen",
+    "text": "Qui est-ce ? Ninja timide au clan possédant un œil spécial, amoureuse en secret du héros principal depuis l'enfance.",
+    "answer": "Hinata",
+    "manga_series": "Naruto"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "naruto",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "moyen",
+    "text": "Qui est-ce ? Ninja légendaire un peu pervers, sensei du père du héros principal, auteur de romans pour adultes.",
+    "answer": "Jiraiya",
+    "manga_series": "Naruto"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "naruto",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "difficile",
+    "text": "Qui est-ce ? Ninja médecin légendaire, cinquième dirigeante de son village, célèbre pour ses paris toujours perdants.",
+    "answer": "Tsunade",
+    "manga_series": "Naruto"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "naruto",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "moyen",
+    "text": "Qui est-ce ? Ninja renégat obsédé par l'immortalité, il expérimente sur les corps humains pour obtenir toutes les techniques possibles.",
+    "answer": "Orochimaru",
+    "manga_series": "Naruto"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "naruto",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "difficile",
+    "text": "Qui est-ce ? Fondateur légendaire d'un puissant clan, antagoniste principal cherchant à plonger le monde dans une illusion parfaite.",
+    "answer": "Madara",
+    "manga_series": "Naruto"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "naruto",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "difficile",
+    "text": "Qui est-ce ? Coéquipier présumé mort d'un célèbre sensei masqué, révélé être derrière un plan machiavélique sous une identité secrète.",
+    "answer": "Obito",
+    "manga_series": "Naruto"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "naruto",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "moyen",
+    "text": "Qui est-ce ? Ninja incapable d'utiliser le chakra, il compense par un travail acharné et des techniques de combat rapproché extrêmes.",
+    "answer": "Rock Lee",
+    "manga_series": "Naruto"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "naruto",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "moyen",
+    "text": "Qui est-ce ? Ninja stratège au QI exceptionnel mais paresseux, sa technique lui permet de manipuler l'ombre de ses adversaires.",
+    "answer": "Shikamaru",
+    "manga_series": "Naruto"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "naruto",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "difficile",
+    "text": "Qui est-ce ? Chef d'une organisation criminelle, possède six corps contrôlés par un même esprit, il détruit le village du héros principal.",
+    "answer": "Pain",
+    "manga_series": "Naruto"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "naruto",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "difficile",
+    "text": "Qui est-ce ? Petit-fils du troisième dirigeant du village, il admire et copie sans cesse le héros principal de l'histoire.",
+    "answer": "Konohamaru",
+    "manga_series": "Naruto"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "hunter_x_hunter",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "facile",
+    "text": "Qui est-ce ? Jeune garçon parti à la recherche de son père disparu, en devenant Hunter comme lui.",
+    "answer": "Gon",
+    "manga_series": "Hunter x Hunter"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "hunter_x_hunter",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "facile",
+    "text": "Qui est-ce ? Meilleur ami du héros principal, issu d'une célèbre famille d'assassins, capable de manipuler l'électricité.",
+    "answer": "Killua",
+    "manga_series": "Hunter x Hunter"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "hunter_x_hunter",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "moyen",
+    "text": "Qui est-ce ? Dernier survivant de son clan aux yeux écarlates, il poursuit une vengeance contre ceux qui ont exterminé son peuple.",
+    "answer": "Kurapika",
+    "manga_series": "Hunter x Hunter"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "hunter_x_hunter",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "moyen",
+    "text": "Qui est-ce ? Membre du groupe du héros principal rêvant de devenir médecin après avoir perdu un ami faute de moyens financiers.",
+    "answer": "Leorio",
+    "manga_series": "Hunter x Hunter"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "hunter_x_hunter",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "moyen",
+    "text": "Qui est-ce ? Clown magicien imprévisible et dangereux, obsédé par les combats contre des adversaires au potentiel exceptionnel.",
+    "answer": "Hisoka",
+    "manga_series": "Hunter x Hunter"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "hunter_x_hunter",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "difficile",
+    "text": "Qui est-ce ? Chef charismatique d'une troupe de voleurs redoutés, capable de voler les capacités d'autrui.",
+    "answer": "Chrollo",
+    "manga_series": "Hunter x Hunter"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "hunter_x_hunter",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "difficile",
+    "text": "Qui est-ce ? Roi des Fourmis Chimères, créature née pour être l'être vivant le plus fort, dont l'humanité se révèle progressivement.",
+    "answer": "Meruem",
+    "manga_series": "Hunter x Hunter"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "hunter_x_hunter",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "difficile",
+    "text": "Qui est-ce ? Président de l'association des Hunters, vieux maître redoutable malgré son âge avancé.",
+    "answer": "Netero",
+    "manga_series": "Hunter x Hunter"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "hunter_x_hunter",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "difficile",
+    "text": "Qui est-ce ? Frère aîné du meilleur ami du héros principal, assassin froid et manipulateur au visage impassible.",
+    "answer": "Illumi",
+    "manga_series": "Hunter x Hunter"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "hunter_x_hunter",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "difficile",
+    "text": "Qui est-ce ? Apprentie Hunter à l'apparence de fillette mais en réalité une combattante d'âge très avancé et redoutable.",
+    "answer": "Biscuit",
+    "manga_series": "Hunter x Hunter"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "hunter_x_hunter",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "difficile",
+    "text": "Qui est-ce ? Membre sadique d'une troupe de voleurs, expert en torture, capable de transformer sa vapeur en arme mortelle.",
+    "answer": "Feitan",
+    "manga_series": "Hunter x Hunter"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "fairy_tail",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "facile",
+    "text": "Qui est-ce ? Mage aux pouvoirs de feu élevé par un dragon, membre impulsif de la guilde la plus connue du royaume.",
+    "answer": "Natsu",
+    "manga_series": "Fairy Tail"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "fairy_tail",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "facile",
+    "text": "Qui est-ce ? Mage capable d'invoquer des esprits stellaires grâce à ses clés dorées, héroïne issue d'une riche famille.",
+    "answer": "Lucy",
+    "manga_series": "Fairy Tail"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "fairy_tail",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "facile",
+    "text": "Qui est-ce ? Mage de glace qui a la fâcheuse habitude de se déshabiller sans s'en rendre compte.",
+    "answer": "Gray",
+    "manga_series": "Fairy Tail"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "fairy_tail",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "facile",
+    "text": "Qui est-ce ? Guerrière redoutable capable de changer d'armure à volonté, chevalière la plus puissante de sa guilde.",
+    "answer": "Erza",
+    "manga_series": "Fairy Tail"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "fairy_tail",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "moyen",
+    "text": "Qui est-ce ? Chat bleu volant et parlant, fidèle compagnon du héros aux pouvoirs de feu.",
+    "answer": "Happy",
+    "manga_series": "Fairy Tail"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "fairy_tail",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "moyen",
+    "text": "Qui est-ce ? Jeune mage dragon slayer du vent, la plus jeune du groupe d'amis principal.",
+    "answer": "Wendy",
+    "manga_series": "Fairy Tail"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "fairy_tail",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "difficile",
+    "text": "Qui est-ce ? Mage dragon slayer d'acier, ancien ennemi devenu allié fidèle de la guilde.",
+    "answer": "Gajeel",
+    "manga_series": "Fairy Tail"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "fairy_tail",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "difficile",
+    "text": "Qui est-ce ? Mage capable de se transformer en eau, follement amoureuse du mage de glace de son équipe.",
+    "answer": "Juvia",
+    "manga_series": "Fairy Tail"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "fairy_tail",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "difficile",
+    "text": "Qui est-ce ? Ancienne mage redoutable devenue barmaid douce de sa guilde, capable de se transformer en démon.",
+    "answer": "Mirajane",
+    "manga_series": "Fairy Tail"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "fairy_tail",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "difficile",
+    "text": "Qui est-ce ? Mage dragon slayer de la foudre, petit-fils du maître de la guilde.",
+    "answer": "Laxus",
+    "manga_series": "Fairy Tail"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "fairy_tail",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "difficile",
+    "text": "Qui est-ce ? Mage noir légendaire immortel malgré lui, responsable indirect de nombreux drames, frère du héros au pouvoir de feu.",
+    "answer": "Zeref",
+    "manga_series": "Fairy Tail"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "death_note",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "facile",
+    "text": "Qui est-ce ? Lycéen brillant qui trouve un cahier permettant de tuer quiconque dont il écrit le nom, devenant peu à peu un tueur de masse persuadé d'agir pour la justice.",
+    "answer": "Light Yagami",
+    "manga_series": "Death Note"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "death_note",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "facile",
+    "text": "Qui est-ce ? Détective mystérieux au visage rarement montré, il mange énormément de sucreries et s'assoit toujours accroupi sur ses chaises.",
+    "answer": "L",
+    "manga_series": "Death Note"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "death_note",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "facile",
+    "text": "Qui est-ce ? Dieu de la mort à l'apparence effrayante, seul capable de voir sous sa véritable forme celui qui possède son cahier, il adore les pommes.",
+    "answer": "Ryuk",
+    "manga_series": "Death Note"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "death_note",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "moyen",
+    "text": "Qui est-ce ? Idole populaire et actrice, follement amoureuse du protagoniste principal, elle possède elle aussi un cahier de la mort.",
+    "answer": "Misa Amane",
+    "manga_series": "Death Note"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "death_note",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "difficile",
+    "text": "Qui est-ce ? Jeune successeur du détective principal, il joue toujours avec des jouets et des figurines en enquêtant.",
+    "answer": "Near",
+    "manga_series": "Death Note"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "gto",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "facile",
+    "text": "Qui est-ce ? Ancien membre d'un gang de motards devenu professeur atypique, déterminé à devenir le meilleur enseignant du Japon malgré ses méthodes peu conventionnelles.",
+    "answer": "Onizuka",
+    "manga_series": "GTO"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "gto",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "difficile",
+    "text": "Qui est-ce ? Ancienne petite amie du héros devenue policière, elle continue de croiser sa route à plusieurs reprises.",
+    "answer": "Anko Uehara",
+    "manga_series": "GTO"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "gto",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "difficile",
+    "text": "Qui est-ce ? Ancien complice de bagarres du héros à l'époque du lycée, devenu yakuza redouté.",
+    "answer": "Ryuji Danma",
+    "manga_series": "GTO"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "assassination_classroom",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "facile",
+    "text": "Qui est-ce ? Créature jaune tentaculaire ultra rapide et surpuissante, professeur principal d'une classe chargée de l'assassiner avant la fin de l'année.",
+    "answer": "Korosensei",
+    "manga_series": "Assassination Classroom"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "assassination_classroom",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "facile",
+    "text": "Qui est-ce ? Élève discret aux couettes, principal narrateur de l'histoire, doué pour les techniques d'assassinat furtives.",
+    "answer": "Nagisa",
+    "manga_series": "Assassination Classroom"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "assassination_classroom",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "facile",
+    "text": "Qui est-ce ? Élève brillant et sadique, l'un des plus doués de sa classe, souvent en conflit avec l'autorité.",
+    "answer": "Karma",
+    "manga_series": "Assassination Classroom"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "assassination_classroom",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "difficile",
+    "text": "Qui est-ce ? Professeure d'anglais et ancienne espionne redoutable, engagée pour aider à assassiner le professeur principal.",
+    "answer": "Irina Jelavic",
+    "manga_series": "Assassination Classroom"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "assassination_classroom",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "moyen",
+    "text": "Qui est-ce ? Élève passionnée de théâtre, elle cache un lourd secret lié à la créature qui a tué sa sœur.",
+    "answer": "Kayano",
+    "manga_series": "Assassination Classroom"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "assassination_classroom",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "difficile",
+    "text": "Qui est-ce ? Élève transféré doté de tentacules artificielles greffés dans le cou, ancien sujet d'expérimentation.",
+    "answer": "Itona",
+    "manga_series": "Assassination Classroom"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "bleach",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "facile",
+    "text": "Qui est-ce ? Lycéen aux cheveux orange qui obtient les pouvoirs d'un shinigami pour protéger sa famille et ses proches.",
+    "answer": "Ichigo",
+    "manga_series": "Bleach"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "bleach",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "facile",
+    "text": "Qui est-ce ? Shinigami de petite taille qui transmet ses pouvoirs au héros principal au tout début de l'histoire.",
+    "answer": "Rukia",
+    "manga_series": "Bleach"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "bleach",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "moyen",
+    "text": "Qui est-ce ? Shinigami tatoué au sabre capable de s'allonger et de se multiplier, ami d'enfance de l'héroïne principale.",
+    "answer": "Renji",
+    "manga_series": "Bleach"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "bleach",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "moyen",
+    "text": "Qui est-ce ? Capitaine noble et froid d'une des divisions les plus prestigieuses, frère adoptif de l'héroïne principale.",
+    "answer": "Byakuya",
+    "manga_series": "Bleach"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "bleach",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "moyen",
+    "text": "Qui est-ce ? Lycéenne aux pouvoirs de guérison et de rejet, capable de repousser toute attaque grâce à ses barrettes magiques.",
+    "answer": "Orihime",
+    "manga_series": "Bleach"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "bleach",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "difficile",
+    "text": "Qui est-ce ? Dernier représentant d'une race de purificateurs de mauvais esprits, rival puis allié du héros principal.",
+    "answer": "Uryu",
+    "manga_series": "Bleach"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "bleach",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "difficile",
+    "text": "Qui est-ce ? Capitaine en apparence bienveillant, révélé comme le grand manipulateur derrière tous les événements de la série.",
+    "answer": "Aizen",
+    "manga_series": "Bleach"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "bleach",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "difficile",
+    "text": "Qui est-ce ? Le plus jeune capitaine de l'histoire de son organisation, maîtrisant un sabre aux pouvoirs de glace.",
+    "answer": "Hitsugaya",
+    "manga_series": "Bleach"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "bleach",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "difficile",
+    "text": "Qui est-ce ? Capitaine sauvage et redoutable qui ne cherche que des combats toujours plus intenses.",
+    "answer": "Kenpachi",
+    "manga_series": "Bleach"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "bleach",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "difficile",
+    "text": "Qui est-ce ? Ancienne capitaine capable de se transformer en chat noir, experte en combat au corps à corps.",
+    "answer": "Yoruichi",
+    "manga_series": "Bleach"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "bleach",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "difficile",
+    "text": "Qui est-ce ? Espada féroce à la chevelure bleue, l'un des plus puissants sbires du grand antagoniste de la Soul Society.",
+    "answer": "Grimmjow",
+    "manga_series": "Bleach"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "bleach",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "difficile",
+    "text": "Qui est-ce ? Capitaine nonchalant toujours accompagné de son chapeau de paille et de son kimono à fleurs, fin stratège malgré son air détendu.",
+    "answer": "Shunsui Kyoraku",
+    "manga_series": "Bleach"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "kuroko_no_basket",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "facile",
+    "text": "Qui est-ce ? Joueur de basket presque invisible sur le terrain, son manque de présence devient sa plus grande arme grâce à ses passes.",
+    "answer": "Kuroko",
+    "manga_series": "Kuroko's Basketball"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "kuroko_no_basket",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "facile",
+    "text": "Qui est-ce ? Ailier fougueux revenu des États-Unis, partenaire du joueur invisible pour reconstruire une équipe de basket.",
+    "answer": "Kagami",
+    "manga_series": "Kuroko's Basketball"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "kuroko_no_basket",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "moyen",
+    "text": "Qui est-ce ? Capitaine autoritaire capable de tout prévoir, considéré comme le meneur absolu de la génération des miracles.",
+    "answer": "Akashi",
+    "manga_series": "Kuroko's Basketball"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "kuroko_no_basket",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "moyen",
+    "text": "Qui est-ce ? Ailier surpuissant persuadé qu'aucun adversaire ne pourra jamais l'égaler, ancien coéquipier du joueur invisible.",
+    "answer": "Aomine",
+    "manga_series": "Kuroko's Basketball"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "kuroko_no_basket",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "moyen",
+    "text": "Qui est-ce ? Joueur copieur capable de reproduire n'importe quelle technique après l'avoir vue une seule fois, ancien mannequin.",
+    "answer": "Kise",
+    "manga_series": "Kuroko's Basketball"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "kuroko_no_basket",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "moyen",
+    "text": "Qui est-ce ? Tireur d'élite obsédé par l'horoscope, il ne se sépare jamais de son objet fétiche du jour.",
+    "answer": "Midorima",
+    "manga_series": "Kuroko's Basketball"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "kuroko_no_basket",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "difficile",
+    "text": "Qui est-ce ? Géant du basket à la force impressionnante, plus intéressé par les sucreries que par la compétition.",
+    "answer": "Murasakibara",
+    "manga_series": "Kuroko's Basketball"
+  },
+  {
+    "content_type": "question",
+    "category": "manga",
+    "subcategory": "kuroko_no_basket",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "difficile",
+    "text": "Qui est-ce ? Capitaine du lycée du héros principal, tireur fiable et leader vocal de son équipe.",
+    "answer": "Hyuga",
+    "manga_series": "Kuroko's Basketball"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_est_ce",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "facile",
+    "text": "Qui est-ce ? Physicien à la langue tirée sur sa photo la plus célèbre, auteur de la théorie de la relativité.",
+    "answer": "Albert Einstein"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_est_ce",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "facile",
+    "text": "Qui est-ce ? Peintre et inventeur italien de la Renaissance, auteur de la Joconde.",
+    "answer": "Léonard de Vinci"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_est_ce",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "facile",
+    "text": "Qui est-ce ? Empereur français réputé (à tort) pour sa petite taille, célèbre pour ses conquêtes militaires et son exil à Sainte-Hélène.",
+    "answer": "Napoléon Bonaparte"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_est_ce",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "facile",
+    "text": "Qui est-ce ? Chanteur surnommé le roi de la pop, célèbre pour son moonwalk et son gant blanc.",
+    "answer": "Michael Jackson"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_est_ce",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "facile",
+    "text": "Qui est-ce ? Footballeur portugais multiple Ballon d'Or, célèbre pour sa célébration 'Siuuu'.",
+    "answer": "Cristiano Ronaldo"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_est_ce",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "facile",
+    "text": "Qui est-ce ? Footballeur argentin considéré comme l'un des meilleurs de l'histoire, il a soulevé la Coupe du monde en 2022.",
+    "answer": "Lionel Messi"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_est_ce",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "facile",
+    "text": "Qui est-ce ? Souris emblématique aux grandes oreilles rondes, mascotte d'un célèbre studio d'animation américain.",
+    "answer": "Mickey Mouse"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_est_ce",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "facile",
+    "text": "Qui est-ce ? Jeune sorcier à la cicatrice en forme d'éclair, élève d'une célèbre école de sorcellerie.",
+    "answer": "Harry Potter"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_est_ce",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "facile",
+    "text": "Qui est-ce ? Père de famille jaune, employé maladroit d'une centrale nucléaire, il adore les donuts.",
+    "answer": "Homer Simpson"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_est_ce",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "facile",
+    "text": "Qui est-ce ? Plombier moustachu italien vêtu de rouge, il doit sauver une princesse dans de nombreux jeux vidéo.",
+    "answer": "Mario"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_est_ce",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "facile",
+    "text": "Qui est-ce ? Super-héros milliardaire sans pouvoir surnaturel, il protège une ville sombre déguisé en chauve-souris.",
+    "answer": "Batman"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_est_ce",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "moyen",
+    "text": "Qui est-ce ? Ancien footballeur français, champion du monde 1998, célèbre pour son coup de tête en finale 2006.",
+    "answer": "Zinédine Zidane"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_est_ce",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "moyen",
+    "text": "Qui est-ce ? Actrice et icône américaine des années 1950, célèbre pour sa robe blanche soulevée par une bouche d'aération.",
+    "answer": "Marilyn Monroe"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_est_ce",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "moyen",
+    "text": "Qui est-ce ? Chanteur américain surnommé le roi du rock'n'roll.",
+    "answer": "Elvis Presley"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_est_ce",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "moyen",
+    "text": "Qui est-ce ? Premier président afro-américain des États-Unis, élu en 2008.",
+    "answer": "Barack Obama"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_est_ce",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "moyen",
+    "text": "Qui est-ce ? Joueuse de tennis américaine, l'une des plus titrées de l'histoire du tennis féminin.",
+    "answer": "Serena Williams"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_est_ce",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "moyen",
+    "text": "Qui est-ce ? Chanteur flamboyant d'un groupe de rock britannique, célèbre pour sa prestation légendaire au Live Aid.",
+    "answer": "Freddie Mercury"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_est_ce",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "moyen",
+    "text": "Qui est-ce ? Scientifique polonaise naturalisée française, première femme à recevoir un prix Nobel, et la seule à en avoir reçu deux.",
+    "answer": "Marie Curie"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_est_ce",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "moyen",
+    "text": "Qui est-ce ? Acteur et réalisateur du cinéma muet, reconnaissable à sa canne, son chapeau melon et sa fine moustache.",
+    "answer": "Charlie Chaplin"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_est_ce",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "moyen",
+    "text": "Qui est-ce ? Détective britannique fictif à la pipe et au chapeau, il résout des enquêtes avec son fidèle acolyte docteur.",
+    "answer": "Sherlock Holmes"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_est_ce",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "moyen",
+    "text": "Qui est-ce ? Super-héroïne amazone dotée d'un lasso de vérité et de bracelets indestructibles.",
+    "answer": "Wonder Woman"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_est_ce",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "moyen",
+    "text": "Qui est-ce ? Chanteuse américaine surnommée 'Queen B', ancienne membre d'un girls band avant de devenir une icône solo.",
+    "answer": "Beyoncé"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_est_ce",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "moyen",
+    "text": "Qui est-ce ? Joueur de tennis suisse réputé pour son élégance de jeu, longtemps numéro un mondial.",
+    "answer": "Roger Federer"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_est_ce",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "facile",
+    "text": "Qui est-ce ? Sprinteur jamaïcain, homme le plus rapide du monde, multiple champion olympique du 100 mètres.",
+    "answer": "Usain Bolt"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_est_ce",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "moyen",
+    "text": "Qui est-ce ? Cofondateur d'une célèbre marque à la pomme croquée, connu pour ses présentations en col roulé noir.",
+    "answer": "Steve Jobs"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_est_ce",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "moyen",
+    "text": "Qui est-ce ? Peintre néerlandais post-impressionniste qui s'est coupé une partie de l'oreille, célèbre pour ses tournesols et sa nuit étoilée.",
+    "answer": "Vincent van Gogh"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_est_ce",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "moyen",
+    "text": "Qui est-ce ? Chanteur jamaïcain, figure emblématique du reggae et du mouvement rastafari.",
+    "answer": "Bob Marley"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_est_ce",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "difficile",
+    "text": "Qui est-ce ? Humoriste français fondateur des Restos du Cœur, candidat fantaisiste à l'élection présidentielle de 1981.",
+    "answer": "Coluche"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_est_ce",
+    "mode_scope": "tous",
+    "type": "devinette",
+    "level": "facile",
+    "text": "Qui est-ce ? Petit guerrier gaulois moustachu à la potion magique, inséparable de son ami menhir.",
+    "answer": "Astérix"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_questions",
+    "mode_scope": "couple",
+    "type": "discussion",
+    "level": "moyen",
+    "text": "Quel est le compliment le plus sexy que tu peux me faire là, maintenant ?",
+    "is_hot": true
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_questions",
+    "mode_scope": "couple",
+    "type": "discussion",
+    "level": "moyen",
+    "text": "Raconte-moi le moment où tu m'as trouvé·e le/la plus irrésistible.",
+    "is_hot": true
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_questions",
+    "mode_scope": "couple",
+    "type": "discussion",
+    "level": "moyen",
+    "text": "Quelle tenue préfères-tu me voir porter ?",
+    "is_hot": true
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_questions",
+    "mode_scope": "couple",
+    "type": "discussion",
+    "level": "moyen",
+    "text": "Quel est ton souvenir le plus torride avec moi ?",
+    "is_hot": true
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_questions",
+    "mode_scope": "couple",
+    "type": "discussion",
+    "level": "moyen",
+    "text": "Sur une échelle de 1 à 10, à quel point as-tu envie de moi là maintenant ?",
+    "is_hot": true
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_questions",
+    "mode_scope": "couple",
+    "type": "discussion",
+    "level": "moyen",
+    "text": "Quelle partie de mon corps préfères-tu ?",
+    "is_hot": true
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_questions",
+    "mode_scope": "couple",
+    "type": "discussion",
+    "level": "moyen",
+    "text": "Décris le rendez-vous romantique parfait qui finirait la soirée en beauté.",
+    "is_hot": true
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_questions",
+    "mode_scope": "couple",
+    "type": "discussion",
+    "level": "moyen",
+    "text": "Quel est le fantasme que tu n'as jamais osé me dire ?",
+    "is_hot": true
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_questions",
+    "mode_scope": "couple",
+    "type": "discussion",
+    "level": "moyen",
+    "text": "Qu'est-ce qui te rend le/la plus attirant·e chez moi selon toi ?",
+    "is_hot": true
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_questions",
+    "mode_scope": "couple",
+    "type": "discussion",
+    "level": "moyen",
+    "text": "Si on avait toute la soirée rien que pour nous, comment aimerais-tu la passer ?",
+    "is_hot": true
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_questions",
+    "mode_scope": "couple",
+    "type": "discussion",
+    "level": "moyen",
+    "text": "Quel est le premier truc que tu as remarqué chez moi physiquement ?",
+    "is_hot": true
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_questions",
+    "mode_scope": "couple",
+    "type": "discussion",
+    "level": "moyen",
+    "text": "Décris en un mot ce que tu ressens quand je t'embrasse.",
+    "is_hot": true
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_questions",
+    "mode_scope": "couple",
+    "type": "discussion",
+    "level": "moyen",
+    "text": "Quel endroit insolite rêverais-tu qu'on essaie ensemble ?",
+    "is_hot": true
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_questions",
+    "mode_scope": "couple",
+    "type": "discussion",
+    "level": "moyen",
+    "text": "Qu'est-ce que je pourrais faire ce soir pour te faire vraiment plaisir ?",
+    "is_hot": true
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_questions",
+    "mode_scope": "couple",
+    "type": "discussion",
+    "level": "moyen",
+    "text": "Quel est ton souvenir préféré de notre premier baiser ?",
+    "is_hot": true
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_questions",
+    "mode_scope": "couple",
+    "type": "discussion",
+    "level": "moyen",
+    "text": "Préfères-tu que je sois douX/ce ou un peu plus entreprenant·e ?",
+    "is_hot": true
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_questions",
+    "mode_scope": "couple",
+    "type": "discussion",
+    "level": "moyen",
+    "text": "Quelle chanson te met tout de suite dans l'ambiance avec moi ?",
+    "is_hot": true
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_questions",
+    "mode_scope": "couple",
+    "type": "discussion",
+    "level": "moyen",
+    "text": "Raconte le rêve le plus osé que tu as fait à propos de nous.",
+    "is_hot": true
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_questions",
+    "mode_scope": "couple",
+    "type": "discussion",
+    "level": "moyen",
+    "text": "Qu'est-ce qui te ferait rougir si je le faisais devant toi maintenant ?",
+    "is_hot": true
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_questions",
+    "mode_scope": "couple",
+    "type": "discussion",
+    "level": "moyen",
+    "text": "Quel compliment sur ton physique te fait le plus fondre ?",
+    "is_hot": true
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_questions",
+    "mode_scope": "couple",
+    "type": "discussion",
+    "level": "moyen",
+    "text": "Décris la scène romantique idéale pour notre prochaine soirée en amoureux.",
+    "is_hot": true
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_questions",
+    "mode_scope": "couple",
+    "type": "discussion",
+    "level": "moyen",
+    "text": "Quel est le geste tendre que tu préfères recevoir de moi ?",
+    "is_hot": true
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_questions",
+    "mode_scope": "couple",
+    "type": "discussion",
+    "level": "moyen",
+    "text": "Si tu devais me surprendre ce soir, que ferais-tu ?",
+    "is_hot": true
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_questions",
+    "mode_scope": "couple",
+    "type": "discussion",
+    "level": "moyen",
+    "text": "Quel est ton petit secret coquin que tu ne m'as jamais avoué ?",
+    "is_hot": true
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_questions",
+    "mode_scope": "couple",
+    "type": "discussion",
+    "level": "moyen",
+    "text": "Qu'est-ce qui t'attire le plus chez moi : mon regard, ma voix ou mon sourire ?",
+    "is_hot": true
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_questions",
+    "mode_scope": "couple",
+    "type": "discussion",
+    "level": "moyen",
+    "text": "Décris le moment où tu as eu le plus envie de m'embrasser récemment.",
+    "is_hot": true
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_questions",
+    "mode_scope": "couple",
+    "type": "discussion",
+    "level": "moyen",
+    "text": "Quelle est la chose la plus câline que tu aimerais qu'on fasse ce soir ?",
+    "is_hot": true
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_questions",
+    "mode_scope": "couple",
+    "type": "discussion",
+    "level": "moyen",
+    "text": "Si on s'évadait ce week-end rien que tous les deux, où irions-nous ?",
+    "is_hot": true
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_questions",
+    "mode_scope": "couple",
+    "type": "discussion",
+    "level": "moyen",
+    "text": "Quel est ton compliment favori à recevoir juste avant de t'endormir contre moi ?",
+    "is_hot": true
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_questions",
+    "mode_scope": "couple",
+    "type": "discussion",
+    "level": "moyen",
+    "text": "Quel accessoire ou sous-vêtement me trouves-tu le plus séduisant ?",
+    "is_hot": true
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_defis",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "moyen",
+    "text": "Fais un compliment chuchoté à l'oreille de ton/ta partenaire.",
+    "temps_suggere": 90,
+    "is_hot": true
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_defis",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "moyen",
+    "text": "Donne un massage des épaules de 2 minutes à ton/ta partenaire.",
+    "temps_suggere": 90,
+    "is_hot": true
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_defis",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "moyen",
+    "text": "Embrasse ton/ta partenaire pendant 10 secondes sans t'arrêter.",
+    "temps_suggere": 90,
+    "is_hot": true
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_defis",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "moyen",
+    "text": "Décris à voix haute ce que tu trouves le plus sexy chez ton/ta partenaire.",
+    "temps_suggere": 90,
+    "is_hot": true
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_defis",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "moyen",
+    "text": "Fais un slow dance improvisé avec ton/ta partenaire pendant 30 secondes.",
+    "temps_suggere": 90,
+    "is_hot": true
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_defis",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "moyen",
+    "text": "Raconte un souvenir intime que tu gardes précieusement, sans détour.",
+    "temps_suggere": 90,
+    "is_hot": true
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_defis",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "moyen",
+    "text": "Chuchote à l'oreille de ton/ta partenaire ce que tu aimerais faire plus tard ce soir.",
+    "temps_suggere": 90,
+    "is_hot": true
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_defis",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "moyen",
+    "text": "Donne un bisou surprise à l'endroit de ton choix sur ton/ta partenaire (visage, main ou cou).",
+    "temps_suggere": 90,
+    "is_hot": true
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_defis",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "moyen",
+    "text": "Fixe ton/ta partenaire dans les yeux pendant 30 secondes sans rire ni parler.",
+    "temps_suggere": 90,
+    "is_hot": true
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_defis",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "moyen",
+    "text": "Envoie un message coquin à ton/ta partenaire pendant que vous êtes assis l'un à côté de l'autre.",
+    "temps_suggere": 90,
+    "is_hot": true
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_defis",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "moyen",
+    "text": "Fais un compliment sur le physique de ton/ta partenaire en évitant les mots habituels ('beau', 'belle', 'sexy').",
+    "temps_suggere": 90,
+    "is_hot": true
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_defis",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "moyen",
+    "text": "Propose un défi coquin à réaliser ensemble plus tard dans la soirée.",
+    "temps_suggere": 90,
+    "is_hot": true
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_defis",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "moyen",
+    "text": "Câline ton/ta partenaire pendant une minute complète sans parler.",
+    "temps_suggere": 90,
+    "is_hot": true
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_defis",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "moyen",
+    "text": "Décris la tenue dans laquelle tu préfères voir ton/ta partenaire.",
+    "temps_suggere": 90,
+    "is_hot": true
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_defis",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "moyen",
+    "text": "Fais un massage des mains à ton/ta partenaire pendant 1 minute.",
+    "temps_suggere": 90,
+    "is_hot": true
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_defis",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "moyen",
+    "text": "Raconte le moment où tu as eu le plus envie d'embrasser ton/ta partenaire cette semaine.",
+    "temps_suggere": 90,
+    "is_hot": true
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_defis",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "moyen",
+    "text": "Improvise une déclaration passionnée à ton/ta partenaire, façon film romantique.",
+    "temps_suggere": 90,
+    "is_hot": true
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_defis",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "moyen",
+    "text": "Donne un bisou dans le cou à ton/ta partenaire.",
+    "temps_suggere": 90,
+    "is_hot": true
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_defis",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "moyen",
+    "text": "Propose une activité romantique surprise pour votre prochain rendez-vous.",
+    "temps_suggere": 90,
+    "is_hot": true
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_defis",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "moyen",
+    "text": "Décris sans filtre ce que tu ressens physiquement quand ton/ta partenaire te touche la main.",
+    "temps_suggere": 90,
+    "is_hot": true
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_defis",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "moyen",
+    "text": "Fais deviner à ton/ta partenaire, par des gestes seulement, ce que tu as envie de faire ce soir.",
+    "temps_suggere": 90,
+    "is_hot": true
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_defis",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "moyen",
+    "text": "Complimente ton/ta partenaire sur une partie du corps que tu ne complimentes jamais d'habitude.",
+    "temps_suggere": 90,
+    "is_hot": true
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_defis",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "moyen",
+    "text": "Retire un vêtement ou accessoire (chaussette, veste...) au choix de ton/ta partenaire.",
+    "temps_suggere": 90,
+    "is_hot": true
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_defis",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "moyen",
+    "text": "Chante ou fredonne une chanson d'amour à ton/ta partenaire.",
+    "temps_suggere": 90,
+    "is_hot": true
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_defis",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "moyen",
+    "text": "Raconte le rendez-vous le plus romantique que vous ayez eu, avec un maximum de détails.",
+    "temps_suggere": 90,
+    "is_hot": true
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_defis",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "moyen",
+    "text": "Donne un bisou langoureux d'au moins 5 secondes à ton/ta partenaire.",
+    "temps_suggere": 90,
+    "is_hot": true
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_defis",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "moyen",
+    "text": "Décris le scénario de soirée parfaite qui commence par ce jeu et se termine en tête à tête.",
+    "temps_suggere": 90,
+    "is_hot": true
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_defis",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "moyen",
+    "text": "Fais un compliment sur la voix ou le rire de ton/ta partenaire, le plus sincèrement possible.",
+    "temps_suggere": 90,
+    "is_hot": true
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_defis",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "moyen",
+    "text": "Propose à ton/ta partenaire un mot de passe secret coquin pour ce soir.",
+    "temps_suggere": 90,
+    "is_hot": true
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "hot_defis",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "moyen",
+    "text": "Termine cette partie par un câlin d'au moins 20 secondes, collé·e à ton/ta partenaire.",
+    "temps_suggere": 90,
+    "is_hot": true
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "defis_gages",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "facile",
+    "text": "Regarde ton/ta partenaire dans les yeux et dis-lui pourquoi tu l'as choisi·e.",
+    "temps_suggere": 60
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "defis_gages",
+    "mode_scope": "amis",
+    "type": "action",
+    "level": "facile",
+    "text": "Raconte ta pire coupe de cheveux de tous les temps au groupe.",
+    "temps_suggere": 60
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "defis_gages",
+    "mode_scope": "solo",
+    "type": "action",
+    "level": "facile",
+    "text": "Envoie un message de gratitude à quelqu'un que tu n'as pas remercié depuis longtemps.",
+    "temps_suggere": 60
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "defis_gages",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "moyen",
+    "text": "Refais la scène de votre première rencontre, chacun jouant son propre rôle.",
+    "temps_suggere": 60
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "defis_gages",
+    "mode_scope": "amis",
+    "type": "action",
+    "level": "moyen",
+    "text": "Imite la façon de rire de la personne à ta droite pendant 10 secondes.",
+    "temps_suggere": 60
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "defis_gages",
+    "mode_scope": "tous",
+    "type": "action",
+    "level": "facile",
+    "text": "Chante le refrain de la dernière chanson que tu as écoutée.",
+    "temps_suggere": 60
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "defis_gages",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "facile",
+    "text": "Fais un câlin de 15 secondes à ton/ta partenaire sans parler.",
+    "temps_suggere": 60
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "defis_gages",
+    "mode_scope": "amis",
+    "type": "action",
+    "level": "moyen",
+    "text": "Raconte le mensonge le plus inutile que tu aies raconté à quelqu'un du groupe.",
+    "temps_suggere": 60
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "defis_gages",
+    "mode_scope": "solo",
+    "type": "action",
+    "level": "moyen",
+    "text": "Note un objectif que tu repousses depuis des mois et donne-toi une date pour le commencer.",
+    "temps_suggere": 60
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "defis_gages",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "difficile",
+    "text": "Raconte à ton/ta partenaire un défaut que tu as et que tu essaies de corriger.",
+    "temps_suggere": 60
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "defis_gages",
+    "mode_scope": "amis",
+    "type": "action",
+    "level": "facile",
+    "text": "Fais une imitation d'un animal au choix pendant 10 secondes.",
+    "temps_suggere": 60
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "defis_gages",
+    "mode_scope": "tous",
+    "type": "action",
+    "level": "moyen",
+    "text": "Raconte ta plus grande peur ridicule (araignées, clowns, etc.).",
+    "temps_suggere": 60
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "defis_gages",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "moyen",
+    "text": "Décris ton/ta partenaire en trois mots, à voix haute.",
+    "temps_suggere": 60
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "defis_gages",
+    "mode_scope": "amis",
+    "type": "action",
+    "level": "difficile",
+    "text": "Avoue la dernière fois où tu as menti pour éviter une sortie de groupe.",
+    "temps_suggere": 60
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "defis_gages",
+    "mode_scope": "solo",
+    "type": "action",
+    "level": "facile",
+    "text": "Fais 15 secondes de danse improvisée, là, tout de suite.",
+    "temps_suggere": 60
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "defis_gages",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "facile",
+    "text": "Complimente publiquement une qualité de caractère de ton/ta partenaire.",
+    "temps_suggere": 60
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "defis_gages",
+    "mode_scope": "amis",
+    "type": "action",
+    "level": "moyen",
+    "text": "Raconte l'anecdote la plus embarrassante que tu as vécue en public.",
+    "temps_suggere": 60
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "defis_gages",
+    "mode_scope": "tous",
+    "type": "action",
+    "level": "facile",
+    "text": "Récite l'alphabet à l'envers le plus vite possible.",
+    "temps_suggere": 60
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "defis_gages",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "difficile",
+    "text": "Raconte le moment où tu as eu le plus peur de perdre ton/ta partenaire.",
+    "temps_suggere": 60
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "defis_gages",
+    "mode_scope": "amis",
+    "type": "action",
+    "level": "facile",
+    "text": "Fais deviner un film en le mimant sans parler pendant 30 secondes.",
+    "temps_suggere": 60
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "defis_gages",
+    "mode_scope": "solo",
+    "type": "action",
+    "level": "moyen",
+    "text": "Écris trois choses que tu apprécies chez toi-même.",
+    "temps_suggere": 60
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "defis_gages",
+    "mode_scope": "tous",
+    "type": "action",
+    "level": "moyen",
+    "text": "Raconte la dernière fois où tu as pleuré de rire.",
+    "temps_suggere": 60
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "defis_gages",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "moyen",
+    "text": "Prépare une surprise, même minuscule, pour ton/ta partenaire dans les 24h.",
+    "temps_suggere": 60
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "defis_gages",
+    "mode_scope": "amis",
+    "type": "action",
+    "level": "moyen",
+    "text": "Raconte le surnom le plus gênant que tu as eu.",
+    "temps_suggere": 60
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "defis_gages",
+    "mode_scope": "tous",
+    "type": "action",
+    "level": "facile",
+    "text": "Fais 10 secondes de grimace la plus impressionnante possible.",
+    "temps_suggere": 60
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "defis_gages",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "facile",
+    "text": "Tiens la main de ton/ta partenaire pendant toute la prochaine question.",
+    "temps_suggere": 60
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "defis_gages",
+    "mode_scope": "amis",
+    "type": "action",
+    "level": "difficile",
+    "text": "Avoue quelle personne du groupe tu as trouvée la plus intimidante au début.",
+    "temps_suggere": 60
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "defis_gages",
+    "mode_scope": "solo",
+    "type": "action",
+    "level": "facile",
+    "text": "Prends une grande respiration et note comment tu te sens là, maintenant.",
+    "temps_suggere": 60
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "defis_gages",
+    "mode_scope": "tous",
+    "type": "action",
+    "level": "moyen",
+    "text": "Raconte le jour où tu as pris la pire décision de ta semaine.",
+    "temps_suggere": 60
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "defis_gages",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "moyen",
+    "text": "Raconte un rêve que tu as fait récemment, aussi bizarre soit-il.",
+    "temps_suggere": 60
+  },
+  {
+    "content_type": "enigme",
+    "category": "jeux_ensemble",
+    "subcategory": "enigmes",
+    "mode_scope": "tous",
+    "type": "logique",
+    "level": "facile",
+    "text": "Je grandis quand on me nourrit mais je meurs si on me donne de l'eau. Qui suis-je ?",
+    "answer": "Le feu"
+  },
+  {
+    "content_type": "enigme",
+    "category": "jeux_ensemble",
+    "subcategory": "enigmes",
+    "mode_scope": "tous",
+    "type": "logique",
+    "level": "moyen",
+    "text": "J'ai des clés mais pas de serrures, de l'espace mais pas de pièces. Qui suis-je ?",
+    "answer": "Un clavier"
+  },
+  {
+    "content_type": "enigme",
+    "category": "jeux_ensemble",
+    "subcategory": "enigmes",
+    "mode_scope": "tous",
+    "type": "logique",
+    "level": "facile",
+    "text": "Je n'ai ni yeux ni oreilles, pourtant je peux te dire l'heure. Qui suis-je ?",
+    "answer": "Une horloge"
+  },
+  {
+    "content_type": "enigme",
+    "category": "jeux_ensemble",
+    "subcategory": "enigmes",
+    "mode_scope": "tous",
+    "type": "logique",
+    "level": "moyen",
+    "text": "Deux mères et deux filles partent en voyage, elles ne sont que trois. Comment est-ce possible ?",
+    "answer": "Une grand-mère, sa fille et sa petite-fille"
+  },
+  {
+    "content_type": "enigme",
+    "category": "jeux_ensemble",
+    "subcategory": "enigmes",
+    "mode_scope": "tous",
+    "type": "logique",
+    "level": "facile",
+    "text": "Qu'est-ce qui a des dents mais ne mord jamais ?",
+    "answer": "Un peigne"
+  },
+  {
+    "content_type": "enigme",
+    "category": "jeux_ensemble",
+    "subcategory": "enigmes",
+    "mode_scope": "tous",
+    "type": "logique",
+    "level": "facile",
+    "text": "Qu'est-ce qui monte et ne redescend jamais ?",
+    "answer": "L'âge"
+  },
+  {
+    "content_type": "enigme",
+    "category": "jeux_ensemble",
+    "subcategory": "enigmes",
+    "mode_scope": "tous",
+    "type": "logique",
+    "level": "moyen",
+    "text": "Je n'ai pas de vie mais je peux mourir. Qui suis-je ?",
+    "answer": "Une pile"
+  },
+  {
+    "content_type": "enigme",
+    "category": "jeux_ensemble",
+    "subcategory": "enigmes",
+    "mode_scope": "tous",
+    "type": "logique",
+    "level": "moyen",
+    "text": "Plus tu en prends, plus tu en laisses. Qu'est-ce que c'est ?",
+    "answer": "Des pas"
+  },
+  {
+    "content_type": "enigme",
+    "category": "jeux_ensemble",
+    "subcategory": "enigmes",
+    "mode_scope": "tous",
+    "type": "logique",
+    "level": "facile",
+    "text": "Qu'est-ce qui a une tête et une queue mais pas de corps ?",
+    "answer": "Une pièce de monnaie"
+  },
+  {
+    "content_type": "enigme",
+    "category": "jeux_ensemble",
+    "subcategory": "enigmes",
+    "mode_scope": "tous",
+    "type": "logique",
+    "level": "moyen",
+    "text": "Je suis léger comme une plume, mais même le plus fort ne peut pas me retenir plus de quelques minutes. Qui suis-je ?",
+    "answer": "Le souffle"
+  },
+  {
+    "content_type": "enigme",
+    "category": "jeux_ensemble",
+    "subcategory": "enigmes",
+    "mode_scope": "tous",
+    "type": "logique",
+    "level": "facile",
+    "text": "Qu'est-ce qui t'appartient mais que les autres utilisent plus que toi ?",
+    "answer": "Ton prénom"
+  },
+  {
+    "content_type": "enigme",
+    "category": "jeux_ensemble",
+    "subcategory": "enigmes",
+    "mode_scope": "tous",
+    "type": "logique",
+    "level": "moyen",
+    "text": "Je voyage partout dans le monde mais je reste toujours dans le même coin. Qui suis-je ?",
+    "answer": "Un timbre"
+  },
+  {
+    "content_type": "enigme",
+    "category": "jeux_ensemble",
+    "subcategory": "enigmes",
+    "mode_scope": "tous",
+    "type": "logique",
+    "level": "facile",
+    "text": "Combien de mois ont 28 jours ?",
+    "answer": "Tous les mois"
+  },
+  {
+    "content_type": "enigme",
+    "category": "jeux_ensemble",
+    "subcategory": "enigmes",
+    "mode_scope": "tous",
+    "type": "logique",
+    "level": "moyen",
+    "text": "Qu'est-ce qui est plein de trous mais retient quand même l'eau ?",
+    "answer": "Une éponge"
+  },
+  {
+    "content_type": "enigme",
+    "category": "jeux_ensemble",
+    "subcategory": "enigmes",
+    "mode_scope": "tous",
+    "type": "logique",
+    "level": "difficile",
+    "text": "Deux pères et deux fils vont à la pêche et rapportent 3 poissons, un chacun. Comment est-ce possible ?",
+    "answer": "Un grand-père, un père et son fils"
+  },
+  {
+    "content_type": "enigme",
+    "category": "jeux_ensemble",
+    "subcategory": "enigmes",
+    "mode_scope": "tous",
+    "type": "logique",
+    "level": "facile",
+    "text": "Qu'est-ce qu'on casse en le nommant ?",
+    "answer": "Le silence"
+  },
+  {
+    "content_type": "enigme",
+    "category": "jeux_ensemble",
+    "subcategory": "enigmes",
+    "mode_scope": "tous",
+    "type": "logique",
+    "level": "moyen",
+    "text": "Je n'ai pas de bouche mais je crie, pas de jambes mais je cours. Qui suis-je ?",
+    "answer": "Une rivière"
+  },
+  {
+    "content_type": "enigme",
+    "category": "jeux_ensemble",
+    "subcategory": "enigmes",
+    "mode_scope": "tous",
+    "type": "logique",
+    "level": "moyen",
+    "text": "Plus tu m'utilises, plus je deviens fin. Qui suis-je ?",
+    "answer": "Un savon"
+  },
+  {
+    "content_type": "enigme",
+    "category": "jeux_ensemble",
+    "subcategory": "enigmes",
+    "mode_scope": "tous",
+    "type": "logique",
+    "level": "moyen",
+    "text": "Qu'est-ce qui a un cœur qui ne bat pas ?",
+    "answer": "Un artichaut"
+  },
+  {
+    "content_type": "enigme",
+    "category": "jeux_ensemble",
+    "subcategory": "enigmes",
+    "mode_scope": "tous",
+    "type": "logique",
+    "level": "facile",
+    "text": "Je peux être craquée, faite, dite ou jouée. Qui suis-je ?",
+    "answer": "Une blague"
+  },
+  {
+    "content_type": "enigme",
+    "category": "jeux_ensemble",
+    "subcategory": "enigmes",
+    "mode_scope": "tous",
+    "type": "logique",
+    "level": "difficile",
+    "text": "Quelle question ne peut jamais avoir la réponse 'oui' ?",
+    "answer": "Es-tu en train de dormir ?"
+  },
+  {
+    "content_type": "enigme",
+    "category": "jeux_ensemble",
+    "subcategory": "enigmes",
+    "mode_scope": "tous",
+    "type": "logique",
+    "level": "moyen",
+    "text": "J'ai des feuilles mais je ne suis pas un arbre, une couverture mais je ne suis pas un lit. Qui suis-je ?",
+    "answer": "Un livre"
+  },
+  {
+    "content_type": "enigme",
+    "category": "jeux_ensemble",
+    "subcategory": "enigmes",
+    "mode_scope": "tous",
+    "type": "logique",
+    "level": "facile",
+    "text": "Que peut-on attraper mais jamais lancer ?",
+    "answer": "Un rhume"
+  },
+  {
+    "content_type": "enigme",
+    "category": "jeux_ensemble",
+    "subcategory": "enigmes",
+    "mode_scope": "tous",
+    "type": "logique",
+    "level": "moyen",
+    "text": "Je n'ai pas de porte mais on peut me briser. Qui suis-je ?",
+    "answer": "Une promesse"
+  },
+  {
+    "content_type": "enigme",
+    "category": "jeux_ensemble",
+    "subcategory": "enigmes",
+    "mode_scope": "tous",
+    "type": "logique",
+    "level": "difficile",
+    "text": "Qu'est-ce qu'on trouve une fois dans une minute, deux fois dans un moment mais jamais en mille ans ?",
+    "answer": "La lettre M"
+  },
+  {
+    "content_type": "enigme",
+    "category": "jeux_ensemble",
+    "subcategory": "enigmes",
+    "mode_scope": "tous",
+    "type": "logique",
+    "level": "moyen",
+    "text": "Quel est l'animal qui a le plus de dents au monde ?",
+    "answer": "L'escargot"
+  },
+  {
+    "content_type": "enigme",
+    "category": "jeux_ensemble",
+    "subcategory": "enigmes",
+    "mode_scope": "tous",
+    "type": "logique",
+    "level": "facile",
+    "text": "Qu'est-ce qui ne se mouille jamais en tombant dans l'eau ?",
+    "answer": "L'ombre"
+  },
+  {
+    "content_type": "enigme",
+    "category": "jeux_ensemble",
+    "subcategory": "enigmes",
+    "mode_scope": "tous",
+    "type": "logique",
+    "level": "moyen",
+    "text": "Je suis toujours devant toi mais tu ne peux jamais me voir. Qui suis-je ?",
+    "answer": "Le futur"
+  },
+  {
+    "content_type": "enigme",
+    "category": "jeux_ensemble",
+    "subcategory": "enigmes",
+    "mode_scope": "tous",
+    "type": "logique",
+    "level": "difficile",
+    "text": "Deux personnes jouent 5 parties d'échecs. Chacune en gagne autant l'une que l'autre, et il n'y a pas eu de match nul. Comment est-ce possible ?",
+    "answer": "Elles ne jouaient pas l'une contre l'autre"
+  },
+  {
+    "content_type": "enigme",
+    "category": "jeux_ensemble",
+    "subcategory": "enigmes",
+    "mode_scope": "tous",
+    "type": "logique",
+    "level": "difficile",
+    "text": "Un escargot est au fond d'un puits de 10 mètres. Chaque jour il monte de 3 mètres, chaque nuit il redescend de 2 mètres. Combien de jours lui faut-il pour sortir ?",
+    "answer": "8 jours"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "existentiel_jeu",
+    "mode_scope": "tous",
+    "type": "discussion",
+    "level": "moyen",
+    "text": "Qu'est-ce qui donne le plus de sens à ta vie en ce moment ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "existentiel_jeu",
+    "mode_scope": "tous",
+    "type": "discussion",
+    "level": "moyen",
+    "text": "Penses-tu qu'on choisit vraiment sa vie ou qu'on la subit en grande partie ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "existentiel_jeu",
+    "mode_scope": "tous",
+    "type": "discussion",
+    "level": "difficile",
+    "text": "Si tu savais que tu allais mourir dans un an, que changerais-tu dès demain ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "existentiel_jeu",
+    "mode_scope": "tous",
+    "type": "discussion",
+    "level": "moyen",
+    "text": "Crois-tu au destin ou penses-tu que tout est le fruit du hasard ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "existentiel_jeu",
+    "mode_scope": "tous",
+    "type": "discussion",
+    "level": "moyen",
+    "text": "Quelle est la plus grande leçon que la vie t'a apprise jusqu'ici ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "existentiel_jeu",
+    "mode_scope": "tous",
+    "type": "discussion",
+    "level": "difficile",
+    "text": "Qu'est-ce que le bonheur pour toi, en une phrase ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "existentiel_jeu",
+    "mode_scope": "tous",
+    "type": "discussion",
+    "level": "moyen",
+    "text": "As-tu peur de la mort, ou plutôt de ne pas avoir assez vécu ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "existentiel_jeu",
+    "mode_scope": "tous",
+    "type": "discussion",
+    "level": "moyen",
+    "text": "Si tu pouvais revivre une seule journée de ta vie, laquelle choisirais-tu ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "existentiel_jeu",
+    "mode_scope": "tous",
+    "type": "discussion",
+    "level": "difficile",
+    "text": "Penses-tu que les gens changent vraiment en profondeur, ou juste en surface ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "existentiel_jeu",
+    "mode_scope": "tous",
+    "type": "discussion",
+    "level": "moyen",
+    "text": "Qu'est-ce que tu aimerais qu'on retienne de toi après ta mort ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "existentiel_jeu",
+    "mode_scope": "tous",
+    "type": "discussion",
+    "level": "moyen",
+    "text": "Crois-tu qu'il existe une seule bonne façon de vivre sa vie ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "existentiel_jeu",
+    "mode_scope": "tous",
+    "type": "discussion",
+    "level": "difficile",
+    "text": "Qu'est-ce qui te fait le plus peur : échouer ou ne jamais essayer ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "existentiel_jeu",
+    "mode_scope": "tous",
+    "type": "discussion",
+    "level": "moyen",
+    "text": "As-tu déjà remis en question tes croyances les plus profondes ? Lesquelles ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "existentiel_jeu",
+    "mode_scope": "tous",
+    "type": "discussion",
+    "level": "moyen",
+    "text": "Penses-tu que la souffrance rend plus fort, ou qu'elle abîme surtout ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "existentiel_jeu",
+    "mode_scope": "tous",
+    "type": "discussion",
+    "level": "difficile",
+    "text": "Qu'est-ce que la liberté représente vraiment pour toi ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "existentiel_jeu",
+    "mode_scope": "tous",
+    "type": "discussion",
+    "level": "moyen",
+    "text": "Si tu pouvais connaître la date exacte de ta mort, voudrais-tu la savoir ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "existentiel_jeu",
+    "mode_scope": "tous",
+    "type": "discussion",
+    "level": "moyen",
+    "text": "Qu'est-ce que tu considères comme ta plus grande réussite personnelle, loin des diplômes ou du travail ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "existentiel_jeu",
+    "mode_scope": "tous",
+    "type": "discussion",
+    "level": "difficile",
+    "text": "Penses-tu que l'amour peut vraiment tout surmonter ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "existentiel_jeu",
+    "mode_scope": "tous",
+    "type": "discussion",
+    "level": "moyen",
+    "text": "Qu'est-ce qui te donne l'impression de perdre ton temps dans ta vie actuelle ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "existentiel_jeu",
+    "mode_scope": "tous",
+    "type": "discussion",
+    "level": "moyen",
+    "text": "As-tu un regret que tu n'as jamais partagé à voix haute ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "existentiel_jeu",
+    "mode_scope": "tous",
+    "type": "discussion",
+    "level": "difficile",
+    "text": "Penses-tu que l'on naît bon ou mauvais, ou que tout se construit ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "existentiel_jeu",
+    "mode_scope": "tous",
+    "type": "discussion",
+    "level": "moyen",
+    "text": "Qu'est-ce que tu ferais différemment si personne ne te jugeait jamais ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "existentiel_jeu",
+    "mode_scope": "tous",
+    "type": "discussion",
+    "level": "moyen",
+    "text": "Crois-tu qu'il y a une vie après la mort ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "existentiel_jeu",
+    "mode_scope": "tous",
+    "type": "discussion",
+    "level": "difficile",
+    "text": "Qu'est-ce qui compte vraiment pour toi, une fois qu'on enlève l'argent et le regard des autres ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "existentiel_jeu",
+    "mode_scope": "tous",
+    "type": "discussion",
+    "level": "moyen",
+    "text": "Penses-tu que la solitude peut être un choix sain, ou est-ce toujours subi ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "existentiel_jeu",
+    "mode_scope": "tous",
+    "type": "discussion",
+    "level": "moyen",
+    "text": "Qu'est-ce que tu pardonnerais difficilement, même avec le temps ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "existentiel_jeu",
+    "mode_scope": "tous",
+    "type": "discussion",
+    "level": "difficile",
+    "text": "As-tu l'impression de vivre selon tes propres valeurs, ou selon celles des autres ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "existentiel_jeu",
+    "mode_scope": "tous",
+    "type": "discussion",
+    "level": "moyen",
+    "text": "Qu'est-ce qui te rend le/la plus fier/fière quand tu regardes ton parcours ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "existentiel_jeu",
+    "mode_scope": "tous",
+    "type": "discussion",
+    "level": "moyen",
+    "text": "Penses-tu que l'on peut vraiment connaître quelqu'un d'autre en entier ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "existentiel_jeu",
+    "mode_scope": "tous",
+    "type": "discussion",
+    "level": "difficile",
+    "text": "Si tu devais résumer ta philosophie de vie en une seule phrase, quelle serait-elle ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "farfelues",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Si tu devais manger la même chose tous les jours pour le reste de ta vie, quel plat choisirais-tu ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "farfelues",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Si les animaux pouvaient parler, lequel serait le plus impoli selon toi ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "farfelues",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Si tu pouvais échanger ta vie avec un personnage de dessin animé pendant une semaine, lequel choisirais-tu ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "farfelues",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Si ton téléphone pouvait parler, quel serait son premier commentaire sur toi ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "farfelues",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Si tu devais te déplacer uniquement en trottinette pour le reste de ta vie, comment réagirais-tu ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "farfelues",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quelle serait la pire chanson à entendre en boucle pendant 24h ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "farfelues",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Si tu pouvais donner un pouvoir magique à ton animal de compagnie (réel ou imaginaire), lequel serait-ce ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "farfelues",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Si tu devais être un plat de fast-food, lequel serais-tu et pourquoi ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "farfelues",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Si tu gagnais un concours de grimace, quelle serait ta grimace signature ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "farfelues",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Si les licornes existaient vraiment, quel métier auraient-elles selon toi ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "farfelues",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Si tu devais choisir un accent étranger à avoir pour toujours, lequel choisirais-tu ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "farfelues",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Si tu étais un emoji, lequel serais-tu la plupart du temps ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "farfelues",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Si ta vie était une série télé, quel serait son titre ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "farfelues",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Si tu devais vivre dans un jeu vidéo, lequel choisirais-tu ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "farfelues",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Si les meubles de ta maison prenaient vie la nuit, lequel serait le plus bavard ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "farfelues",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Si tu devais renommer les jours de la semaine, quel nom donnerais-tu au lundi ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "farfelues",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Si tu pouvais avoir la voix d'un dessin animé pour une journée, laquelle choisirais-tu ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "farfelues",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel super-pouvoir totalement inutile aimerais-tu quand même avoir ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "farfelues",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Si tu devais choisir une odeur pour représenter ta personnalité, laquelle serait-ce ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "farfelues",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Si tu étais un temps qu'il fait (soleil, pluie, orage...), lequel serais-tu la plupart du temps ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "farfelues",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Si tu pouvais parler couramment à une seule espèce animale, laquelle choisirais-tu ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "farfelues",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Si tu devais porter un déguisement ridicule tous les vendredis, lequel choisirais-tu ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "farfelues",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Si tu étais un objet dans un musée dans 200 ans, lequel serais-tu ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "farfelues",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quelle règle absurde aimerais-tu imposer dans le monde pour une journée ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "farfelues",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Si tu pouvais téléporter n'importe quel objet chez toi instantanément, lequel choisirais-tu en premier ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "farfelues",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Si les nuages avaient un goût, à quoi ressembleraient-ils selon toi ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "farfelues",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Si tu devais donner un nom de scène à ton animal de compagnie imaginaire, quel serait-il ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "farfelues",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Si tu pouvais échanger de voix avec quelqu'un du groupe pour une journée, avec qui et pourquoi ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "farfelues",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Si tu étais un ingrédient de pizza, lequel serais-tu et pourquoi ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "farfelues",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Si tu devais vivre sans un de tes cinq sens pendant une semaine, lequel choisirais-tu de perdre ?"
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_competitifs",
+    "mode_scope": "tous",
+    "type": "action",
+    "level": "facile",
+    "text": "Duel de 'chifoumi vocal' : le premier à hésiter perd.",
+    "temps_suggere": 90
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_competitifs",
+    "mode_scope": "amis",
+    "type": "action",
+    "level": "moyen",
+    "text": "Chacun doit citer un pays en 3 secondes chrono, sans en répéter aucun, jusqu'à ce que quelqu'un bloque.",
+    "temps_suggere": 90
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_competitifs",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "facile",
+    "text": "Qui tient le plus longtemps sans cligner des yeux en fixant l'autre ?",
+    "temps_suggere": 90
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_competitifs",
+    "mode_scope": "tous",
+    "type": "action",
+    "level": "moyen",
+    "text": "Concours de grimaces : le premier à rire a perdu.",
+    "temps_suggere": 90
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_competitifs",
+    "mode_scope": "amis",
+    "type": "action",
+    "level": "facile",
+    "text": "Chacun doit dire un mot qui commence par la dernière lettre du mot précédent, sans hésiter plus de 3 secondes.",
+    "temps_suggere": 90
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_competitifs",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "moyen",
+    "text": "Qui trouve le plus vite 5 points communs entre vous deux, chrono en main ?",
+    "temps_suggere": 90
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_competitifs",
+    "mode_scope": "tous",
+    "type": "action",
+    "level": "facile",
+    "text": "Bras de fer (ou pouce contre pouce) en 2 manches gagnantes.",
+    "temps_suggere": 90
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_competitifs",
+    "mode_scope": "amis",
+    "type": "action",
+    "level": "moyen",
+    "text": "Chacun mime un métier, les autres doivent deviner le plus vite possible.",
+    "temps_suggere": 90
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_competitifs",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "facile",
+    "text": "Qui se souvient le mieux de la tenue que portait l'autre hier ?",
+    "temps_suggere": 90
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_competitifs",
+    "mode_scope": "tous",
+    "type": "action",
+    "level": "moyen",
+    "text": "Concours de la phrase la plus longue sans respirer.",
+    "temps_suggere": 90
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_competitifs",
+    "mode_scope": "amis",
+    "type": "action",
+    "level": "difficile",
+    "text": "Quiz éclair : qui connaît le mieux les habitudes du reste du groupe ?",
+    "temps_suggere": 90
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_competitifs",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "moyen",
+    "text": "Qui trouve le plus de surnoms rigolos pour l'autre en 30 secondes ?",
+    "temps_suggere": 90
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_competitifs",
+    "mode_scope": "tous",
+    "type": "action",
+    "level": "facile",
+    "text": "Concours de celui qui reste le plus longtemps immobile sans bouger un muscle.",
+    "temps_suggere": 90
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_competitifs",
+    "mode_scope": "amis",
+    "type": "action",
+    "level": "moyen",
+    "text": "Chacun doit deviner l'âge exact des autres, le plus proche gagne.",
+    "temps_suggere": 90
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_competitifs",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "facile",
+    "text": "Qui est le plus rapide à retrouver 3 objets précis dans la pièce ?",
+    "temps_suggere": 90
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_competitifs",
+    "mode_scope": "tous",
+    "type": "action",
+    "level": "moyen",
+    "text": "Défi de mémoire : répétez une liste de mots qui s'allonge à chaque tour, le premier qui se trompe perd.",
+    "temps_suggere": 90
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_competitifs",
+    "mode_scope": "amis",
+    "type": "action",
+    "level": "facile",
+    "text": "Concours de celui qui fait la plus longue liste de prénoms commençant par une lettre donnée en 30 secondes.",
+    "temps_suggere": 90
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_competitifs",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "moyen",
+    "text": "Qui connaît le mieux la date exacte de moments clés de votre relation ?",
+    "temps_suggere": 90
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_competitifs",
+    "mode_scope": "tous",
+    "type": "action",
+    "level": "facile",
+    "text": "Défi de vitesse : qui tape le plus vite l'alphabet à voix haute ?",
+    "temps_suggere": 90
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_competitifs",
+    "mode_scope": "amis",
+    "type": "action",
+    "level": "moyen",
+    "text": "Concours du plus long jeu de mots enchaîné sans hésitation.",
+    "temps_suggere": 90
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_competitifs",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "facile",
+    "text": "Qui devine le plus vite la couleur préférée de l'autre parmi 5 propositions ?",
+    "temps_suggere": 90
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_competitifs",
+    "mode_scope": "tous",
+    "type": "action",
+    "level": "moyen",
+    "text": "Chacun propose une définition inventée d'un mot rare, le groupe vote la plus crédible.",
+    "temps_suggere": 90
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_competitifs",
+    "mode_scope": "amis",
+    "type": "action",
+    "level": "facile",
+    "text": "Concours de celui qui tient le plus longtemps en équilibre sur un pied.",
+    "temps_suggere": 90
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_competitifs",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "moyen",
+    "text": "Qui se souvient le mieux du premier cadeau offert par l'autre ?",
+    "temps_suggere": 90
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_competitifs",
+    "mode_scope": "tous",
+    "type": "action",
+    "level": "difficile",
+    "text": "Quiz éclair de culture générale, le premier à 3 bonnes réponses gagne.",
+    "temps_suggere": 90
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_competitifs",
+    "mode_scope": "amis",
+    "type": "action",
+    "level": "moyen",
+    "text": "Concours de celui qui imite le mieux la voix d'un présentateur télé.",
+    "temps_suggere": 90
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_competitifs",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "facile",
+    "text": "Qui trouve en premier 3 différences entre vos goûts musicaux ?",
+    "temps_suggere": 90
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_competitifs",
+    "mode_scope": "tous",
+    "type": "action",
+    "level": "moyen",
+    "text": "Chacun doit compter à voix haute jusqu'à 20 sans que deux personnes parlent en même temps.",
+    "temps_suggere": 90
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_competitifs",
+    "mode_scope": "amis",
+    "type": "action",
+    "level": "facile",
+    "text": "Concours de celui qui fait durer le plus longtemps un 'aaaah' sans respirer.",
+    "temps_suggere": 90
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_competitifs",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "moyen",
+    "text": "Qui gagne à deviner en premier ce que l'autre a mangé au dernier repas qu'il n'a pas partagé avec lui/elle ?",
+    "temps_suggere": 90
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_cooperatifs",
+    "mode_scope": "tous",
+    "type": "action",
+    "level": "facile",
+    "text": "Ensemble, trouvez un mot de 8 lettres en moins d'une minute, chacun proposant une lettre à tour de rôle.",
+    "temps_suggere": 120
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_cooperatifs",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "moyen",
+    "text": "Créez ensemble une liste de 10 rêves à réaliser à deux, sans réfléchir trop longtemps.",
+    "temps_suggere": 120
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_cooperatifs",
+    "mode_scope": "amis",
+    "type": "action",
+    "level": "facile",
+    "text": "En équipe, citez 10 films avec le même acteur en 2 minutes.",
+    "temps_suggere": 120
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_cooperatifs",
+    "mode_scope": "tous",
+    "type": "action",
+    "level": "moyen",
+    "text": "Ensemble, inventez une histoire absurde en 5 phrases, chacun ajoutant une phrase à son tour.",
+    "temps_suggere": 120
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_cooperatifs",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "facile",
+    "text": "Construisez ensemble la playlist parfaite pour un road trip, 5 titres minimum.",
+    "temps_suggere": 120
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_cooperatifs",
+    "mode_scope": "amis",
+    "type": "action",
+    "level": "moyen",
+    "text": "En groupe, trouvez 5 activités à faire tous ensemble le mois prochain.",
+    "temps_suggere": 120
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_cooperatifs",
+    "mode_scope": "tous",
+    "type": "action",
+    "level": "facile",
+    "text": "Ensemble, dessinez à tour de rôle un animal sans lever le crayon (ou le doigt de l'écran).",
+    "temps_suggere": 120
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_cooperatifs",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "moyen",
+    "text": "Créez ensemble votre 'carte au trésor' des meilleurs souvenirs à revivre.",
+    "temps_suggere": 120
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_cooperatifs",
+    "mode_scope": "amis",
+    "type": "action",
+    "level": "facile",
+    "text": "En équipe, trouvez 10 mots liés à l'été en 90 secondes.",
+    "temps_suggere": 120
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_cooperatifs",
+    "mode_scope": "tous",
+    "type": "action",
+    "level": "moyen",
+    "text": "Ensemble, imaginez le plan parfait d'une soirée idéale, chacun proposant une étape.",
+    "temps_suggere": 120
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_cooperatifs",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "facile",
+    "text": "Trouvez ensemble 3 surnoms que vous n'avez jamais utilisés mais qui pourraient vous plaire.",
+    "temps_suggere": 120
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_cooperatifs",
+    "mode_scope": "amis",
+    "type": "action",
+    "level": "moyen",
+    "text": "En groupe, mettez-vous d'accord sur la destination de vacances de rêve en 2 minutes chrono.",
+    "temps_suggere": 120
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_cooperatifs",
+    "mode_scope": "tous",
+    "type": "action",
+    "level": "facile",
+    "text": "Ensemble, composez une phrase où chaque mot commence par la lettre suivante de l'alphabet.",
+    "temps_suggere": 120
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_cooperatifs",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "moyen",
+    "text": "Créez ensemble une liste de règles pour une soirée parfaite entre vous deux.",
+    "temps_suggere": 120
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_cooperatifs",
+    "mode_scope": "amis",
+    "type": "action",
+    "level": "facile",
+    "text": "En équipe, retrouvez 5 souvenirs communs en moins de 2 minutes.",
+    "temps_suggere": 120
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_cooperatifs",
+    "mode_scope": "tous",
+    "type": "action",
+    "level": "moyen",
+    "text": "Ensemble, imaginez le nom et le concept d'un restaurant que vous ouvririez ensemble.",
+    "temps_suggere": 120
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_cooperatifs",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "facile",
+    "text": "Trouvez ensemble 3 points sur lesquels vous vous complétez bien.",
+    "temps_suggere": 120
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_cooperatifs",
+    "mode_scope": "amis",
+    "type": "action",
+    "level": "moyen",
+    "text": "En groupe, créez un handshake (poignée de main) original en moins de 3 minutes.",
+    "temps_suggere": 120
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_cooperatifs",
+    "mode_scope": "tous",
+    "type": "action",
+    "level": "facile",
+    "text": "Ensemble, listez 5 choses pour lesquelles vous êtes reconnaissants aujourd'hui.",
+    "temps_suggere": 120
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_cooperatifs",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "moyen",
+    "text": "Imaginez ensemble le prénom que vous donneriez à un animal de compagnie que vous adopteriez.",
+    "temps_suggere": 120
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_cooperatifs",
+    "mode_scope": "amis",
+    "type": "action",
+    "level": "facile",
+    "text": "En équipe, citez 10 chansons qui vous mettent tous de bonne humeur.",
+    "temps_suggere": 120
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_cooperatifs",
+    "mode_scope": "tous",
+    "type": "action",
+    "level": "moyen",
+    "text": "Ensemble, écrivez les paroles d'un refrain improvisé sur votre journée.",
+    "temps_suggere": 120
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_cooperatifs",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "facile",
+    "text": "Trouvez ensemble une activité à faire cette semaine que vous n'avez jamais essayée.",
+    "temps_suggere": 120
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_cooperatifs",
+    "mode_scope": "amis",
+    "type": "action",
+    "level": "moyen",
+    "text": "En groupe, organisez en 3 minutes le programme d'une soirée jeux idéale.",
+    "temps_suggere": 120
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_cooperatifs",
+    "mode_scope": "tous",
+    "type": "action",
+    "level": "facile",
+    "text": "Ensemble, trouvez 5 points communs surprenants entre vous.",
+    "temps_suggere": 120
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_cooperatifs",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "moyen",
+    "text": "Créez ensemble votre top 3 des moments les plus drôles de votre histoire.",
+    "temps_suggere": 120
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_cooperatifs",
+    "mode_scope": "amis",
+    "type": "action",
+    "level": "facile",
+    "text": "En équipe, inventez un cri de ralliement pour le groupe.",
+    "temps_suggere": 120
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_cooperatifs",
+    "mode_scope": "tous",
+    "type": "action",
+    "level": "moyen",
+    "text": "Ensemble, décidez d'une règle amusante à appliquer pour le reste de la soirée.",
+    "temps_suggere": 120
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_cooperatifs",
+    "mode_scope": "couple",
+    "type": "action",
+    "level": "facile",
+    "text": "Trouvez ensemble 3 adjectifs qui décrivent parfaitement votre relation.",
+    "temps_suggere": 120
+  },
+  {
+    "content_type": "defi",
+    "category": "jeux_ensemble",
+    "subcategory": "petits_jeux_cooperatifs",
+    "mode_scope": "amis",
+    "type": "action",
+    "level": "moyen",
+    "text": "En groupe, choisissez ensemble le titre d'un film qui résumerait votre amitié.",
+    "temps_suggere": 120
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "questions_souvenir",
+    "mode_scope": "couple",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel est le premier compliment que je t'ai fait ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "questions_souvenir",
+    "mode_scope": "amis",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel est le premier truc qu'on a fait ensemble en groupe ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "questions_souvenir",
+    "mode_scope": "couple",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Où étions-nous lors de notre premier 'je t'aime' ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "questions_souvenir",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel est le voyage qui t'a le plus marqué dans ta vie ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "questions_souvenir",
+    "mode_scope": "amis",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel est le fou rire le plus mémorable qu'on a eu ensemble ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "questions_souvenir",
+    "mode_scope": "couple",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel cadeau reçu de ma part t'a le plus touché ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "questions_souvenir",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel est ton souvenir d'enfance le plus vif ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "questions_souvenir",
+    "mode_scope": "amis",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quelle sortie de groupe t'a le plus marqué·e ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "questions_souvenir",
+    "mode_scope": "couple",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel est le moment où tu as su que tu voulais construire quelque chose de sérieux avec moi ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "questions_souvenir",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quelle chanson te ramène instantanément à un souvenir précis ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "questions_souvenir",
+    "mode_scope": "couple",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel est notre pire fou rire ensemble ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "questions_souvenir",
+    "mode_scope": "amis",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Qui du groupe t'a le plus surpris·e en bien depuis qu'on se connaît ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "questions_souvenir",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel est le repas le plus mémorable que tu aies partagé avec quelqu'un ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "questions_souvenir",
+    "mode_scope": "couple",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quelle dispute, avec le recul, te semble aujourd'hui complètement ridicule ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "questions_souvenir",
+    "mode_scope": "amis",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel est l'évènement qui a soudé le groupe le plus fort ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "questions_souvenir",
+    "mode_scope": "couple",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Où aimerais-tu qu'on refasse un souvenir marquant, en mieux cette fois ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "questions_souvenir",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel enseignant ou professeur t'a le plus marqué durant ta scolarité ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "questions_souvenir",
+    "mode_scope": "amis",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quelle photo de groupe résume le mieux votre amitié ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "questions_souvenir",
+    "mode_scope": "couple",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel est le compliment le plus inattendu que je t'ai fait ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "questions_souvenir",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel est ton pire souvenir de vacances ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "questions_souvenir",
+    "mode_scope": "amis",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel surnom du groupe préfères-tu et pourquoi ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "questions_souvenir",
+    "mode_scope": "couple",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel film ou série te fait penser à nous à chaque fois que tu le regardes ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "questions_souvenir",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel est le cadeau le plus original que tu aies jamais reçu ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "questions_souvenir",
+    "mode_scope": "amis",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel est le meilleur conseil qu'un membre du groupe t'ait donné ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "questions_souvenir",
+    "mode_scope": "couple",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel est le moment où tu as été le/la plus fier/fière de moi ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "questions_souvenir",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel est ton meilleur souvenir de fête d'anniversaire ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "questions_souvenir",
+    "mode_scope": "amis",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quelle tradition du groupe aimerais-tu qu'on garde pour toujours ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "questions_souvenir",
+    "mode_scope": "couple",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Où étions-nous la première fois qu'on s'est tenu la main ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "questions_souvenir",
+    "mode_scope": "tous",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel est ton souvenir le plus fort lié à la musique ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "questions_souvenir",
+    "mode_scope": "amis",
+    "type": "reponse_libre",
+    "level": "moyen",
+    "text": "Quel est le voyage ou week-end entre amis qui t'a le plus marqué ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_de_nous_deux",
+    "mode_scope": "couple",
+    "type": "discussion",
+    "level": "facile",
+    "text": "Qui de nous deux est le plus tête en l'air ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_de_nous_deux",
+    "mode_scope": "amis",
+    "type": "discussion",
+    "level": "facile",
+    "text": "Qui du groupe raconte le mieux les histoires ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_de_nous_deux",
+    "mode_scope": "couple",
+    "type": "discussion",
+    "level": "facile",
+    "text": "Qui de nous deux prend le plus de temps à se préparer ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_de_nous_deux",
+    "mode_scope": "amis",
+    "type": "discussion",
+    "level": "facile",
+    "text": "Qui du groupe est le plus susceptible de perdre ses clés ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_de_nous_deux",
+    "mode_scope": "couple",
+    "type": "discussion",
+    "level": "facile",
+    "text": "Qui de nous deux est le plus rancunier·e ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_de_nous_deux",
+    "mode_scope": "amis",
+    "type": "discussion",
+    "level": "facile",
+    "text": "Qui du groupe rirait en premier dans un moment sérieux ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_de_nous_deux",
+    "mode_scope": "couple",
+    "type": "discussion",
+    "level": "facile",
+    "text": "Qui de nous deux dépense le plus facilement de l'argent ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_de_nous_deux",
+    "mode_scope": "amis",
+    "type": "discussion",
+    "level": "facile",
+    "text": "Qui du groupe est le/la plus doué·e pour convaincre les autres ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_de_nous_deux",
+    "mode_scope": "couple",
+    "type": "discussion",
+    "level": "facile",
+    "text": "Qui de nous deux a le sommeil le plus léger ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_de_nous_deux",
+    "mode_scope": "amis",
+    "type": "discussion",
+    "level": "facile",
+    "text": "Qui du groupe oublie le plus souvent les anniversaires ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_de_nous_deux",
+    "mode_scope": "couple",
+    "type": "discussion",
+    "level": "facile",
+    "text": "Qui de nous deux est le plus doué en cuisine ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_de_nous_deux",
+    "mode_scope": "amis",
+    "type": "discussion",
+    "level": "facile",
+    "text": "Qui du groupe deviendrait célèbre en premier selon vous ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_de_nous_deux",
+    "mode_scope": "couple",
+    "type": "discussion",
+    "level": "facile",
+    "text": "Qui de nous deux garde le mieux son calme en cas de conflit ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_de_nous_deux",
+    "mode_scope": "amis",
+    "type": "discussion",
+    "level": "facile",
+    "text": "Qui du groupe est le/la plus imprévisible ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_de_nous_deux",
+    "mode_scope": "couple",
+    "type": "discussion",
+    "level": "facile",
+    "text": "Qui de nous deux est le/la plus doué·e pour s'excuser ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_de_nous_deux",
+    "mode_scope": "amis",
+    "type": "discussion",
+    "level": "facile",
+    "text": "Qui du groupe survivrait le mieux seul·e sur une île déserte ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_de_nous_deux",
+    "mode_scope": "couple",
+    "type": "discussion",
+    "level": "facile",
+    "text": "Qui de nous deux est le/la plus câlin·e ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_de_nous_deux",
+    "mode_scope": "amis",
+    "type": "discussion",
+    "level": "facile",
+    "text": "Qui du groupe raconte les blagues les plus nulles ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_de_nous_deux",
+    "mode_scope": "couple",
+    "type": "discussion",
+    "level": "facile",
+    "text": "Qui de nous deux planifie le mieux les vacances ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_de_nous_deux",
+    "mode_scope": "amis",
+    "type": "discussion",
+    "level": "facile",
+    "text": "Qui du groupe est le/la plus en retard en général ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_de_nous_deux",
+    "mode_scope": "couple",
+    "type": "discussion",
+    "level": "facile",
+    "text": "Qui de nous deux est le/la plus compétitif·ve ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_de_nous_deux",
+    "mode_scope": "amis",
+    "type": "discussion",
+    "level": "facile",
+    "text": "Qui du groupe donnerait le meilleur conseil en cas de coup dur ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_de_nous_deux",
+    "mode_scope": "couple",
+    "type": "discussion",
+    "level": "facile",
+    "text": "Qui de nous deux pleure le plus facilement devant un film ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_de_nous_deux",
+    "mode_scope": "amis",
+    "type": "discussion",
+    "level": "facile",
+    "text": "Qui du groupe changerait le plus si il/elle devenait riche du jour au lendemain ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_de_nous_deux",
+    "mode_scope": "couple",
+    "type": "discussion",
+    "level": "facile",
+    "text": "Qui de nous deux prend le plus soin de sa santé ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_de_nous_deux",
+    "mode_scope": "amis",
+    "type": "discussion",
+    "level": "facile",
+    "text": "Qui du groupe est le/la plus fidèle à ses habitudes ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_de_nous_deux",
+    "mode_scope": "couple",
+    "type": "discussion",
+    "level": "facile",
+    "text": "Qui de nous deux serait le/la plus paniqué·e en cas d'urgence ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_de_nous_deux",
+    "mode_scope": "amis",
+    "type": "discussion",
+    "level": "facile",
+    "text": "Qui du groupe garde le mieux un secret ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_de_nous_deux",
+    "mode_scope": "couple",
+    "type": "discussion",
+    "level": "facile",
+    "text": "Qui de nous deux a le plus changé depuis le début de la relation ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "qui_de_nous_deux",
+    "mode_scope": "amis",
+    "type": "discussion",
+    "level": "facile",
+    "text": "Qui du groupe serait le/la meilleur·e à un jeu télévisé ?"
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "souvenirs",
+    "mode_scope": "couple",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Raconte notre tout premier rendez-vous, avec tous les détails dont tu te souviens."
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "souvenirs",
+    "mode_scope": "amis",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Raconte comment on s'est rencontrés pour la première fois."
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "souvenirs",
+    "mode_scope": "couple",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Raconte le moment où tu as su que j'étais la bonne personne."
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "souvenirs",
+    "mode_scope": "amis",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Raconte le voyage le plus fou qu'on ait fait ensemble."
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "souvenirs",
+    "mode_scope": "couple",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Raconte notre pire moment de gêne en public."
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "souvenirs",
+    "mode_scope": "amis",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Raconte la blague interne du groupe la plus vieille et sa vraie origine."
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "souvenirs",
+    "mode_scope": "couple",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Raconte comment s'est passée notre première dispute."
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "souvenirs",
+    "mode_scope": "amis",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Raconte le meilleur anniversaire du groupe dont tu te souviens."
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "souvenirs",
+    "mode_scope": "couple",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Raconte le jour où on a emménagé ensemble ou pris une grande décision commune."
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "souvenirs",
+    "mode_scope": "amis",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Raconte la fois où le groupe s'est perdu ou a vécu une galère mémorable."
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "souvenirs",
+    "mode_scope": "couple",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Raconte comment tu m'as présenté·e à ta famille pour la première fois."
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "souvenirs",
+    "mode_scope": "amis",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Raconte votre pire soirée ratée, celle qui fait quand même rire aujourd'hui."
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "souvenirs",
+    "mode_scope": "couple",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Raconte le cadeau que tu as eu le plus de mal à choisir pour moi."
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "souvenirs",
+    "mode_scope": "amis",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Raconte le jour où le groupe s'est le plus serré les coudes."
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "souvenirs",
+    "mode_scope": "couple",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Raconte notre premier voyage à deux, du début à la fin."
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "souvenirs",
+    "mode_scope": "amis",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Raconte la tradition la plus bizarre que le groupe a inventée."
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "souvenirs",
+    "mode_scope": "couple",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Raconte le moment le plus romantique qu'on ait partagé selon toi."
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "souvenirs",
+    "mode_scope": "amis",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Raconte la dernière fois où vous avez tous ri jusqu'aux larmes ensemble."
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "souvenirs",
+    "mode_scope": "couple",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Raconte comment tu as réagi à ma plus grande surprise."
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "souvenirs",
+    "mode_scope": "amis",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Raconte comment le groupe s'est formé à l'origine."
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "souvenirs",
+    "mode_scope": "couple",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Raconte le pire cadeau que tu m'aies offert ou reçu, et pourquoi c'était raté."
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "souvenirs",
+    "mode_scope": "amis",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Raconte la fois où quelqu'un du groupe vous a le plus surpris."
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "souvenirs",
+    "mode_scope": "couple",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Raconte notre premier 'vrai' conflit et comment on l'a résolu."
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "souvenirs",
+    "mode_scope": "amis",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Raconte le meilleur souvenir de sortie improvisée du groupe."
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "souvenirs",
+    "mode_scope": "couple",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Raconte le jour où tu m'as présenté·e à tes ami·e·s."
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "souvenirs",
+    "mode_scope": "amis",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Raconte l'anecdote que vous racontez le plus souvent aux nouvelles personnes qui rejoignent le groupe."
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "souvenirs",
+    "mode_scope": "couple",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Raconte comment s'est passée notre réconciliation après notre plus grosse dispute."
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "souvenirs",
+    "mode_scope": "amis",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Raconte le jour où le groupe a fêté une grande victoire ou réussite ensemble."
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "souvenirs",
+    "mode_scope": "couple",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Raconte ce que tu as ressenti le jour de notre rencontre, avec le recul."
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "souvenirs",
+    "mode_scope": "amis",
+    "type": "reponse_libre",
+    "level": "facile",
+    "text": "Raconte le pire fou rire que vous avez eu au pire moment possible."
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "tu_preferes",
+    "mode_scope": "tous",
+    "type": "tu_preferes",
+    "level": "facile",
+    "text": "Tu préfères : vivre sans musique ou vivre sans films ?",
+    "variants": {
+      "choix": [
+        "Vivre sans musique",
+        "Vivre sans films"
+      ]
+    }
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "tu_preferes",
+    "mode_scope": "tous",
+    "type": "tu_preferes",
+    "level": "facile",
+    "text": "Tu préfères : être toujours en retard ou toujours trop en avance ?",
+    "variants": {
+      "choix": [
+        "Toujours en retard",
+        "Toujours trop en avance"
+      ]
+    }
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "tu_preferes",
+    "mode_scope": "tous",
+    "type": "tu_preferes",
+    "level": "facile",
+    "text": "Tu préfères : perdre tous tes souvenirs d'hier ou ne jamais pouvoir créer de nouveaux souvenirs ?",
+    "variants": {
+      "choix": [
+        "Perdre les souvenirs d'hier",
+        "Ne plus créer de souvenirs"
+      ]
+    }
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "tu_preferes",
+    "mode_scope": "tous",
+    "type": "tu_preferes",
+    "level": "facile",
+    "text": "Tu préfères : savoir quand tu vas mourir ou ne jamais le savoir ?",
+    "variants": {
+      "choix": [
+        "Savoir",
+        "Ne jamais savoir"
+      ]
+    }
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "tu_preferes",
+    "mode_scope": "tous",
+    "type": "tu_preferes",
+    "level": "facile",
+    "text": "Tu préfères : avoir le pouvoir de voler ou celui de devenir invisible ?",
+    "variants": {
+      "choix": [
+        "Voler",
+        "Devenir invisible"
+      ]
+    }
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "tu_preferes",
+    "mode_scope": "tous",
+    "type": "tu_preferes",
+    "level": "facile",
+    "text": "Tu préfères : vivre 100 ans seul·e ou 50 ans très entouré·e ?",
+    "variants": {
+      "choix": [
+        "100 ans seul·e",
+        "50 ans entouré·e"
+      ]
+    }
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "tu_preferes",
+    "mode_scope": "tous",
+    "type": "tu_preferes",
+    "level": "facile",
+    "text": "Tu préfères : ne plus jamais manger de sucré ou ne plus jamais manger de salé ?",
+    "variants": {
+      "choix": [
+        "Plus de sucré",
+        "Plus de salé"
+      ]
+    }
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "tu_preferes",
+    "mode_scope": "tous",
+    "type": "tu_preferes",
+    "level": "facile",
+    "text": "Tu préfères : être incapable de mentir ou incapable de reconnaître un mensonge ?",
+    "variants": {
+      "choix": [
+        "Incapable de mentir",
+        "Incapable de reconnaître un mensonge"
+      ]
+    }
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "tu_preferes",
+    "mode_scope": "tous",
+    "type": "tu_preferes",
+    "level": "facile",
+    "text": "Tu préfères : vivre sans internet ou vivre sans voiture ?",
+    "variants": {
+      "choix": [
+        "Sans internet",
+        "Sans voiture"
+      ]
+    }
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "tu_preferes",
+    "mode_scope": "tous",
+    "type": "tu_preferes",
+    "level": "facile",
+    "text": "Tu préfères : toujours dire ce que tu penses ou toujours garder tes pensées pour toi ?",
+    "variants": {
+      "choix": [
+        "Toujours tout dire",
+        "Toujours tout garder"
+      ]
+    }
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "tu_preferes",
+    "mode_scope": "couple",
+    "type": "tu_preferes",
+    "level": "facile",
+    "text": "Tu préfères : qu'on voyage beaucoup avec peu de confort ou qu'on reste chez nous avec tout le confort ?",
+    "variants": {
+      "choix": [
+        "Voyager sans confort",
+        "Rester chez nous confortablement"
+      ]
+    }
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "tu_preferes",
+    "mode_scope": "tous",
+    "type": "tu_preferes",
+    "level": "facile",
+    "text": "Tu préfères : être une légende après ta mort ou être heureux·se et inconnu·e de ton vivant ?",
+    "variants": {
+      "choix": [
+        "Légende après la mort",
+        "Heureux·se et inconnu·e"
+      ]
+    }
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "tu_preferes",
+    "mode_scope": "amis",
+    "type": "tu_preferes",
+    "level": "facile",
+    "text": "Tu préfères : partir en vacances avec tout le groupe ou juste avec une seule personne du groupe ?",
+    "variants": {
+      "choix": [
+        "Tout le groupe",
+        "Une seule personne"
+      ]
+    }
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "tu_preferes",
+    "mode_scope": "tous",
+    "type": "tu_preferes",
+    "level": "facile",
+    "text": "Tu préfères : revivre ta pire journée ou oublier ta meilleure journée ?",
+    "variants": {
+      "choix": [
+        "Revivre la pire",
+        "Oublier la meilleure"
+      ]
+    }
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "tu_preferes",
+    "mode_scope": "tous",
+    "type": "tu_preferes",
+    "level": "facile",
+    "text": "Tu préfères : avoir une mémoire parfaite ou une imagination débordante ?",
+    "variants": {
+      "choix": [
+        "Mémoire parfaite",
+        "Imagination débordante"
+      ]
+    }
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "tu_preferes",
+    "mode_scope": "tous",
+    "type": "tu_preferes",
+    "level": "facile",
+    "text": "Tu préfères : être détesté·e pour ce que tu es vraiment ou aimé·e pour un mensonge ?",
+    "variants": {
+      "choix": [
+        "Détesté·e pour la vérité",
+        "Aimé·e pour un mensonge"
+      ]
+    }
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "tu_preferes",
+    "mode_scope": "couple",
+    "type": "tu_preferes",
+    "level": "facile",
+    "text": "Tu préfères : qu'on ait les mêmes passions ou qu'on ait chacun les siennes ?",
+    "variants": {
+      "choix": [
+        "Les mêmes passions",
+        "Chacun les siennes"
+      ]
+    }
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "tu_preferes",
+    "mode_scope": "tous",
+    "type": "tu_preferes",
+    "level": "facile",
+    "text": "Tu préfères : ne plus jamais pouvoir rire ou ne plus jamais pouvoir pleurer ?",
+    "variants": {
+      "choix": [
+        "Ne plus rire",
+        "Ne plus pleurer"
+      ]
+    }
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "tu_preferes",
+    "mode_scope": "tous",
+    "type": "tu_preferes",
+    "level": "facile",
+    "text": "Tu préfères : vivre dans le passé ou vivre dans le futur ?",
+    "variants": {
+      "choix": [
+        "Le passé",
+        "Le futur"
+      ]
+    }
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "tu_preferes",
+    "mode_scope": "amis",
+    "type": "tu_preferes",
+    "level": "facile",
+    "text": "Tu préfères : que le groupe te dise toujours la vérité, même dure, ou qu'il te ménage toujours ?",
+    "variants": {
+      "choix": [
+        "Toujours la vérité",
+        "Toujours ménagé·e"
+      ]
+    }
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "tu_preferes",
+    "mode_scope": "tous",
+    "type": "tu_preferes",
+    "level": "facile",
+    "text": "Tu préfères : perdre le sens du goût ou perdre le sens de l'odorat ?",
+    "variants": {
+      "choix": [
+        "Perdre le goût",
+        "Perdre l'odorat"
+      ]
+    }
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "tu_preferes",
+    "mode_scope": "tous",
+    "type": "tu_preferes",
+    "level": "facile",
+    "text": "Tu préfères : être extrêmement intelligent·e et malheureux·se ou moyennement intelligent·e et heureux·se ?",
+    "variants": {
+      "choix": [
+        "Intelligent·e et malheureux·se",
+        "Moyen et heureux·se"
+      ]
+    }
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "tu_preferes",
+    "mode_scope": "tous",
+    "type": "tu_preferes",
+    "level": "facile",
+    "text": "Tu préfères : ne jamais pouvoir voyager à nouveau ou ne jamais pouvoir déménager ?",
+    "variants": {
+      "choix": [
+        "Ne plus voyager",
+        "Ne plus déménager"
+      ]
+    }
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "tu_preferes",
+    "mode_scope": "couple",
+    "type": "tu_preferes",
+    "level": "facile",
+    "text": "Tu préfères : qu'on se dispute rarement mais fort, ou souvent mais pour rien de grave ?",
+    "variants": {
+      "choix": [
+        "Rarement mais fort",
+        "Souvent mais léger"
+      ]
+    }
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "tu_preferes",
+    "mode_scope": "tous",
+    "type": "tu_preferes",
+    "level": "facile",
+    "text": "Tu préfères : tout savoir sur l'univers ou tout savoir sur toi-même ?",
+    "variants": {
+      "choix": [
+        "Tout sur l'univers",
+        "Tout sur toi-même"
+      ]
+    }
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "tu_preferes",
+    "mode_scope": "tous",
+    "type": "tu_preferes",
+    "level": "facile",
+    "text": "Tu préfères : être connu pour ta gentillesse ou pour ton intelligence ?",
+    "variants": {
+      "choix": [
+        "Ta gentillesse",
+        "Ton intelligence"
+      ]
+    }
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "tu_preferes",
+    "mode_scope": "amis",
+    "type": "tu_preferes",
+    "level": "facile",
+    "text": "Tu préfères : que le groupe se voie une fois par semaine ou une fois par mois mais plus longtemps ?",
+    "variants": {
+      "choix": [
+        "Une fois par semaine",
+        "Une fois par mois, plus longtemps"
+      ]
+    }
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "tu_preferes",
+    "mode_scope": "tous",
+    "type": "tu_preferes",
+    "level": "facile",
+    "text": "Tu préfères : recommencer ta vie depuis le début ou continuer exactement comme maintenant ?",
+    "variants": {
+      "choix": [
+        "Recommencer",
+        "Continuer"
+      ]
+    }
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "tu_preferes",
+    "mode_scope": "tous",
+    "type": "tu_preferes",
+    "level": "facile",
+    "text": "Tu préfères : gagner beaucoup d'argent dans un travail que tu détestes ou peu d'argent dans un travail que tu adores ?",
+    "variants": {
+      "choix": [
+        "Beaucoup d'argent, travail détesté",
+        "Peu d'argent, travail adoré"
+      ]
+    }
+  },
+  {
+    "content_type": "question",
+    "category": "jeux_ensemble",
+    "subcategory": "tu_preferes",
+    "mode_scope": "couple",
+    "type": "tu_preferes",
+    "level": "facile",
+    "text": "Tu préfères : qu'on vieillisse doucement ensemble ou qu'on vive une vie courte mais intense ensemble ?",
+    "variants": {
+      "choix": [
+        "Vieillir doucement",
+        "Vie courte et intense"
+      ]
+    }
   }
 ]

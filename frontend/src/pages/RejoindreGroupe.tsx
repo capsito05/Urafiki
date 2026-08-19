@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { useCouple } from '../hooks/useCouple';
+import { shareInviteCode } from '../lib/shareCode';
 import type { Mode } from '../types';
 
 interface RejoindreGroupeProps {
@@ -11,12 +12,19 @@ export function RejoindreGroupe({ userId }: RejoindreGroupeProps) {
   const location = useLocation();
   const navigate = useNavigate();
   const mode = (location.state as { mode?: Mode })?.mode ?? 'couple';
-  const { createCouple, joinCouple } = useCouple(userId);
+  const { groups, createCouple, joinCouple, setActiveGroup } = useCouple(userId);
   const [inviteCode, setInviteCode] = useState('');
   const [nom, setNom] = useState('');
   const [error, setError] = useState<string | null>(null);
   const [createdCode, setCreatedCode] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
+
+  const existingGroups = groups.filter((g) => g.mode === mode);
+
+  const handleQuickRejoin = (coupleId: string) => {
+    setActiveGroup(coupleId);
+    navigate('/accueil');
+  };
 
   const handleCreate = async () => {
     setError(null);
@@ -57,6 +65,30 @@ export function RejoindreGroupe({ userId }: RejoindreGroupeProps) {
   return (
     <div className="rejoindre-groupe">
       <h1>{mode === 'couple' ? 'Ton couple' : "Ton groupe d'amis"}</h1>
+
+      {existingGroups.length > 0 && (
+        <section>
+          <h2>Tes groupes</h2>
+          <p className="hint">Tu en fais déjà partie : clique pour rejoindre directement, sans code.</p>
+          <ul className="groups-list">
+            {existingGroups.map((g) => (
+              <li key={g.id} className="group-card">
+                <div className="group-card-header">
+                  <button className="link" onClick={() => handleQuickRejoin(g.id)}>
+                    <strong>{g.nom}</strong>
+                  </button>
+                  <div className="group-card-actions">
+                    <button onClick={() => handleQuickRejoin(g.id)}>Rejoindre</button>
+                    <button className="link" onClick={() => shareInviteCode(g.nom, g.invite_code)}>
+                      📋 Code
+                    </button>
+                  </div>
+                </div>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       <section>
         <h2>Créer un nouveau groupe</h2>

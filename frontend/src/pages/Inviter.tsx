@@ -3,14 +3,27 @@ import { useNavigate, useParams } from 'react-router-dom';
 import { useSession } from '../hooks/useSession';
 import { useCoupleMembers } from '../hooks/useCoupleMembers';
 import { useGameInvitations } from '../hooks/useGameInvitations';
-import type { Category, Level } from '../types';
+import type { Category, Level, Mode } from '../types';
 
 interface InviterProps {
   userId: string;
   coupleId: string;
+  mode: Mode;
 }
 
-export function Inviter({ userId, coupleId }: InviterProps) {
+const STYLE_OPTIONS: { value: string; label: string }[] = [
+  { value: '', label: 'Tous les styles' },
+  { value: 'quiz', label: 'Quiz (QCM / vrai-faux)' },
+  { value: 'reponse_libre', label: 'Réponse libre' },
+  { value: 'enigme', label: 'Énigmes' },
+  { value: 'tu_preferes', label: 'Tu préfères' },
+  { value: 'discussion', label: 'Échange oral / discussion' },
+  { value: 'defi', label: 'Défis / gages' },
+];
+
+const HOT_SUBCATEGORIES = new Set(['hot_questions', 'hot_defis']);
+
+export function Inviter({ userId, coupleId, mode }: InviterProps) {
   const { category } = useParams<{ category: Category }>();
   const navigate = useNavigate();
   const { getSubcategories } = useSession();
@@ -22,11 +35,20 @@ export function Inviter({ userId, coupleId }: InviterProps) {
   const [subcategories, setSubcategories] = useState<string[]>([]);
   const [subcategory, setSubcategory] = useState('');
   const [level, setLevel] = useState<Level | ''>('');
+  const [style, setStyle] = useState('');
+  const [hot, setHot] = useState(false);
   const [count, setCount] = useState(10);
   const [timePerItem, setTimePerItem] = useState(30);
   const [invitedUser, setInvitedUser] = useState<string>('');
   const [waitingFor, setWaitingFor] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
+
+  const visibleSubcategories = subcategories.filter((s) => HOT_SUBCATEGORIES.has(s) === hot);
+
+  const toggleHot = (value: boolean) => {
+    setHot(value);
+    if (HOT_SUBCATEGORIES.has(subcategory) !== value) setSubcategory('');
+  };
 
   useEffect(() => {
     if (category) getSubcategories(category).then(setSubcategories);
@@ -46,7 +68,15 @@ export function Inviter({ userId, coupleId }: InviterProps) {
     }
     setError(null);
     const { error: sendError } = await sendInvitation(
-      { category: category as Category, subcategory: subcategory || undefined, level: level || undefined, count, timePerItem },
+      {
+        category: category as Category,
+        subcategory: subcategory || undefined,
+        level: level || undefined,
+        style: style || undefined,
+        hot,
+        count,
+        timePerItem,
+      },
       invitedUser
     );
     if (sendError) setError(sendError);
@@ -77,11 +107,27 @@ export function Inviter({ userId, coupleId }: InviterProps) {
         </select>
       </label>
 
+      {mode === 'couple' && (
+        <label className="hot-toggle">
+          <input type="checkbox" checked={hot} onChange={(e) => toggleHot(e.target.checked)} />
+          🔥 Contenu hot (au lieu du contenu classique)
+        </label>
+      )}
+
       <label>
         Thème
         <select value={subcategory} onChange={(e) => setSubcategory(e.target.value)}>
           <option value="">Tous les thèmes</option>
-          {subcategories.map((s) => <option key={s} value={s}>{s}</option>)}
+          {visibleSubcategories.map((s) => <option key={s} value={s}>{s}</option>)}
+        </select>
+      </label>
+
+      <label>
+        Style de jeu
+        <select value={style} onChange={(e) => setStyle(e.target.value)}>
+          {STYLE_OPTIONS.map((s) => (
+            <option key={s.value} value={s.value}>{s.label}</option>
+          ))}
         </select>
       </label>
 

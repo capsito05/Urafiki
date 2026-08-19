@@ -72,7 +72,10 @@ export function checkAnswer(
 
   const foldedA = phoneticFold(a);
   const foldedB = phoneticFold(b);
-  const tolerance = Math.min(4, Math.max(2, Math.round(foldedB.length / 4)));
+  // Une réponse très courte (ex: "L", "7") n'a droit à aucune tolérance :
+  // sinon n'importe quelle réponse proche en taille serait acceptée à tort
+  // (ex: "8" jugé correct pour "7").
+  const tolerance = foldedB.length <= 2 ? 0 : Math.min(4, Math.max(2, Math.round(foldedB.length / 4)));
 
   return levenshtein(foldedA, foldedB) <= tolerance;
 }

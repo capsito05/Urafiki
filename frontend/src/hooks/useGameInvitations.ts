@@ -11,6 +11,8 @@ export interface GameInvitation {
   category: string;
   subcategory: string | null;
   level: string | null;
+  style: string | null;
+  hot: boolean;
   count: number;
   time_per_item: number | null;
   status: 'proposee' | 'acceptee' | 'refusee';
@@ -83,6 +85,8 @@ export function useGameInvitations(userId: string | null, coupleId: string | nul
         category: params.category,
         subcategory: params.subcategory ?? null,
         level: params.level ?? null,
+        style: params.style ?? null,
+        hot: params.hot ?? false,
         count: params.count,
         time_per_item: params.timePerItem ?? null,
       });
@@ -114,6 +118,8 @@ export function useGameInvitations(userId: string | null, coupleId: string | nul
         category: invitation.category as any,
         subcategory: invitation.subcategory ?? undefined,
         level: (invitation.level ?? undefined) as any,
+        style: invitation.style ?? undefined,
+        hot: invitation.hot ?? false,
         count: invitation.count,
         timePerItem: invitation.time_per_item ?? undefined,
       });

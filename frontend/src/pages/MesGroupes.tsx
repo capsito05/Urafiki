@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useCouple } from '../hooks/useCouple';
 import { useCoupleMembers } from '../hooks/useCoupleMembers';
+import { shareInviteCode } from '../lib/shareCode';
 import type { Couple } from '../types';
 
 interface MesGroupesProps {
@@ -66,12 +67,15 @@ export function MesGroupes({ userId }: MesGroupesProps) {
             <div className="group-card-header">
               <div>
                 <strong>{g.nom}</strong>
-                <span className="hint"> · {g.mode === 'couple' ? 'Couple' : 'Ami·e·s'} · code {g.invite_code}</span>
+                <span className="hint"> · {g.mode === 'couple' ? 'Couple' : 'Ami·e·s'}</span>
               </div>
               <div className="group-card-actions">
                 <button onClick={() => handleEnter(g)}>Revenir dans ce groupe</button>
                 <button className="link" onClick={() => setExpandedId(expandedId === g.id ? null : g.id)}>
                   {expandedId === g.id ? 'Masquer les membres' : 'Voir les membres'}
+                </button>
+                <button className="link" onClick={() => shareInviteCode(g.nom, g.invite_code)}>
+                  📋 Code
                 </button>
               </div>
             </div>

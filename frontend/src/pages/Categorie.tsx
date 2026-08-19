@@ -49,7 +49,12 @@ const SUBCATEGORY_LABELS: Record<string, string> = {
   futur: 'Futur',
   quotidien: 'Quotidien',
   famille: 'Famille',
+  qui_est_ce: 'Qui est-ce ?',
+  hot_questions: 'Questions 🔥',
+  hot_defis: 'Défis 🔥',
 };
+
+const HOT_SUBCATEGORIES = new Set(['hot_questions', 'hot_defis']);
 
 const STYLE_OPTIONS: { value: string; label: string }[] = [
   { value: '', label: 'Tous les styles' },
@@ -73,6 +78,7 @@ export function Categorie({ userId, coupleId, mode }: CategorieProps) {
   const [count, setCount] = useState(10);
   const [useTimer, setUseTimer] = useState(true);
   const [timePerItem, setTimePerItem] = useState(30);
+  const [hot, setHot] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
@@ -80,6 +86,13 @@ export function Categorie({ userId, coupleId, mode }: CategorieProps) {
       getSubcategories(category).then(setSubcategories);
     }
   }, [category, getSubcategories]);
+
+  const visibleSubcategories = subcategories.filter((s) => HOT_SUBCATEGORIES.has(s) === hot);
+
+  const toggleHot = (value: boolean) => {
+    setHot(value);
+    if (HOT_SUBCATEGORIES.has(subcategory) !== value) setSubcategory('');
+  };
 
   const handleStart = async () => {
     setError(null);
@@ -93,6 +106,7 @@ export function Categorie({ userId, coupleId, mode }: CategorieProps) {
       style: style || undefined,
       count,
       timePerItem: useTimer ? timePerItem : undefined,
+      hot,
     });
     if (session) {
       navigate(`/session/${session.id}`, {
@@ -104,6 +118,7 @@ export function Categorie({ userId, coupleId, mode }: CategorieProps) {
             style: style || undefined,
             count,
             timePerItem: useTimer ? timePerItem : undefined,
+            hot,
           },
         },
       });
@@ -116,11 +131,18 @@ export function Categorie({ userId, coupleId, mode }: CategorieProps) {
     <div className="categorie-config">
       <h1>{category ? (CATEGORY_LABELS[category] ?? category) : ''}</h1>
 
+      {mode === 'couple' && (
+        <label className="hot-toggle">
+          <input type="checkbox" checked={hot} onChange={(e) => toggleHot(e.target.checked)} />
+          🔥 Contenu hot (au lieu du contenu classique)
+        </label>
+      )}
+
       <label>
         Thème
         <select value={subcategory} onChange={(e) => setSubcategory(e.target.value)}>
           <option value="">Tous les thèmes</option>
-          {subcategories.map((s) => (
+          {visibleSubcategories.map((s) => (
             <option key={s} value={s}>
               {SUBCATEGORY_LABELS[s] ?? s}
             </option>
