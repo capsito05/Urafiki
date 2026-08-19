@@ -1,6 +1,6 @@
 # App Jeux / Questions — Couple, Ami·e·s, Solo
 
-## ⚠️ IMPORTANT — Mise à jour v4
+## ⚠️ IMPORTANT — Mise à jour v5
 
 Ordre à exécuter dans le SQL Editor Supabase :
 
@@ -12,6 +12,7 @@ Ordre à exécuter dans le SQL Editor Supabase :
 5. `supabase/migration_v3_content.sql` (remplace ENTIÈREMENT le contenu de la banque par la version v3 — 790 items)
 6. (optionnel) Notifications push app fermée : voir `supabase/functions/send-push/README.md` pour déployer la Edge Function, puis exécuter `supabase/migration_v3_push.sql`
 7. `supabase/migration_v4.sql` (AJOUTE du contenu, ne supprime rien : "Qui est-ce ?", contenu hot couple, +30 par sous-catégorie jeux_ensemble, correctif style/hot pour les invitations)
+8. (optionnel) `supabase/migration_v5.sql` (rotation automatique hebdomadaire du contenu vu, via pg_cron — non bloquant si l'extension n'est pas disponible sur ton plan)
 
 **Projet Supabase tout neuf :**
 1. `supabase/schema.sql`
@@ -19,6 +20,15 @@ Ordre à exécuter dans le SQL Editor Supabase :
 3. `supabase/migration_v3_content.sql` (à la place de seed_content.sql + migration_v2_content.sql)
 4. (optionnel) `supabase/functions/send-push/` + `migration_v3_push.sql` pour les notifications push app fermée
 5. `supabase/migration_v4.sql`
+6. (optionnel) `supabase/migration_v5.sql`
+
+## Nouveautés v5
+- **Statistiques personnelles réelles** : l'onglet "Mes stats" agrège désormais toutes tes parties (solo + couple + ami·e·s, tous groupes confondus) au lieu des seules parties solo.
+- **Classement par catégorie** : dans l'onglet stats de groupe, chaque joueur du classement est dépliable pour voir son détail victoires/défaites/nuls par catégorie, en plus du total.
+- **Face à une personne** : nouveau bilan tête-à-tête (sessions jouées ensemble, victoires/défaites/nuls, détail par catégorie) entre toi et un membre choisi du groupe — utile dans un groupe ami·e·s de 3+ où le classement global ne dit pas qui gagne contre qui.
+- **Favoris** : bouton ⭐/☆ directement sur les questions pendant une partie, et bouton "Retirer" dans l'onglet Favoris.
+- **Chargement plus rapide** : le bundle JS initial est découpé par écran (code-splitting), ~900 Ko → ~244 Ko au premier chargement.
+- **Rotation automatique hebdomadaire** (optionnelle) : une tâche planifiée nettoie chaque semaine le contenu "déjà vu" de plus de 30 jours, pour que la banque ne se vide jamais et redevienne progressivement "nouvelle" pour chaque groupe.
 
 ## Bugs corrigés en v4
 - Le style de jeu (2.1) et le nouveau filtre hot/normal n'étaient **jamais appliqués** pour un groupe de 2+ membres : ces groupes passent systématiquement par l'écran d'invitation (`Inviter.tsx`), qui ne proposait ni sélecteur de style ni filtre, et la table `game_invitations` n'avait même pas de colonne pour les stocker. Corrigé (colonnes `style`/`hot` ajoutées, sélecteurs ajoutés à l'écran d'invitation).
@@ -80,6 +90,6 @@ npm run dev
 - ✅ Chat temps réel
 - ✅ Statistiques (perso / couple / favoris) avec graphiques
 - ✅ Défi discret (mode couple)
-- ⏳ Rotation automatique hebdomadaire (actuellement gérée à la création de session ; une Edge Function planifiée pourra être ajoutée ensuite)
-- ⏳ Écriture des favoris depuis l'interface (bouton à ajouter sur QuizCard)
-- ⏳ Déploiement Supabase / GitHub / Netlify (prochaine étape, avec toi)
+- ✅ Rotation automatique hebdomadaire (optionnelle, via pg_cron, voir `migration_v5.sql`)
+- ✅ Écriture des favoris depuis l'interface (bouton ⭐ sur QuizCard)
+- ✅ Déploiement Supabase / GitHub / Netlify
