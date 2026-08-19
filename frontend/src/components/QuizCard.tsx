@@ -1,15 +1,43 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+import { supabase } from '../lib/supabaseClient';
 import type { ContentItem } from '../types';
 
 interface QuizCardProps {
   content: ContentItem;
   onSubmit: (answer: string) => void;
   disabled?: boolean;
+  userId?: string;
 }
 
-export function QuizCard({ content, onSubmit, disabled }: QuizCardProps) {
+export function QuizCard({ content, onSubmit, disabled, userId }: QuizCardProps) {
   const [answer, setAnswer] = useState('');
   const [submitted, setSubmitted] = useState(false);
+  const [isFavori, setIsFavori] = useState(false);
+  const [favoriBusy, setFavoriBusy] = useState(false);
+
+  useEffect(() => {
+    if (!userId) return;
+    supabase
+      .from('favoris')
+      .select('id')
+      .eq('user_id', userId)
+      .eq('content_id', content.id)
+      .maybeSingle()
+      .then(({ data }) => setIsFavori(!!data));
+  }, [userId, content.id]);
+
+  const toggleFavori = async () => {
+    if (!userId || favoriBusy) return;
+    setFavoriBusy(true);
+    if (isFavori) {
+      await supabase.from('favoris').delete().eq('user_id', userId).eq('content_id', content.id);
+      setIsFavori(false);
+    } else {
+      await supabase.from('favoris').insert({ user_id: userId, content_id: content.id });
+      setIsFavori(true);
+    }
+    setFavoriBusy(false);
+  };
 
   const handleSubmit = (value: string) => {
     setSubmitted(true);
@@ -20,7 +48,19 @@ export function QuizCard({ content, onSubmit, disabled }: QuizCardProps) {
 
   return (
     <div className="quiz-card">
-      <div className="quiz-card-level">{content.level}</div>
+      <div className="quiz-card-header">
+        <div className="quiz-card-level">{content.level}</div>
+        {userId && (
+          <button
+            className="favori-toggle"
+            disabled={favoriBusy}
+            onClick={toggleFavori}
+            aria-label={isFavori ? 'Retirer des favoris' : 'Ajouter aux favoris'}
+          >
+            {isFavori ? '⭐' : '☆'}
+          </button>
+        )}
+      </div>
       <p className="quiz-card-text">{content.text}</p>
 
       {content.content_type === 'defi' ? (

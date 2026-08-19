@@ -210,6 +210,7 @@ export function SessionPage({ userId, coupleId, mode }: SessionPageProps) {
           content={currentItem.content}
           onSubmit={handleSubmit}
           disabled={revealed || timedOut}
+          userId={userId}
         />
       )}
 
